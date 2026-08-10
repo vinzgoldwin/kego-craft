@@ -105,7 +105,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .selected-work-header h2 { margin: 0; font-size: clamp(4.5rem, 8vw, 9rem); font-weight: 430; line-height: .84; letter-spacing: -.075em; }
 .selected-work-header h2 span { color: var(--acid); }
 .selected-work-intro { width: min(310px, 32%); padding-bottom: 6px; }
-.selected-work-intro > p { margin: 0; color: #9ca39d; font-size: .86rem; line-height: 1.55; }
 .work-controls { display: none; gap: 8px; margin-top: 22px; }
 .work-controls.show-desktop { display: flex; }
 .work-controls button { width: 48px; height: 48px; border: 1px solid #5e6761; border-radius: 0; background: transparent; color: var(--paper); font: inherit; font-size: 1.1rem; cursor: pointer; }

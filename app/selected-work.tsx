@@ -51,7 +51,6 @@ export default function SelectedWork() {
           <h2>SHIPPED<br /><span>WORK.</span></h2>
         </div>
         <div className="selected-work-intro">
-          <p>Real products, built for real use. Play a demo or open the live project.</p>
           <div className={`work-controls ${projects.length > 3 ? "show-desktop" : ""}`}>
             <button type="button" onClick={() => scroll(-1)} aria-label="Previous projects">←</button>
             <button type="button" onClick={() => scroll(1)} aria-label="Next projects">→</button>
