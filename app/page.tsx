@@ -29,7 +29,7 @@ function SectionRail({ active }: { active: string }) {
     <aside className="section-rail" aria-hidden="true">
       <div className="rail-cross" />
       <ol>
-        {["01", "02", "03", "04", "05"].map((number) => (
+        {["01", "02", "03", "04"].map((number) => (
           <li className={number === active ? "active" : ""} key={number}>
             <span>{number}</span>
             {number === active && <i />}
@@ -86,7 +86,7 @@ function DeviceStack({ compact = false }: { compact?: boolean }) {
   );
 }
 
-function PrimaryButton({ children, href = "#contact" }: { children: React.ReactNode; href?: string }) {
+function PrimaryButton({ children, href = "mailto:hello@kegoworks.studio?subject=Start%20a%20project" }: { children: React.ReactNode; href?: string }) {
   return <a className="button button-primary" href={href}>{children}<span aria-hidden="true">↗</span></a>;
 }
 
@@ -182,23 +182,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="closing section-shell" id="contact">
-        <SectionRail active="05" />
-        <div className="closing-copy">
-          <h2>YOU BRING<br />THE IDEA.<br />I’LL SHIP THE<br />FIRST VERSION.</h2>
-          <p>Web, iOS and Android products<br />built fast and kept simple.</p>
-          <PrimaryButton href="mailto:hello@kegoworks.studio?subject=Start%20a%20project">START A PROJECT</PrimaryButton>
-        </div>
-        <div className="closing-media"><Phone /></div>
-        <footer>
-          <a className="wordmark" href="#top">KEGO WORKS</a>
-          <nav aria-label="Footer navigation">
-            {navItems.map((item) => <a key={item.label} href={item.href}>{item.label}</a>)}
-          </nav>
-          <a href="mailto:hello@kegoworks.studio">EMAIL</a>
-          <span>© 2026 KEGO WORKS</span>
-        </footer>
-      </section>
+      <footer className="site-footer">
+        <a className="wordmark" href="#top">KEGO WORKS</a>
+        <nav aria-label="Footer navigation">
+          {navItems.map((item) => <a key={item.label} href={item.href}>{item.label}</a>)}
+        </nav>
+        <a href="mailto:hello@kegoworks.studio">EMAIL</a>
+        <span>© 2026 KEGO WORKS</span>
+      </footer>
     </main>
   );
 }

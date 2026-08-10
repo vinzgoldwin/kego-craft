@@ -28,6 +28,6 @@ test("server-renders the Kego Works landing page", async () => {
   assert.match(html, /preload="none"/);
   assert.match(html, /TWO WAYS/);
   assert.match(html, /START SMALL\./);
-  assert.match(html, /YOU BRING/);
+  assert.doesNotMatch(html, /YOU BRING|I’LL SHIP THE/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });
