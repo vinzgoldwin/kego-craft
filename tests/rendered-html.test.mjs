@@ -25,6 +25,7 @@ test("server-renders the Kego Works landing page", async () => {
   assert.match(html, /Alkemy Chat/);
   assert.match(html, /Biawak KOL/);
   assert.match(html, /Better Watch/);
+  assert.match(html, /Asia Mega Pasifik/);
   assert.match(html, /preload="none"/);
   assert.match(html, /TWO WAYS/);
   assert.match(html, /START SMALL\./);

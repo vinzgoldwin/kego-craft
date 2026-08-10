@@ -2,7 +2,18 @@
 
 import { useRef } from "react";
 
-const projects = [
+type Project = {
+  title: string;
+  category: string;
+  description: string;
+  href: string;
+  linkLabel: string;
+  video?: string;
+  poster?: string;
+  image?: string;
+};
+
+const projects: Project[] = [
   {
     title: "Alkemy Chat",
     category: "AI PRODUCT",
@@ -29,6 +40,14 @@ const projects = [
     linkLabel: "VIEW SOURCE",
     video: "https://videos.kego.online/better-watch/v1/demo.mp4",
     poster: "https://videos.kego.online/better-watch/v1/poster.webp",
+  },
+  {
+    title: "Asia Mega Pasifik",
+    category: "CLIENT WEBSITE",
+    description: "Corporate website for an industrial procurement and services company.",
+    href: "https://asiamegapasifik.com/",
+    linkLabel: "VISIT WEBSITE",
+    image: "https://asiamegapasifik.com/wp-content/uploads/2021/05/amp-2.png",
   },
 ];
 
@@ -61,16 +80,22 @@ export default function SelectedWork() {
       <div className="work-track" ref={trackRef} aria-label="Selected projects">
         {projects.map((project, index) => (
           <article className="work-project" key={project.title}>
-            <video controls muted playsInline preload="none" poster={project.poster} aria-label={`${project.title} product demo`}>
-              <source src={project.video} type="video/mp4" />
-            </video>
+            {project.video ? (
+              <video controls muted playsInline preload="none" poster={project.poster} aria-label={`${project.title} product demo`}>
+                <source src={project.video} type="video/mp4" />
+              </video>
+            ) : (
+              <a className="work-project-preview" href={project.href} target="_blank" rel="noopener noreferrer" aria-label={`Visit ${project.title}`}>
+                <span className="work-project-preview-image" style={{ backgroundImage: `url(${project.image})` }} />
+              </a>
+            )}
             <div className="work-meta">
               <span>{String(index + 1).padStart(2, "0")} / {project.category}</span>
               <span>LIVE</span>
             </div>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.href} target="_blank" rel="noopener noreferrer">{project.linkLabel} ↗</a>
+            <a className="work-project-link" href={project.href} target="_blank" rel="noopener noreferrer">{project.linkLabel} ↗</a>
           </article>
         ))}
       </div>
