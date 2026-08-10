@@ -98,14 +98,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .phone .screen-label { margin: 30px 16px 8px; }
 .phone .screen-title { padding: 0 16px; font-size: clamp(1rem, 1.55vw, 1.7rem); }
 .phone .screen-copy { max-width: 92%; padding: 0 16px; font-size: .45rem; line-height: 1.25; }
-.architecture { position: absolute; inset: auto 0 0; height: 33%; overflow: hidden; background: linear-gradient(140deg, #181b1a, #060706); }
-.beam { position: absolute; display: block; height: 28px; background: linear-gradient(90deg, #252827, #a2a49f 45%, #272a29); transform: rotate(-46deg); }
-.beam-one { width: 130%; left: -35%; top: 10%; }
-.beam-two { width: 100%; left: 20%; top: 45%; }
-.beam-three { width: 80%; left: 45%; top: 75%; }
-.browser-content > .architecture { height: 19%; }
-.phone > .architecture { height: 20%; }
-
 .ways { display: grid; grid-template-columns: 45% 55%; align-content: center; padding-top: 80px; }
 .ways-title h2, .pricing-header h2 { margin: 0; font-size: clamp(4rem, 7.4vw, 8.6rem); line-height: .9; letter-spacing: -.07em; font-weight: 430; }
 .ways-title h2 span { color: var(--acid); }

@@ -39,16 +39,6 @@ function SectionRail({ active }: { active: string }) {
   );
 }
 
-function ArchitecturePanel() {
-  return (
-    <div className="architecture" aria-hidden="true">
-      <span className="beam beam-one" />
-      <span className="beam beam-two" />
-      <span className="beam beam-three" />
-    </div>
-  );
-}
-
 function Phone({ variant = "ios" }: { variant?: "ios" | "android" }) {
   return (
     <div className={`phone phone-${variant}`} aria-hidden="true">
@@ -62,7 +52,6 @@ function Phone({ variant = "ios" }: { variant?: "ios" | "android" }) {
         {variant === "ios" ? <>Smooth<br />by design.<br /><em>Fast by<br />default.</em></> : <>Made for<br />people.<br /><em>Ready to<br />grow.</em></>}
       </p>
       <p className="screen-copy">Thoughtful products that feel fast and stay simple.</p>
-      <ArchitecturePanel />
     </div>
   );
 }
@@ -80,7 +69,6 @@ function BrowserFrame() {
         <p className="browser-title">Fast websites<br />and apps.<br /><em>Built to last.</em></p>
         <p className="browser-copy">Clean code. Thoughtful design.<br />Shipped fast.</p>
         <span className="mini-button">START A PROJECT</span>
-        <ArchitecturePanel />
       </div>
     </div>
   );
