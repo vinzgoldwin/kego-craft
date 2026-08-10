@@ -98,6 +98,29 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .phone .screen-label { margin: 30px 16px 8px; }
 .phone .screen-title { padding: 0 16px; font-size: clamp(1rem, 1.55vw, 1.7rem); }
 .phone .screen-copy { max-width: 92%; padding: 0 16px; font-size: .45rem; line-height: 1.25; }
+.selected-work { min-height: 880px; padding-top: 86px; }
+.selected-work-inner { min-width: 0; }
+.selected-work-header { display: flex; justify-content: space-between; align-items: end; gap: 48px; margin-bottom: 42px; }
+.selected-work-header .eyebrow { margin-bottom: 20px; }
+.selected-work-header h2 { margin: 0; font-size: clamp(4.5rem, 8vw, 9rem); font-weight: 430; line-height: .84; letter-spacing: -.075em; }
+.selected-work-header h2 span { color: var(--acid); }
+.selected-work-intro { width: min(310px, 32%); padding-bottom: 6px; }
+.selected-work-intro > p { margin: 0; color: #9ca39d; font-size: .86rem; line-height: 1.55; }
+.work-controls { display: none; gap: 8px; margin-top: 22px; }
+.work-controls.show-desktop { display: flex; }
+.work-controls button { width: 48px; height: 48px; border: 1px solid #5e6761; border-radius: 0; background: transparent; color: var(--paper); font: inherit; font-size: 1.1rem; cursor: pointer; }
+.work-controls button:hover { border-color: var(--acid); color: var(--acid); }
+.work-track { display: flex; overflow-x: auto; overscroll-behavior-inline: contain; scroll-snap-type: inline mandatory; scrollbar-color: var(--acid) transparent; scrollbar-width: thin; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.work-track:focus-visible { outline: 1px solid var(--acid); outline-offset: 5px; }
+.work-project { flex: 0 0 33.333%; min-width: 0; padding: 20px 22px 28px; border-left: 1px solid var(--line); scroll-snap-align: start; }
+.work-project:first-child { border-left: 0; }
+.work-project video { display: block; width: 100%; aspect-ratio: 16 / 11; border: 0; background: #060706; object-fit: cover; }
+.work-meta { display: flex; justify-content: space-between; gap: 12px; margin: 19px 0 11px; color: var(--acid); font-size: .65rem; letter-spacing: .06em; }
+.work-project h3 { margin: 0; font-size: clamp(2rem, 2.6vw, 3rem); font-weight: 460; line-height: 1; letter-spacing: -.055em; }
+.work-project > p { min-height: 42px; margin: 12px 0 20px; color: #aeb4ae; font-size: .78rem; line-height: 1.5; }
+.work-project > a { display: inline-block; padding-bottom: 6px; border-bottom: 2px solid var(--acid); font-size: .68rem; }
+.selected-work-footer { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-top: 30px; color: #8d958f; font-size: .7rem; }
+.selected-work-footer a { padding-bottom: 6px; border-bottom: 2px solid var(--acid); color: var(--paper); }
 .ways { display: grid; grid-template-columns: 45% 55%; align-content: center; padding-top: 80px; }
 .ways-title h2, .pricing-header h2 { margin: 0; font-size: clamp(4rem, 7.4vw, 8.6rem); line-height: .9; letter-spacing: -.07em; font-weight: 430; }
 .ways-title h2 span { color: var(--acid); }
@@ -150,6 +173,8 @@ footer .wordmark { color: var(--paper); }
   .hero { grid-template-columns: 49% 51%; }
   .hero h1 { font-size: 4.3rem; }
   .device-stack { inset: 14% -24% 8% -4%; }
+  .work-project { flex-basis: 42%; }
+  .work-controls { display: flex; }
   .ways { grid-template-columns: 1fr; }
   .ways-title, .ways-grid { width: 66%; }
   .ways-media { width: 58%; right: -17%; }
@@ -176,6 +201,15 @@ footer .wordmark { color: var(--paper); }
   .phone { width: 31%; min-width: 130px; }
   .phone-ios { right: 29%; }
   .phone-android { right: 2%; }
+  .selected-work { padding-top: 72px; }
+  .selected-work-header { display: block; margin-bottom: 32px; }
+  .selected-work-header h2 { font-size: clamp(4.5rem, 20vw, 7rem); }
+  .selected-work-intro { width: 100%; margin-top: 28px; }
+  .work-controls { display: flex; }
+  .work-project { flex-basis: 84vw; padding: 16px 16px 24px; }
+  .work-project h3 { font-size: 2.2rem; }
+  .work-project > p { min-height: 0; }
+  .selected-work-footer { align-items: flex-start; flex-direction: column; }
   .ways { display: block; }
   .ways-title, .ways-grid { width: 100%; }
   .ways-title h2 { font-size: clamp(4rem, 19vw, 6rem); }

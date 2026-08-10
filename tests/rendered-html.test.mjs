@@ -21,6 +21,11 @@ test("server-renders the Kego Works landing page", async () => {
   const html = await response.text();
   assert.match(html, /<title>Kego Works \| Websites and apps from \$5\/month<\/title>/i);
   assert.match(html, /A BETTER SITE,/);
+  assert.match(html, /SHIPPED/);
+  assert.match(html, /Alkemy Chat/);
+  assert.match(html, /Biawak KOL/);
+  assert.match(html, /Better Watch/);
+  assert.match(html, /preload="none"/);
   assert.match(html, /TWO WAYS/);
   assert.match(html, /START SMALL\./);
   assert.match(html, /YOU BRING/);

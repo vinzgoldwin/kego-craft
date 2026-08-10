@@ -1,5 +1,7 @@
+import SelectedWork from "./selected-work";
+
 const navItems = [
-  { label: "WORK", href: "#work" },
+  { label: "WORK", href: "#selected-work" },
   { label: "PRICING", href: "#pricing" },
   { label: "PROCESS", href: "#process" },
 ];
@@ -27,7 +29,7 @@ function SectionRail({ active }: { active: string }) {
     <aside className="section-rail" aria-hidden="true">
       <div className="rail-cross" />
       <ol>
-        {["01", "02", "03", "04"].map((number) => (
+        {["01", "02", "03", "04", "05"].map((number) => (
           <li className={number === active ? "active" : ""} key={number}>
             <span>{number}</span>
             {number === active && <i />}
@@ -93,7 +95,7 @@ export default function Home() {
     <main id="top">
       <Header />
 
-      <section className="hero section-shell" id="work">
+      <section className="hero section-shell">
         <SectionRail active="01" />
         <div className="hero-copy reveal-one">
           <h1>A BETTER SITE,<br />WITHOUT THE<br />AGENCY BILL.</h1>
@@ -110,8 +112,13 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="ways section-shell" id="process">
+      <section className="selected-work section-shell" id="selected-work">
         <SectionRail active="02" />
+        <SelectedWork />
+      </section>
+
+      <section className="ways section-shell" id="process">
+        <SectionRail active="03" />
         <div className="ways-title">
           <h2>TWO WAYS<br />TO WORK<span>.</span></h2>
         </div>
@@ -134,7 +141,7 @@ export default function Home() {
       </section>
 
       <section className="pricing section-shell" id="pricing">
-        <SectionRail active="03" />
+        <SectionRail active="04" />
         <div className="pricing-header">
           <span className="giant-number" aria-hidden="true">03</span>
           <h2>START SMALL.<br />SCALE WHEN YOU NEED IT.</h2>
@@ -176,7 +183,7 @@ export default function Home() {
       </section>
 
       <section className="closing section-shell" id="contact">
-        <SectionRail active="04" />
+        <SectionRail active="05" />
         <div className="closing-copy">
           <h2>YOU BRING<br />THE IDEA.<br />I’LL SHIP THE<br />FIRST VERSION.</h2>
           <p>Web, iOS and Android products<br />built fast and kept simple.</p>
