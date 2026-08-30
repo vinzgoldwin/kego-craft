@@ -19,16 +19,18 @@ test("server-renders the Kego Works landing page", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Kego Works \| Websites and apps from \$5\/month<\/title>/i);
-  assert.match(html, /A BETTER SITE,/);
-  assert.match(html, /SHIPPED/);
+  assert.match(html, /<title>Kego Works \| Products people enjoy using<\/title>/i);
+  assert.match(html, /Products people enjoy using\./);
+  assert.match(html, /Shipped work\./);
   assert.match(html, /Alkemy Chat/);
   assert.match(html, /Biawak KOL/);
   assert.match(html, /Better Watch/);
   assert.match(html, /Asia Mega Pasifik/);
   assert.match(html, /preload="none"/);
-  assert.match(html, /TWO WAYS/);
-  assert.match(html, /START SMALL\./);
-  assert.doesNotMatch(html, /YOU BRING|I’LL SHIP THE/);
+  assert.match(html, /From useful idea/);
+  assert.match(html, /Clear steps\./);
+  assert.match(html, /Start small\./);
+  assert.match(html, /Let(?:&#x27;|')s make it simple and ship it\./);
+  assert.doesNotMatch(html, /A BETTER SITE|TWO WAYS/);
   assert.doesNotMatch(html, /codex-preview|SkeletonPreview|react-loading-skeleton/);
 });

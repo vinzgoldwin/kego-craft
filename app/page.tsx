@@ -1,9 +1,110 @@
-import SelectedWork from "./selected-work";
+import MotionController from "./motion-controller";
 
 const navItems = [
-  { label: "WORK", href: "#selected-work" },
-  { label: "PRICING", href: "#pricing" },
-  { label: "PROCESS", href: "#process" },
+  { label: "Work", href: "#work" },
+  { label: "Services", href: "#services" },
+  { label: "Pricing", href: "#pricing" },
+];
+
+const projects = [
+  {
+    title: "Alkemy Chat",
+    category: "AI product",
+    status: "Live",
+    description: "Multi-model chat with search, files, images, and fast streaming responses.",
+    href: "https://alkemychat.com/",
+    linkLabel: "View product",
+    className: "alkemy",
+    video: "https://videos.kego.online/alkemy-chat/v2/demo.mp4",
+    poster: "https://videos.kego.online/alkemy-chat/v2/poster.webp",
+  },
+  {
+    title: "Biawak KOL",
+    category: "Web app",
+    status: "Live",
+    description: "Game tracking, player rankings, win rates, history, and monthly MVP cards.",
+    href: "https://biawakkol.pages.dev/",
+    linkLabel: "Open app",
+    className: "biawak",
+    video: "https://videos.kego.online/biawak-kol/v2/demo.mp4",
+    poster: "https://videos.kego.online/biawak-kol/v2/poster.webp",
+  },
+  {
+    title: "Better Watch",
+    category: "Small tool",
+    status: "Open source",
+    description: "A cheerful watchlist that keeps films and shows out of the endless scroll.",
+    href: "https://github.com/vinzgoldwin/better-watch",
+    linkLabel: "View source",
+    className: "watch",
+    video: "https://videos.kego.online/better-watch/v1/demo.mp4",
+    poster: "https://videos.kego.online/better-watch/v1/poster.webp",
+  },
+  {
+    title: "Asia Mega Pasifik",
+    category: "Client website",
+    status: "Live",
+    description: "Corporate website for an industrial procurement and services company.",
+    href: "https://asiamegapasifik.com/",
+    linkLabel: "Visit website",
+    className: "amp",
+    image: "https://asiamegapasifik.com/wp-content/uploads/2021/05/amp-2.png",
+  },
+];
+
+const services = [
+  {
+    title: "Websites",
+    description: "Fast marketing sites, company sites, and focused landing pages that are simple to maintain.",
+  },
+  {
+    title: "Product apps",
+    description: "Useful web and mobile applications with clear flows, thoughtful states, and solid performance.",
+  },
+  {
+    title: "Product improvements",
+    description: "Focused redesigns and engineering work for products that need to feel clearer, faster, or more complete.",
+  },
+];
+
+const processSteps = [
+  {
+    label: "Shape",
+    title: "Find the useful core.",
+    description: "Clarify the audience, constraint, and smallest version worth shipping.",
+  },
+  {
+    label: "Build",
+    title: "Make it feel obvious.",
+    description: "Design and engineering move together through short, visible iterations.",
+  },
+  {
+    label: "Ship",
+    title: "Launch it cleanly.",
+    description: "Deploy, document, and hand over a product that is ready for real use.",
+  },
+];
+
+const pricingOptions = [
+  {
+    title: "Small site",
+    description: "Basic hosting and uptime included. Changes quoted separately.",
+    price: "$5",
+    suffix: "per month",
+  },
+  {
+    title: "Business",
+    description: "Higher usage allowance, monitoring, backups, and priority support.",
+    price: "$25",
+    suffix: "from, per month",
+    recommended: true,
+  },
+  {
+    title: "Own it",
+    description: "Full source code, infrastructure handover, and optional maintenance.",
+    price: "Quote",
+    suffix: "one time",
+  },
 ];
 
 function Header() {
@@ -19,167 +120,199 @@ function Header() {
           </a>
         ))}
       </nav>
-      <span className="globe" aria-hidden="true">◎</span>
+      <a className="header-cta" href="mailto:hello@kegoworks.studio?subject=Start%20a%20project">
+        Start a project <span aria-hidden="true">↗</span>
+      </a>
     </header>
   );
 }
 
-function SectionRail({ active }: { active: string }) {
+function PrimaryButton({ children }: { children: React.ReactNode }) {
   return (
-    <aside className="section-rail" aria-hidden="true">
-      <div className="rail-cross" />
-      <ol>
-        {["01", "02", "03", "04"].map((number) => (
-          <li className={number === active ? "active" : ""} key={number}>
-            <span>{number}</span>
-            {number === active && <i />}
-          </li>
-        ))}
-      </ol>
-      <div className="rail-target"><span /></div>
-    </aside>
+    <a className="button button-primary" href="mailto:hello@kegoworks.studio?subject=Start%20a%20project">
+      {children} <span aria-hidden="true">↗</span>
+    </a>
   );
 }
 
-function Phone({ variant = "ios" }: { variant?: "ios" | "android" }) {
+function SectionHeader({ eyebrow, number, title, accent, intro }: { eyebrow: string; number: string; title: string; accent: string; intro?: string }) {
   return (
-    <div className={`phone phone-${variant}`} aria-hidden="true">
-      <div className="phone-notch" />
-      <div className="phone-top">
-        <strong>KEGO<br />WORKS</strong>
-        <span>≡</span>
+    <>
+      <div className="section-topline" data-reveal>
+        <p className="eyebrow">{eyebrow}</p>
+        <span className="section-number">{number}</span>
       </div>
-      <p className="screen-label">{variant === "ios" ? "MOBILE EXPERIENCE" : "ANDROID APPS"}</p>
-      <p className="screen-title">
-        {variant === "ios" ? <>Smooth<br />by design.<br /><em>Fast by<br />default.</em></> : <>Made for<br />people.<br /><em>Ready to<br />grow.</em></>}
-      </p>
-      <p className="screen-copy">Thoughtful products that feel fast and stay simple.</p>
+      <h2 className="section-heading" data-reveal>
+        {title}<br /><span>{accent}</span>
+      </h2>
+      {intro && <p className="section-intro" data-reveal>{intro}</p>}
+    </>
+  );
+}
+
+function ProjectMedia({ project }: { project: (typeof projects)[number] }) {
+  return (
+    <div className={`work-media ${project.className}`} data-reveal="media">
+      {project.video ? (
+        <video controls muted playsInline preload="none" poster={project.poster} aria-label={`${project.title} product demo`}>
+          <source src={project.video} type="video/mp4" />
+        </video>
+      ) : (
+        <a
+          className="work-image-link"
+          href={project.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Visit ${project.title}`}
+        >
+          <span className="work-image" style={{ backgroundImage: `url(${project.image})` }} />
+        </a>
+      )}
     </div>
   );
-}
-
-function BrowserFrame() {
-  return (
-    <div className="browser-frame" aria-hidden="true">
-      <div className="browser-bar">
-        <span className="traffic-lights">● ● ●</span>
-        <span className="address">kegoworks.studio</span>
-      </div>
-      <div className="browser-content">
-        <div className="browser-nav"><strong>KEGO WORKS</strong><span>WORK&nbsp;&nbsp;&nbsp; PRICING&nbsp;&nbsp;&nbsp; PROCESS</span></div>
-        <p className="screen-label">DIGITAL PRODUCTS</p>
-        <p className="browser-title">Fast websites<br />and apps.<br /><em>Built to last.</em></p>
-        <p className="browser-copy">Clean code. Thoughtful design.<br />Shipped fast.</p>
-        <span className="mini-button">START A PROJECT</span>
-      </div>
-    </div>
-  );
-}
-
-function DeviceStack({ compact = false }: { compact?: boolean }) {
-  return (
-    <div className={`device-stack ${compact ? "compact" : ""}`} aria-label="Website, iOS and Android product previews">
-      <BrowserFrame />
-      <Phone variant="ios" />
-      <Phone variant="android" />
-    </div>
-  );
-}
-
-function PrimaryButton({ children, href = "mailto:hello@kegoworks.studio?subject=Start%20a%20project" }: { children: React.ReactNode; href?: string }) {
-  return <a className="button button-primary" href={href}>{children}<span aria-hidden="true">↗</span></a>;
 }
 
 export default function Home() {
   return (
     <main id="top">
+      <MotionController />
+      <noscript><style>{"[data-reveal]{opacity:1!important;transform:none!important}"}</style></noscript>
       <Header />
 
-      <section className="hero section-shell">
-        <SectionRail active="01" />
-        <div className="hero-copy reveal-one">
-          <h1>A BETTER SITE,<br />WITHOUT THE<br />AGENCY BILL.</h1>
-          <p>Launch from $5/month. Cancel anytime,<br />or buy the source code outright.</p>
+      <section className="hero">
+        <div className="hero-copy">
+          <p className="eyebrow hero-eyebrow">Websites and apps, built simply</p>
+          <h1>Products people enjoy using.</h1>
+          <p className="hero-intro">
+            I design and build fast websites and apps, from a useful first release to a product ready to grow.
+          </p>
           <div className="hero-actions">
-            <PrimaryButton>START A PROJECT</PrimaryButton>
-            <a className="button button-outline" href="#pricing">SEE PRICING</a>
+            <a className="button button-primary" href="#work">
+              See selected work <span aria-hidden="true">↓</span>
+            </a>
+            <a className="button button-secondary" href="#pricing">See pricing</a>
           </div>
-          <p className="platforms">WEB <i /> IOS <i /> ANDROID</p>
         </div>
-        <div className="hero-media reveal-two">
-          <span className="hero-number" aria-hidden="true">05</span>
-          <DeviceStack />
+
+        <div className="product-window hero-window">
+          <div className="window-bar" aria-hidden="true">
+            <span className="traffic-lights">● ● ●</span>
+            <span>alkemychat.com</span>
+            <span />
+          </div>
+          <video muted playsInline preload="none" poster="https://videos.kego.online/alkemy-chat/v2/poster.webp" aria-label="Alkemy Chat product interface">
+            <source src="https://videos.kego.online/alkemy-chat/v2/demo.mp4" type="video/mp4" />
+          </video>
+        </div>
+
+        <p className="hero-proof">
+          Good products do not need an agency-sized process. <strong>They need clear decisions, focused building, and careful details.</strong>
+        </p>
+      </section>
+
+      <section className="section section-soft" id="work">
+        <SectionHeader
+          eyebrow="Selected work"
+          number="01 / 04"
+          title="Shipped work."
+          accent="Real products."
+          intro="A mix of independent products, focused tools, and client work across web and mobile."
+        />
+
+        <div className="work-list">
+          {projects.map((project, index) => (
+            <article className="work-item" key={project.title}>
+              <ProjectMedia project={project} />
+              <div className="work-copy" data-reveal>
+                <div className="work-index">
+                  <span>{String(index + 1).padStart(2, "0")} / {project.category}</span>
+                  <span>{project.status}</span>
+                </div>
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <a className="text-link" href={project.href} target="_blank" rel="noopener noreferrer">
+                  <span>{project.linkLabel}</span><span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </article>
+          ))}
         </div>
       </section>
 
-      <section className="selected-work section-shell" id="selected-work">
-        <SectionRail active="02" />
-        <SelectedWork />
+      <section className="section" id="services">
+        <SectionHeader
+          eyebrow="What I provide"
+          number="02"
+          title="From useful idea"
+          accent="to working product."
+          intro="Design and engineering stay together, which keeps decisions quick and the finished product coherent."
+        />
+
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <article className={`service stagger-${index}`} data-reveal key={service.title}>
+              <span className="service-num">{String(index + 1).padStart(2, "0")}</span>
+              <h3>{service.title}</h3>
+              <p>{service.description}</p>
+            </article>
+          ))}
+        </div>
+        <p className="platform-line" data-reveal>
+          <span>WEB</span><i /><span>IOS</span><i /><span>ANDROID</span>
+        </p>
       </section>
 
-      <section className="ways section-shell" id="process">
-        <SectionRail active="03" />
-        <div className="ways-title">
-          <h2>TWO WAYS<br />TO WORK<span>.</span></h2>
+      <section className="section section-warm" id="process">
+        <SectionHeader
+          eyebrow="Simple process"
+          number="03"
+          title="Clear steps."
+          accent="No theatre."
+          intro="The work stays visible and decisions stay close to the product."
+        />
+
+        <div className="process-flow">
+          {processSteps.map((step, index) => (
+            <article className={`process-step stagger-${index}`} data-reveal key={step.label}>
+              <strong>{String(index + 1).padStart(2, "0")} / {step.label}</strong>
+              <h3>{step.title}</h3>
+              <p>{step.description}</p>
+            </article>
+          ))}
         </div>
-        <div className="ways-grid">
-          <article>
-            <p className="eyebrow">MONTHLY</p>
-            <h3>Start small.<br />Stay flexible.</h3>
-            <p className="accent-copy">From $5/month</p>
-            <p>Hosting and basic care included.<br />Cancel anytime.</p>
-            <PrimaryButton>GET STARTED</PrimaryButton>
-          </article>
-          <article>
-            <p className="eyebrow">OWN IT</p>
-            <h3>Buy once.<br />Keep everything.</h3>
-            <p>Full source code.<br />Your infrastructure account.</p>
-            <a className="text-link" href="#contact">ASK ABOUT BUYOUT</a>
-          </article>
-        </div>
-        <div className="ways-media"><DeviceStack compact /></div>
       </section>
 
-      <section className="pricing section-shell" id="pricing">
-        <SectionRail active="04" />
-        <div className="pricing-header">
-          <span className="giant-number" aria-hidden="true">03</span>
-          <h2>START SMALL.<br />SCALE WHEN YOU NEED IT.</h2>
+      <section className="section section-soft" id="pricing">
+        <SectionHeader
+          eyebrow="Ways to work"
+          number="04"
+          title="Start small."
+          accent="Keep control."
+        />
+
+        <div className="pricing-wrap">
+          <div className="pricing-note" data-reveal>
+            <p>Start with a small monthly setup or own the source outright. The right option depends on how much control and ongoing support you need.</p>
+            <PrimaryButton>Ask about your project</PrimaryButton>
+          </div>
+          <div className="pricing-table">
+            {pricingOptions.map((option) => (
+              <article className={`price-row${option.recommended ? " recommended" : ""}`} data-reveal key={option.title}>
+                <div>
+                  <h3>{option.title}</h3>
+                  <p>{option.description}</p>
+                </div>
+                <div className="price">{option.price}<small>{option.suffix}</small></div>
+              </article>
+            ))}
+          </div>
         </div>
-        <div className="pricing-grid">
-          <article>
-            <p className="eyebrow">SMALL SITE</p>
-            <p className="price"><sup>$</sup>5 <small>/ MONTH</small></p>
-            <ul>
-              <li>Cloudflare free allowance</li>
-              <li>Basic hosting and uptime</li>
-              <li>Changes quoted separately</li>
-            </ul>
-          </article>
-          <article>
-            <p className="recommendation">RECOMMENDED STARTING TIER</p>
-            <p className="eyebrow plain">BUSINESS</p>
-            <p className="price"><small className="from">FROM</small><sup>$</sup>25 <small>/ MONTH</small></p>
-            <ul>
-              <li>Higher usage allowance</li>
-              <li>Monitoring and backups</li>
-              <li>Priority support</li>
-            </ul>
-          </article>
-          <article>
-            <p className="eyebrow plain">OWN IT</p>
-            <p className="quote-price">ONE-TIME QUOTE</p>
-            <ul>
-              <li>Full source code</li>
-              <li>Infrastructure handover</li>
-              <li>Optional maintenance</li>
-            </ul>
-          </article>
-        </div>
-        <div className="pricing-footer">
-          <PrimaryButton>START A PROJECT</PrimaryButton>
-          <p>Infrastructure and third-party usage are billed separately after the included allowance.</p>
-        </div>
+      </section>
+
+      <section className="closing">
+        <p className="closing-eyebrow" data-reveal>Have something useful in mind?</p>
+        <h2 data-reveal>Let&apos;s make it simple and ship it.</h2>
+        <div data-reveal><PrimaryButton>Start a project</PrimaryButton></div>
       </section>
 
       <footer className="site-footer">
@@ -187,8 +320,8 @@ export default function Home() {
         <nav aria-label="Footer navigation">
           {navItems.map((item) => <a key={item.label} href={item.href}>{item.label}</a>)}
         </nav>
-        <a href="mailto:hello@kegoworks.studio">EMAIL</a>
-        <span>© 2026 KEGO WORKS</span>
+        <a href="mailto:hello@kegoworks.studio">Email</a>
+        <span>© 2026</span>
       </footer>
     </main>
   );
