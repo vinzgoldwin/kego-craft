@@ -13,8 +13,8 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = requestHeaders.get("host") ?? "localhost:3000";
   const protocol = host.startsWith("localhost") ? "http" : "https";
   const metadataBase = new URL(`${protocol}://${host}`);
-  const title = "Kego Works | Products people enjoy using";
-  const description = "Fast websites and apps, designed and built through a simple, focused process.";
+  const title = "Kego Works | Websites and apps by Kego";
+  const description = "I build websites and mobile apps for small teams, from the first conversation to launch.";
 
   return {
     metadataBase,
