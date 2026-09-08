@@ -14,8 +14,6 @@ export default function BrandEntrance() {
   const header = useRef<HTMLElement>(null);
   const logo = useRef<HTMLAnchorElement>(null);
   const curtain = useRef<HTMLDivElement>(null);
-  const skip = useRef<HTMLButtonElement>(null);
-  const finishIntro = useRef<() => void>(() => {});
 
   useEffect(() => {
     const nav = header.current!;
@@ -51,7 +49,6 @@ export default function BrandEntrance() {
     const nav = header.current!;
     const mark = logo.current!;
     const cover = curtain.current!;
-    const skipButton = skip.current!;
     const main = document.querySelector<HTMLElement>(".site-shell")!;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)");
     const animations: Animation[] = [];
@@ -61,14 +58,11 @@ export default function BrandEntrance() {
       finished = true;
       animations.forEach((animation) => animation.cancel());
       cover.hidden = true;
-      skipButton.hidden = true;
       nav.dataset.ready = "true";
       nav.inert = false;
       main.inert = false;
       delete document.documentElement.dataset.intro;
     }
-    finishIntro.current = finish;
-
     function animate(
       element: Element,
       frames: Keyframe[],
@@ -92,7 +86,6 @@ export default function BrandEntrance() {
       }
       document.documentElement.dataset.intro = "playing";
       cover.hidden = false;
-      skipButton.hidden = false;
       nav.inert = true;
       main.inert = true;
       await Promise.all([
@@ -240,13 +233,6 @@ export default function BrandEntrance() {
           ))}
         </div>
       </div>
-      <button
-        ref={skip}
-        className="intro-skip"
-        onClick={() => finishIntro.current()}
-      >
-        Skip intro ↗
-      </button>
       <header className="site-header" ref={header}>
         <div className="header-surface" aria-hidden="true" />
         <a
@@ -275,7 +261,7 @@ export default function BrandEntrance() {
       <noscript>
         <style>
           {
-            ".brand-curtain,.intro-skip{display:none!important}.site-header{visibility:visible!important}"
+            ".brand-curtain{display:none!important}.site-header{visibility:visible!important}"
           }
         </style>
       </noscript>

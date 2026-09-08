@@ -1,12 +1,12 @@
 import {
   projects,
   services,
-  processSteps,
   pricingOptions,
 } from "./portfolio-data";
 import MotionController from "./motion-controller";
 import WorkSlider from "./work-slider";
 import BrandEntrance from "./brand-entrance";
+import ProcessTimeline from "./process-timeline";
 
 function PrimaryButton({ children }: { children: React.ReactNode }) {
   return (
@@ -136,28 +136,16 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section section-warm" id="process">
-          <SectionHeader
-            eyebrow="How I work"
-            title="A short path to"
-            accent="something real."
-          />
-
-          <div className="process-flow">
-            {processSteps.map((step, index) => (
-              <article
-                className={`process-step stagger-${index}`}
-                data-reveal
-                key={step.label}
-              >
-                <div className="process-marker">
-                  <span>{String(index + 1).padStart(2, "0")}</span>
-                  <strong>{step.label}</strong>
-                </div>
-                <h3>{step.title}</h3>
-                <p>{step.description}</p>
-              </article>
-            ))}
+        <section className="section section-process" id="process">
+          <div className="process-layout">
+            <header className="process-heading">
+              <p>How I work</p>
+              <h2 className="section-heading">
+                A short path to<br />
+                <span>something real.</span>
+              </h2>
+            </header>
+            <ProcessTimeline />
           </div>
         </section>
 

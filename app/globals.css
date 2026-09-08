@@ -103,6 +103,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .section { padding: 116px 6.25%; scroll-margin-top: 100px; }
 .section-soft { background: var(--surface); }
 .section-warm { background: var(--warm); }
+.section-process { background: #fff; }
 .section-work { background: #fff; }
 .section-topline { display: flex; justify-content: space-between; gap: 24px; }
 .section-heading {
@@ -188,14 +189,22 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .service-num { color: #8d90a3; font-size: 10px; }
 .service h3 { margin: 86px 0 13px; font-size: 26px; line-height: 1; font-weight: 480; letter-spacing: -.04em; }
 .service p { margin: 0; color: var(--body); font-size: 13px; line-height: 1.55; }
-.process-flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(36px, 5vw, 72px); margin-top: 44px; }
-.process-step { position: relative; min-height: 250px; padding: 22px 0 24px; }
-.process-step + .process-step { padding-left: 0; }
-.process-marker { display: grid; gap: 7px; }
-.process-marker span { color: #777a8b; font-size: 12px; font-variant-numeric: tabular-nums; }
-.process-marker strong { color: #858895; font-size: 10px; font-weight: 650; letter-spacing: .07em; text-transform: uppercase; }
-.process-step h3 { min-height: 2em; margin: 44px 0 14px; font-size: 32px; line-height: .98; font-weight: 450; letter-spacing: -.045em; }
-.process-step p { margin: 0; color: var(--body); font-size: 13px; line-height: 1.55; }
+.process-layout { display: grid; grid-template-columns: 1fr 1.05fr; gap: 8%; align-items: start; }
+.process-heading > p { margin: 0; color: var(--purple-deep); font-size: 14px; font-weight: 550; }
+.process-heading .section-heading { margin-top: 28px; font-size: clamp(43px, 4.8vw, 67px); }
+.process-timeline { list-style: none; margin: 0; padding: 0; }
+.process-step { position: relative; padding: 0 0 42px 35px; }
+.process-step:last-child { padding-bottom: 0; }
+.process-rail { position: absolute; left: 4px; top: 8px; bottom: -8px; width: 2px; background: #cbc7d0; }
+.process-rail::after { content: ""; position: absolute; inset: 0; background: var(--purple); transform: scaleY(var(--step-progress, 1)); transform-origin: top; }
+.process-step:last-child .process-rail { display: none; }
+.process-dot { position: absolute; left: 0; top: 3px; width: 10px; height: 10px; border: 2px solid var(--purple); border-radius: 50%; background: var(--purple); transition: background .2s ease, border-color .2s ease; }
+.process-step[data-reached="false"] .process-dot { background: #fff; border-color: #aaa5b5; }
+.process-marker { display: flex; gap: 10px; align-items: baseline; font-size: 12px; line-height: 16px; }
+.process-marker span { color: var(--body); font-variant-numeric: tabular-nums; }
+.process-marker strong { color: var(--purple-deep); font-weight: 600; }
+.process-step h3 { margin: 12px 0; font-size: clamp(24px, 2.2vw, 30px); line-height: 1.08; font-weight: 480; letter-spacing: -.04em; }
+.process-step p { max-width: 45ch; margin: 0; color: var(--body); font-size: 16px; line-height: 1.55; }
 
 .pricing-wrap { display: grid; grid-template-columns: .8fr 1.2fr; gap: 72px; align-items: start; margin-top: 74px; }
 .pricing-note { position: sticky; top: 140px; }
@@ -263,13 +272,12 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .work-copy { padding-top: 18px; }
   .work-copy h3 { font-size: 26px; }
   .work-copy > p { font-size: 14px; }
-  .services-grid, .process-flow { grid-template-columns: 1fr; }
+  .services-grid { grid-template-columns: 1fr; }
+  .process-layout { grid-template-columns: 1fr; gap: 42px; }
   .service { min-height: auto; padding: 26px 0 30px; }
   .service + .service { padding-left: 0; }
   .service h3 { margin-top: 54px; }
-  .process-step { min-height: auto; padding: 24px 0 32px; }
-  .process-step + .process-step { padding-left: 0; }
-  .process-step h3 { min-height: 0; margin-top: 36px; }
+
   .price-row { grid-template-columns: 1fr; }
   .price { text-align: left; }
   .price-row::before { inset: 0 -10px; }
@@ -279,6 +287,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .process-rail::after { transform: scaleY(1); }
+  .process-step[data-reached="false"] .process-dot { background: var(--purple); border-color: var(--purple); }
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   [data-reveal] { opacity: 1; transform: none; }
 }

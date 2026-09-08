@@ -58,20 +58,27 @@ export const services = [
 export const processSteps = [
   {
     label: "Talk",
-    title: "Show me what you’re trying to do.",
+    title: "Start with the problem.",
     description:
-      "I ask questions, cut what does not matter, and write down the plan.",
+      "Tell me what you need and who it is for. We agree on what to build first.",
+  },
+  {
+    label: "Design",
+    title: "See the direction.",
+    description:
+      "I turn the plan into screens. You review the flow and layout before I build.",
   },
   {
     label: "Build",
-    title: "See the work early.",
-    description: "I share progress early, while changes are still easy.",
+    title: "Try it as it takes shape.",
+    description:
+      "I share working progress so you can try things and give feedback along the way.",
   },
   {
     label: "Launch",
     title: "Put it to work.",
     description:
-      "We test the important paths, put it live, and ensure you can run it without me.",
+      "We test the important paths and get it live. I walk you through how to run it.",
   },
 ];
 
