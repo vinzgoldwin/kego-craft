@@ -153,45 +153,64 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="section section-soft" id="pricing">
-          <SectionHeader
-            eyebrow="After launch"
-            title="Keep it with me,"
-            accent="or take it with you."
-          />
+        <section className="section section-pricing" id="pricing">
+          <h2 className="section-heading" data-reveal>
+            Keep it with me,
+            <br />
+            <span>or take it</span>
+          </h2>
+          <p className="pricing-intro" data-reveal>
+            I can host and look after your project, so you can get on with
+            running your business. Prefer your own setup? I&apos;ll hand over the
+            code and show you how it works.
+          </p>
 
-          <div className="pricing-wrap">
-            <div className="pricing-note" data-reveal>
-              <p>
-                Small sites can stay on my setup for a monthly fee. If you want
-                the code and infrastructure, I’ll hand over the whole thing.
-              </p>
-              <PrimaryButton>Tell me about your project</PrimaryButton>
-            </div>
-            <div className="pricing-table">
+          <div className="pricing-plans">
               {pricingOptions.map((option) => (
-                <article className="price-row" data-reveal key={option.title}>
-                  <div>
-                    <h3>{option.title}</h3>
-                    <p>{option.description}</p>
-                  </div>
-                  <div className="price">
+                <article className="pricing-plan" data-reveal key={option.title}>
+                  <h3>{option.title}</h3>
+                  <p className="price">
+                    {option.prefix && <span className="price-prefix">{option.prefix} </span>}
                     {option.price}
                     <small>{option.suffix}</small>
-                  </div>
+                  </p>
+                  <p className="plan-description">{option.description}</p>
+                  <ul className="plan-features">
+                    {option.features.map((feature) => (
+                      <li key={feature}>
+                        <span aria-hidden="true">✓</span>{feature}
+                      </li>
+                    ))}
+                  </ul>
                 </article>
               ))}
-            </div>
+          </div>
+          <div className="pricing-action" data-reveal>
+            <PrimaryButton>Tell me about your project</PrimaryButton>
           </div>
         </section>
 
-        <section className="closing">
-          <h2 data-reveal>Have an idea worth making?</h2>
-          <div data-reveal>
-            <PrimaryButton>Email me</PrimaryButton>
-          </div>
-        </section>
       </main>
+      <footer className="closing">
+        <div className="closing-contact">
+          <h2>
+            Have something in mind?
+            <br />
+            <span>Let’s build it.</span>
+          </h2>
+          <a
+            className="closing-email"
+            href="mailto:kegoo.gg@gmail.com?subject=Start%20a%20project"
+          >
+            <span>kegoo.gg@gmail.com</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div className="closing-bottom">
+          <img src="/brand/kego.svg" alt="KEGO" width={72} height={45} />
+          <span>© 2026</span>
+        </div>
+      </footer>
     </>
   );
 }

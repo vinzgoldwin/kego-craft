@@ -39,22 +39,22 @@ export const projects = [
 
 export const services = [
   {
-    title: "Website",
+    title: "Websites",
     icon: "/services/website.svg",
     description:
-      "A good website gets to the point. I design and build clear, fast sites that are easy for you to keep up to date.",
+      "I design and build fast, clear websites for your business. Easy for people to use, and easy for you to keep up to date.",
   },
   {
-    title: "SaaS (Software as a Service)",
-    icon: "/services/saas.svg",
+    title: "Products and apps",
+    icon: "/services/products.svg",
     description:
-      "From the first useful version to the feature everyone keeps putting off. I handle the product and code, with AI where it earns its place.",
+      "Have an idea for a product? I can build it from scratch or improve what you already have, whether it's SaaS, an internal tool, or a mobile app.",
   },
   {
-    title: "App (Android / iOS)",
-    icon: "/services/app.svg",
+    title: "AI and automation",
+    icon: "/services/automation.svg",
     description:
-      "One focused build for both platforms, with the navigation, touch, and small-screen details treated like they matter.",
+      "If your team keeps doing the same task by hand, I can help automate it. I also build AI tools for the work your team does every day.",
   },
 ];
 
@@ -87,23 +87,36 @@ export const processSteps = [
 
 export const pricingOptions = [
   {
-    title: "Small site",
+    title: "Small projects",
     description:
-      "For a simple site that rarely changes. Hosting and uptime checks included.",
+      "For a lightweight website or tool that doesn't need its own server.",
     price: "$5",
     suffix: "per month",
+    features: ["Hosting on my shared setup", "Uptime checks"],
   },
   {
-    title: "Business",
+    title: "Growing projects",
     description:
-      "For a site or app that needs backups, monitoring, and quicker support.",
-    price: "$25",
-    suffix: "from, per month",
+      "For a busier site, app, or AI tool that needs more room to run. The price depends on the setup it needs.",
+    price: "$20",
+    prefix: "From",
+    suffix: "per month",
+    features: [
+      "Everything in Small projects",
+      "Dedicated database or server as needed",
+      "Backups and monitoring",
+    ],
   },
   {
-    title: "Own it",
-    description: "You get the source code, accounts, and a clean handover.",
+    title: "Full handover",
+    description:
+      "Want to run it yourself or bring in your own team? I'll get you set up with the code, accounts, and know-how to take over.",
     price: "Quote",
     suffix: "one time",
+    features: [
+      "Source code and project accounts",
+      "Setup and running instructions",
+      "A walkthrough with you or your team",
+    ],
   },
 ];
