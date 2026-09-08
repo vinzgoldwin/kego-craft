@@ -1,0 +1,16 @@
+[    1599ms] Error: Minified React error #418; visit https://react.dev/errors/418?args[]=HTML&args[]= for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at rK (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:40123)
+    at io (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:90844)
+    at sc (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:131315)
+    at https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:126205
+    at u9 (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:126306)
+    at s$ (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:152688)
+    at MessagePort._ (https://www.tinywins.com/_next/static/chunks/79db7e4d9802bcaa.js?dpl=dpl_HbGJtpcTJEcYZtbTeStYKHtbZygv:1:1647)
+[    8929ms] [LOG] Initializing LiveConnect @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8929ms] [LOG] events.bus.init @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8929ms] [LOG] handlers.error.register {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} null @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8930ms] [LOG] identifiers.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8930ms] [LOG] decisions.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8930ms] [LOG] LiveConnect.enrichedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8930ms] [LOG] LiveConnect.postManagedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[    8967ms] [LOG] Highway v2.2.0 @ https://unseen.co/wp-content/themes/unseen/public/scripts/vendor.js?id=4d3ac43b9e360f391febd63f910ddf0c:1

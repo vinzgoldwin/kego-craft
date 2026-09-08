@@ -1,0 +1,152 @@
+[     568ms] [ERROR] [vite] Internal Server Error
+Transform failed with 2 errors:
+
+[PARSE_ERROR] Expected corresponding closing tag for JSX fragment.
+    ╭─[ app/redesigns/portfolio.tsx:27:373 ]
+    │
+ 27 │   return <section className="s-work" id="work"><div className="work-heading" data-enter><h2>{slug === "elsewhere" ? <><i>From imagination,</i><br/>into your hands.</> : slug === "kinetic" ? <>ENOUGH TALK.<br/><i>HERE&apos;S THE WORK.</i></> : slug === "atlas" ? "Work index / 004" : slug === "playroom" ? <>Out in<br/><i>the world.</i></> : <>SELECTED<br/><i>OUTPUT.</i></h2><p>Four projects.<br/>Four different problems to solve.</p></div>
+    │                                                                                                                                                                                                                                                                                                                                                      ─┬                             ─┬  
+    │                                                                                                                                                                                                                                                                                                                                                       ╰───────────────────────────────── Opened here
+    │                                                                                                                                                                                                                                                                                                                                                                                      │  
+    │                                                                                                                                                                                                                                                                                                                                                                                      ╰── Expected `</>`
+────╯
+
+[PARSE_ERROR] Expected `}` but found `Identifier`
+    ╭─[ app/redesigns/portfolio.tsx:27:384 ]
+    │
+ 27 │   return <section className="s-work" id="work"><div className="work-heading" data-enter><h2>{slug === "elsewhere" ? <><i>From imagination,</i><br/>into your hands.</> : slug === "kinetic" ? <>ENOUGH TALK.<br/><i>HERE&apos;S THE WORK.</i></> : slug === "atlas" ? "Work index / 004" : slug === "playroom" ? <>Out in<br/><i>the world.</i></> : <>SELECTED<br/><i>OUTPUT.</i></h2><p>Four projects.<br/>Four different problems to solve.</p></div>
+    │                                                                                                                                                                                                                                                                                                                                                                                                ────┬───  
+    │                                                                                                                                                                                                                                                                                                                                                                                                    ╰───── `}` expected
+────╯
+
+    at runInRunnerObject (workers/runner-worker/index.js:107:3)
+    at [object Object]
+    at handleAppRscRequest (/home/kevin/Projects/kego-craft/node_modules/vinext/dist/server/app-rsc-handler.js:514:33)
+    at route (/home/kevin/Projects/kego-craft/node_modules/vinext/dist/server/app-rsc-handler.js:660:16)
+    at handleRequest (/home/kevin/Projects/kego-craft/node_modules/vinext/dist/server/app-router-entry.js?v=615acefe:43:17)
+    at maybeCaptureError (workers/runner-worker/index.js:51:10) @ http://localhost:3000/@vite/client:995
+[     592ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[     721ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=7ec1deea:14337
+[   37080ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=7ec1deea:14337
+[   66666ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=7ec1deea:14337
+[   73118ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  134137ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  145663ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  177576ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  187369ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  210207ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  233202ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  258914ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  261050ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  263255ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  265440ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  267588ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  323062ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  323119ms] [ERROR] ReferenceError: mode is not defined
+    at http://localhost:3000/app/redesigns/scene.tsx?t=1788830545335:95:56
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:12904:13)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:851:66)
+    at commitHookEffectListMount (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:6617:153)
+    at commitHookPassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:6652:55)
+    at commitPassiveMountOnFiber (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7618:22)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7606:5)
+    at commitPassiveMountOnFiber (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7672:14)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7606:5)
+    at commitPassiveMountOnFiber (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7672:14) @ http://localhost:3000/node_modules/vinext/dist/client/dev-error-overlay.js?v=bdb07197:144
+[  323119ms] [ERROR] The above error occurred in a React component:
+
+    at Scene (http://localhost:3000/app/redesigns/scene.tsx?t=1788830545335:30:33)
+    at section (<anonymous>)
+    at Hero [Server] (<anonymous>)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at Portfolio (about://React/Server/file:///home/kevin/Projects/kego-craft/app/redesigns/portfolio.tsx?9:1200:20)
+    at PageInvoker [Server] (<anonymous>)
+    at AwaitAppRenderDependencies [Server] (<anonymous>)
+    at BfcacheSlotBoundary (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:140:32)
+    at Slot (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:190:17)
+    at LayoutSegmentProvider (http://localhost:3000/node_modules/vinext/dist/shims/layout-segment-context.js?v=bdb07197:41:34)
+    at RedirectErrorBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:63:3)
+    at RedirectBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:97:29)
+    at AppRouterScrollTargetInner (http://localhost:3000/node_modules/vinext/dist/shims/app-router-scroll.js?v=bdb07197:83:34)
+    at AppRouterScrollTarget (http://localhost:3000/node_modules/vinext/dist/shims/app-router-scroll.js?v=bdb07197:135:34)
+    at Children (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:221:17)
+    at div (<anonymous>)
+    at RedesignLayout [Server] (<anonymous>)
+    at default (about://React/Server/file:///home/kevin/Projects/kego-craft/app/redesigns/layout.tsx?5:40:26)
+    at default (about://React/Server/file:///home/kevin/Projects/kego-craft/app/redesigns/layout.tsx?5:40:26)
+    at AwaitAppRenderDependencies [Server] (<anonymous>)
+    at BfcacheSlotBoundary (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:140:32)
+    at Slot (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:190:17)
+    at LayoutSegmentProvider (http://localhost:3000/node_modules/vinext/dist/shims/layout-segment-context.js?v=bdb07197:41:34)
+    at Children (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:221:17)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout [Server] (<anonymous>)
+    at default (about://React/Server/file:///home/kevin/Projects/kego-craft/app/layout.tsx?1:81:26)
+    at default (about://React/Server/file:///home/kevin/Projects/kego-craft/app/layout.tsx?1:81:26)
+    at BfcacheSlotBoundary (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:140:32)
+    at Slot (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:190:17)
+    at LayoutSegmentProvider (http://localhost:3000/node_modules/vinext/dist/shims/layout-segment-context.js?v=bdb07197:41:34)
+    at ErrorBoundaryInner (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:107:3)
+    at ErrorBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:159:26)
+    at ErrorBoundaryInner (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:107:3)
+    at GlobalErrorBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:167:32)
+    at BfcacheSlotBoundary (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:140:32)
+    at Slot (http://localhost:3000/node_modules/vinext/dist/shims/slot.js?v=bdb07197:190:17)
+    at NavigationCommitSignal (http://localhost:3000/node_modules/vinext/dist/server/app-browser-navigation-controller.js?v=bdb07197:232:36)
+    at RedirectErrorBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:63:3)
+    at RedirectBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:97:29)
+    at AppRouterRedirectBridge (http://localhost:3000/node_modules/vinext/dist/server/app-browser-entry.js?v=bdb07197:475:36)
+    at DevRecoveryBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:313:3)
+    at AppRouterScrollCommitProvider (http://localhost:3000/node_modules/vinext/dist/shims/app-router-scroll.js?v=bdb07197:129:42)
+    at ErrorBoundaryInner (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:107:3)
+    at GlobalErrorBoundary (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:167:32)
+    at BrowserRoot (http://localhost:3000/node_modules/vinext/dist/server/app-browser-entry.js?v=bdb07197:501:24) @ http://localhost:3000/node_modules/vinext/dist/client/dev-error-overlay.js?v=bdb07197:145
+[  332726ms] ReferenceError: process is not defined
+    at handleAppNavigationFailure (http://localhost:3000/node_modules/vinext/dist/client/app-nav-failure-handler.js?v=bdb07197:24:2)
+    at getDerivedStateFromProps (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:115:22)
+    at applyDerivedStateFromProps (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:5207:65)
+    at updateClassComponent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:5720:217)
+    at beginWork (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:6141:139)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:851:66)
+    at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8429:92)
+    at workLoopSync (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8325:37)
+    at renderRootSync (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8309:6)
+    at performWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7994:27)
+[  333290ms] ReferenceError: process is not defined
+    at handleAppNavigationFailure (http://localhost:3000/node_modules/vinext/dist/client/app-nav-failure-handler.js?v=bdb07197:24:2)
+    at getDerivedStateFromProps (http://localhost:3000/node_modules/vinext/dist/shims/error-boundary.js?v=bdb07197:115:22)
+    at applyDerivedStateFromProps (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:5207:65)
+    at updateClassComponent (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:5700:109)
+    at beginWork (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:6141:139)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:851:66)
+    at performUnitOfWork (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8429:92)
+    at workLoopSync (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8325:37)
+    at renderRootSync (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:8309:6)
+    at performWorkOnRoot (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:7994:27)
+[  333586ms] [ERROR] [vinext] RSC HMR error: ReferenceError: process is not defined
+    at getDeploymentId (http://localhost:3000/node_modules/vinext/dist/utils/deployment-id.js?v=bdb07197:4:2)
+    at applyDeploymentIdHeader (http://localhost:3000/node_modules/vinext/dist/utils/deployment-id.js?v=bdb07197:18:58)
+    at createRscRequestHeaders (http://localhost:3000/node_modules/vinext/dist/server/app-rsc-cache-busting.js?v=bdb07197:156:2)
+    at applyRscHmrUpdate (http://localhost:3000/node_modules/vinext/dist/server/app-browser-entry.js?v=bdb07197:1201:23)
+    at async handleRscUpdate (http://localhost:3000/node_modules/vinext/dist/server/app-browser-entry.js?v=bdb07197:1207:5) @ http://localhost:3000/node_modules/vinext/dist/server/app-browser-entry.js?v=bdb07197:1208
+[  398593ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  401045ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  437384ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  439520ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  442753ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  478135ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  481633ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  485058ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  488333ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  491673ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  525220ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  527089ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  562709ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://m1-asahi.taila125ad.ts.net/favicon.ico:0
+[  562803ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://m1-asahi.taila125ad.ts.net/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  609361ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://m1-asahi.taila125ad.ts.net/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  609568ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://m1-asahi.taila125ad.ts.net/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  640123ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  642206ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[  690230ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ https://m1-asahi.taila125ad.ts.net/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337

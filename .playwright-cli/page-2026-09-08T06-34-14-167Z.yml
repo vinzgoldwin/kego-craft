@@ -1,0 +1,147 @@
+- generic [active] [ref=e1]:
+  - button "Skip intro ↗" [ref=e8] [cursor=pointer]
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "What you need I’ll build it" [level=1] [ref=e12]: What you needI’ll build it
+        - paragraph [ref=e13]: I build websites and mobile apps for small teams. You work directly with me from the first conversation to launch.
+        - generic [ref=e14]:
+          - link "Look around" [ref=e15] [cursor=pointer]:
+            - /url: "#work"
+            - text: Look around
+            - generic [aria-hidden] [ref=e16]: ↓
+          - link "Tell me about your project" [ref=e17] [cursor=pointer]:
+            - /url: mailto:kegoo.gg@gmail.com?subject=Start%20a%20project
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - heading "One person to design it, build it, and get it live." [level=2] [ref=e20]: One person to design it,build it, and get it live.
+          - paragraph [ref=e21]:
+            - text: WEB
+            - generic [ref=e22]: ·
+            - text: iOS
+            - generic [ref=e23]: ·
+            - text: ANDROID
+        - paragraph [ref=e24]: You talk to me, and I do the work. There are no layers in between.
+    - generic [ref=e25]:
+      - paragraph [ref=e27]: Personal craft
+      - heading "A few things I’ve built." [level=2] [ref=e28]: A few thingsI’ve built.
+      - generic [ref=e29]:
+        - list "Selected work" [ref=e30]:
+          - listitem [ref=e31]:
+            - generic "Alkemy Chat product demo" [ref=e33]
+            - generic [ref=e34]:
+              - generic [ref=e35]: 01 AI product
+              - heading "Alkemy Chat" [level=3] [ref=e37]
+              - paragraph [ref=e38]: One quick place to talk to different models, search the web, and work with files.
+              - link "View product" [ref=e39] [cursor=pointer]:
+                - /url: https://alkemychat.com/
+                - generic [aria-hidden] [ref=e41]: ↗
+          - listitem [ref=e42]:
+            - generic "Biawak KOL product demo" [ref=e44]
+            - generic [ref=e45]:
+              - generic [ref=e46]: 02 Web app
+              - heading "Biawak KOL" [level=3] [ref=e48]
+              - paragraph [ref=e49]: Scores, grudges, win rates, and one monthly MVP card for our game group.
+              - link "Open app" [ref=e50] [cursor=pointer]:
+                - /url: https://biawakkol.pages.dev/
+                - generic [aria-hidden] [ref=e52]: ↗
+          - listitem [ref=e53]:
+            - generic "Better Watch product demo" [ref=e55]
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - generic [ref=e58]: 03 Small tool
+                - generic [ref=e59]: Open source
+              - heading "Better Watch" [level=3] [ref=e60]
+              - paragraph [ref=e61]: My answer to spending longer picking a film than watching one.
+              - link "View source" [ref=e62] [cursor=pointer]:
+                - /url: https://github.com/vinzgoldwin/better-watch
+                - generic [aria-hidden] [ref=e64]: ↗
+          - listitem [ref=e65]:
+            - link "Visit Asia Mega Pasifik" [ref=e67] [cursor=pointer]:
+              - /url: https://asiamegapasifik.com/
+            - generic [ref=e69]:
+              - generic [ref=e70]: 04 Client website
+              - heading "Asia Mega Pasifik" [level=3] [ref=e72]
+              - paragraph [ref=e73]: A straightforward company site for an industrial supplier in Indonesia.
+              - link "Visit website" [ref=e74] [cursor=pointer]:
+                - /url: https://asiamegapasifik.com/
+                - generic [aria-hidden] [ref=e76]: ↗
+        - group "Project slider controls" [ref=e77]:
+          - button "Previous project" [disabled] [ref=e78]
+          - button "Next project" [ref=e81] [cursor=pointer]
+    - generic [ref=e84]:
+      - paragraph [ref=e86]: Services
+      - heading "What you can hire me for." [level=2] [ref=e87]: What you canhire me for.
+      - generic [ref=e88]:
+        - article [ref=e89]:
+          - text: "01"
+          - heading "Website" [level=3] [ref=e90]
+          - paragraph [ref=e91]: A good website gets to the point. I design and build clear, fast sites that are easy for you to keep up to date.
+        - article [ref=e92]:
+          - text: "02"
+          - heading "SaaS (Software as a Service)" [level=3] [ref=e93]
+          - paragraph [ref=e94]: From the first useful version to the feature everyone keeps putting off. I handle the product and code, with AI where it earns its place.
+        - article [ref=e95]:
+          - text: "03"
+          - heading "App (Android / iOS)" [level=3] [ref=e96]
+          - paragraph [ref=e97]: One focused build for both platforms, with the navigation, touch, and small-screen details treated like they matter.
+    - generic [ref=e98]:
+      - paragraph [ref=e100]: How I work
+      - heading "A short path to something real." [level=2] [ref=e101]: A short path tosomething real.
+      - generic [ref=e102]:
+        - article [ref=e103]:
+          - generic [ref=e104]:
+            - generic [ref=e105]: "01"
+            - strong [ref=e106]: Talk
+          - heading "Show me what you’re trying to do." [level=3] [ref=e107]
+          - paragraph [ref=e108]: I ask questions, cut what does not matter, and write down the plan.
+        - article [ref=e109]:
+          - generic [ref=e110]:
+            - generic [ref=e111]: "02"
+            - strong [ref=e112]: Build
+          - heading "See the work early." [level=3] [ref=e113]
+          - paragraph [ref=e114]: I share progress early, while changes are still easy.
+        - article [ref=e115]:
+          - generic [ref=e116]:
+            - generic [ref=e117]: "03"
+            - strong [ref=e118]: Launch
+          - heading "Put it to work." [level=3] [ref=e119]
+          - paragraph [ref=e120]: We test the important paths, put it live, and ensure you can run it without me.
+    - generic [ref=e121]:
+      - paragraph [ref=e123]: After launch
+      - heading "Keep it with me, or take it with you." [level=2] [ref=e124]: Keep it with me,or take it with you.
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - paragraph [ref=e127]: Small sites can stay on my setup for a monthly fee. If you want the code and infrastructure, I’ll hand over the whole thing.
+          - link "Tell me about your project" [ref=e128] [cursor=pointer]:
+            - /url: mailto:kegoo.gg@gmail.com?subject=Start%20a%20project
+            - text: Tell me about your project
+            - generic [aria-hidden] [ref=e129]: ↗
+        - generic [ref=e130]:
+          - article [ref=e131]:
+            - generic [ref=e132]:
+              - heading "Small site" [level=3] [ref=e133]
+              - paragraph [ref=e134]: For a simple site that rarely changes. Hosting and uptime checks included.
+            - generic [ref=e135]:
+              - text: $5
+              - generic [ref=e136]: per month
+          - article [ref=e137]:
+            - generic [ref=e138]:
+              - heading "Business" [level=3] [ref=e139]
+              - paragraph [ref=e140]: For a site or app that needs backups, monitoring, and quicker support.
+            - generic [ref=e141]:
+              - text: $25
+              - generic [ref=e142]: from, per month
+          - article [ref=e143]:
+            - generic [ref=e144]:
+              - heading "Own it" [level=3] [ref=e145]
+              - paragraph [ref=e146]: You get the source code, accounts, and a clean handover.
+            - generic [ref=e147]:
+              - text: Quote
+              - generic [ref=e148]: one time
+    - generic [ref=e149]:
+      - heading "Have an idea worth making?" [level=2] [ref=e150]
+      - link "Email me" [ref=e152] [cursor=pointer]:
+        - /url: mailto:kegoo.gg@gmail.com?subject=Start%20a%20project
+        - text: Email me
+        - generic [aria-hidden] [ref=e153]: ↗

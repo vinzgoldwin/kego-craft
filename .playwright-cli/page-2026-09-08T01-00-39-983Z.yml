@@ -1,0 +1,213 @@
+- generic [active] [ref=f5e1]:
+  - generic [ref=f5e2]:
+    - generic [ref=f5e3]:
+      - generic [ref=f5e4]:
+        - generic:
+          - generic: U
+          - generic: "N"
+          - generic: S
+          - generic: E
+          - generic: "N"
+          - generic: E
+      - generic [ref=f5e5]: Unseen Studio®
+      - paragraph [ref=f5e6]: A brand, digital and motion studio creatingrefreshingly unexpected ideas and striking visualsthat help bold brands cut through the noise.
+    - generic [ref=f5e9]:
+      - generic [ref=f5e10]:
+        - generic:
+          - generic: U
+          - generic: "N"
+          - generic: S
+          - generic: E
+          - generic: "N"
+          - generic: E
+      - generic [ref=f5e11]: Unseen Studio®
+      - paragraph [ref=f5e12]: A brand, digital and motion studio creatingrefreshingly unexpected ideas and striking visualsthat help bold brands cut through the noise.
+  - banner [ref=f5e13]:
+    - link "Unseen Studio Home" [ref=f5e14] [cursor=pointer]:
+      - /url: https://unseen.co
+    - generic [ref=f5e33]:
+      - navigation [ref=f5e34]:
+        - generic [ref=f5e35]:
+          - link "Index" [ref=f5e36] [cursor=pointer]:
+            - /url: https://unseen.co
+            - generic [ref=f5e37]:
+              - generic [ref=f5e38]:
+                - generic [ref=f5e39]: I
+                - generic [ref=f5e40]: "n"
+                - generic [ref=f5e41]: d
+                - generic [ref=f5e42]: e
+                - generic [ref=f5e43]: x
+              - generic [ref=f5e44]:
+                - generic [ref=f5e45]: I
+                - generic [ref=f5e46]: "n"
+                - generic [ref=f5e47]: d
+                - generic [ref=f5e48]: e
+                - generic [ref=f5e49]: x
+          - link "Projects" [ref=f5e50] [cursor=pointer]:
+            - /url: https://unseen.co/projects/
+            - generic [ref=f5e51]:
+              - generic [ref=f5e52]:
+                - generic [ref=f5e53]: P
+                - generic [ref=f5e54]: r
+                - generic [ref=f5e55]: o
+                - generic [ref=f5e56]: j
+                - generic [ref=f5e57]: e
+                - generic [ref=f5e58]: c
+                - generic [ref=f5e59]: t
+                - generic [ref=f5e60]: s
+              - generic [ref=f5e61]:
+                - generic [ref=f5e62]: P
+                - generic [ref=f5e63]: r
+                - generic [ref=f5e64]: o
+                - generic [ref=f5e65]: j
+                - generic [ref=f5e66]: e
+                - generic [ref=f5e67]: c
+                - generic [ref=f5e68]: t
+                - generic [ref=f5e69]: s
+          - link "Contact" [ref=f5e70] [cursor=pointer]:
+            - /url: https://unseen.co/contact/
+            - generic [ref=f5e71]:
+              - generic [ref=f5e72]:
+                - generic [ref=f5e73]: C
+                - generic [ref=f5e74]: o
+                - generic [ref=f5e75]: "n"
+                - generic [ref=f5e76]: t
+                - generic [ref=f5e77]: a
+                - generic [ref=f5e78]: c
+                - generic [ref=f5e79]: t
+              - generic [ref=f5e80]:
+                - generic [ref=f5e81]: C
+                - generic [ref=f5e82]: o
+                - generic [ref=f5e83]: "n"
+                - generic [ref=f5e84]: t
+                - generic [ref=f5e85]: a
+                - generic [ref=f5e86]: c
+                - generic [ref=f5e87]: t
+      - button "Toggle Menu" [ref=f5e88] [cursor=pointer]
+  - generic [ref=f5e90]:
+    - generic [ref=f5e91]:
+      - link "Index" [ref=f5e92] [cursor=pointer]:
+        - /url: https://unseen.co
+        - generic: "01"
+        - generic:
+          - generic: I
+          - generic: "n"
+          - generic: d
+          - generic: e
+          - generic: x
+        - generic:
+          - generic: I
+          - generic: "n"
+          - generic: d
+          - generic: e
+          - generic: x
+      - link "Projects" [ref=f5e93] [cursor=pointer]:
+        - /url: https://unseen.co/projects/
+        - generic: "02"
+        - generic:
+          - generic: P
+          - generic: r
+          - generic: o
+          - generic: j
+          - generic: e
+          - generic: c
+          - generic: t
+          - generic: s
+        - generic:
+          - generic: P
+          - generic: r
+          - generic: o
+          - generic: j
+          - generic: e
+          - generic: c
+          - generic: t
+          - generic: s
+      - link "Contact" [ref=f5e94] [cursor=pointer]:
+        - /url: https://unseen.co/contact/
+        - generic: "03"
+        - generic:
+          - generic: C
+          - generic: o
+          - generic: "n"
+          - generic: t
+          - generic: a
+          - generic: c
+          - generic: t
+        - generic:
+          - generic: C
+          - generic: o
+          - generic: "n"
+          - generic: t
+          - generic: a
+          - generic: c
+          - generic: t
+      - link "World" [ref=f5e95] [cursor=pointer]:
+        - /url: https://unseen.co/world/
+        - generic: "04"
+        - generic:
+          - generic: W
+          - generic: o
+          - generic: r
+          - generic: l
+          - generic: d
+        - generic:
+          - generic: W
+          - generic: o
+          - generic: r
+          - generic: l
+          - generic: d
+    - generic [ref=f5e96]:
+      - generic [ref=f5e97]:
+        - link "⮡ projects@unseen.co" [ref=f5e98] [cursor=pointer]:
+          - /url: mailto:projects@unseen.co
+          - generic:
+            - generic: ⮡
+            - text: projects@unseen.co
+        - link "⮡ (+44) 0117 922 6892" [ref=f5e99] [cursor=pointer]:
+          - /url: tel:(+44) 0117 922 6892
+          - generic:
+            - generic: ⮡
+            - text: (+44) 0117 922 6892
+      - generic [ref=f5e100]:
+        - link "⮡ Twitter" [ref=f5e101] [cursor=pointer]:
+          - /url: https://twitter.com/uns__nstudio
+          - generic:
+            - generic: ⮡
+            - text: Twitter
+        - link "⮡ Instagram" [ref=f5e102] [cursor=pointer]:
+          - /url: https://www.instagram.com/uns__nstudio/
+          - generic:
+            - generic: ⮡
+            - text: Instagram
+        - link "⮡ LinkedIn" [ref=f5e103] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/un-seen-studio
+          - generic:
+            - generic: ⮡
+            - text: LinkedIn
+        - link "⮡ Dribbble" [ref=f5e104] [cursor=pointer]:
+          - /url: https://dribbble.com/unseenstudio
+          - generic:
+            - generic: ⮡
+            - text: Dribbble
+        - link "⮡ Behance" [ref=f5e105] [cursor=pointer]:
+          - /url: https://www.behance.net/unseen-studio
+          - generic:
+            - generic: ⮡
+            - text: Behance
+  - generic:
+    - button "Toggle Sound" [ref=f5e106] [cursor=pointer]
+    - link "Our 2025 Wrapped Our 2025 Wrapped Our 2025 Wrapped" [ref=f5e108] [cursor=pointer]:
+      - /url: https://2025.unseen.co/
+      - generic:
+        - generic: Our 2025 Wrapped
+        - generic: Our 2025 Wrapped
+        - generic: Our 2025 Wrapped
+    - link "Unseen World" [ref=f5e109] [cursor=pointer]:
+      - /url: https://unseen.co/world/
+      - generic:
+        - generic:
+          - generic: Unseen
+          - generic: World
+    - generic [ref=f5e110]: ©2026
+  - main [ref=f5e112]:
+    - heading "Home" [level=1] [ref=f5e113]

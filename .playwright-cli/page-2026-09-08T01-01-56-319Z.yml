@@ -1,0 +1,510 @@
+- generic [active] [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - navigation "Main navigation" [ref=f6e4]:
+        - link "TinyWins home" [ref=f6e5] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f6e17]:
+          - link "Work" [ref=f6e18] [cursor=pointer]:
+            - /url: /work
+          - link "Approach" [ref=f6e19] [cursor=pointer]:
+            - /url: /approach
+          - link "About" [ref=f6e20] [cursor=pointer]:
+            - /url: /about
+          - link "Careers" [ref=f6e21] [cursor=pointer]:
+            - /url: /careers
+          - link "News" [ref=f6e22] [cursor=pointer]:
+            - /url: /news
+          - button "Contact" [ref=f6e23] [cursor=pointer]
+      - button "Latest Wins" [ref=f6e24] [cursor=pointer]
+  - generic [ref=f6e27]:
+    - main [ref=f6e28]:
+      - generic [ref=f6e29]:
+        - generic [ref=f6e30]:
+          - generic [ref=f6e32]:
+            - generic [ref=f6e33]:
+              - generic [ref=f6e34]:
+                - generic [aria-hidden] [ref=f6e35]:
+                  - generic [ref=f6e36]:
+                    - generic [ref=f6e37]: THE
+                    - generic [ref=f6e38]: ONLY
+                    - generic [ref=f6e39]: THING
+                  - generic [ref=f6e40]:
+                    - generic [ref=f6e41]: THAT
+                    - generic [ref=f6e42]: MATTERS
+                - generic [aria-hidden] [ref=f6e43]:
+                  - generic [ref=f6e44]:
+                    - generic [ref=f6e45]: IS
+                    - generic [ref=f6e46]: HOW
+                    - generic [ref=f6e47]: YOU
+                  - generic [ref=f6e48]:
+                    - generic [ref=f6e49]: MAKE
+                    - generic [ref=f6e50]: THEM
+                    - generic [ref=f6e51]: FEEL
+              - generic [ref=f6e52]:
+                - generic [aria-hidden] [ref=f6e53]:
+                  - generic [ref=f6e54]:
+                    - generic [ref=f6e55]: HOW
+                    - generic [ref=f6e56]: YOU
+                  - generic [ref=f6e57]:
+                    - generic [ref=f6e58]: MAKE
+                    - generic [ref=f6e59]: THEM
+                    - generic [ref=f6e60]: FEEL
+                - generic [aria-hidden] [ref=f6e61]:
+                  - generic [ref=f6e62]:
+                    - generic [ref=f6e63]: IS
+                    - generic [ref=f6e64]: THE
+                    - generic [ref=f6e65]: ONLY
+                    - generic [ref=f6e66]: THING
+                  - generic [ref=f6e67]:
+                    - generic [ref=f6e68]: THAT
+                    - generic [ref=f6e69]: MATTERS
+            - generic [ref=f6e71]:
+              - paragraph [ref=f6e72]:
+                - generic [ref=f6e73]: 357%
+                - generic [ref=f6e74]: average
+                - generic [ref=f6e75]: client
+                - generic [ref=f6e76]: value
+                - generic [ref=f6e77]: growth
+              - paragraph [ref=f6e78]:
+                - generic [ref=f6e79]: "7"
+                - generic [ref=f6e80]: unicorns
+                - generic [ref=f6e81]: and
+                - generic [ref=f6e82]: counting
+              - paragraph [ref=f6e83]:
+                - generic [ref=f6e84]: $10B+
+                - generic [ref=f6e85]: raised
+                - generic [ref=f6e86]: by
+                - generic [ref=f6e87]: TinyWins
+                - generic [ref=f6e88]: portfolio
+                - generic [ref=f6e89]: companies
+          - heading "The only thing that matters is how you make them feel" [level=1] [ref=f6e90]
+        - generic [ref=f6e97]:
+          - paragraph [ref=f6e99]:
+            - generic [aria-hidden] [ref=f6e101]: We build brands that triumph with emotion.
+          - heading "LET’S MAKE THEM FEEL SOMETHING" [level=2]:
+            - generic: LET’S MAKE THEM
+            - generic: FEEL SOMETHING
+      - region "Emotional spectrum" [ref=f6e103]:
+        - generic [ref=f6e105]:
+          - generic [ref=f6e106]: Make them feel
+          - generic [ref=f6e108]: elevated
+        - generic [ref=f6e111]:
+          - link "View Joby case study" [ref=f6e113] [cursor=pointer]:
+            - /url: /works/joby
+            - generic [ref=f6e114]:
+              - generic [aria-hidden]:
+                - generic: Elevated
+              - img "Joby" [ref=f6e117]
+              - paragraph [ref=f6e119]:
+                - generic [ref=f6e120]: Joby
+                - text: Elevated
+          - link "View Halo Industries case study" [ref=f6e122] [cursor=pointer]:
+            - /url: /works/halo
+            - generic [ref=f6e123]:
+              - generic [aria-hidden]:
+                - generic: Bright
+              - img "Halo Industries" [ref=f6e126]
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Halo Industries
+                  - text: Bright
+          - link "View Cottonball case study" [ref=f6e128] [cursor=pointer]:
+            - /url: /works/cottonball
+            - generic [ref=f6e129]:
+              - generic [aria-hidden]:
+                - generic: Radiant
+              - img "Cottonball" [ref=f6e132]
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Cottonball
+                  - text: Radiant
+          - link "View Amesa case study" [ref=f6e134] [cursor=pointer]:
+            - /url: /works/amesa
+            - generic [ref=f6e135]:
+              - generic [aria-hidden]:
+                - generic: Optimized
+              - img "Amesa" [ref=f6e138]
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Amesa
+                  - text: Optimized
+          - link "View Axum Capital case study" [ref=f6e140] [cursor=pointer]:
+            - /url: /works/axum
+            - generic [ref=f6e141]:
+              - generic [aria-hidden]:
+                - generic: Steady
+              - img "Axum Capital" [ref=f6e144]
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Axum Capital
+                  - text: Steady
+          - generic [ref=f6e146]:
+            - generic [aria-hidden]:
+              - generic: Fortified
+            - generic [aria-hidden]:
+              - paragraph:
+                - generic: Shield AI
+                - text: Fortified
+          - link "View Mienne case study" [ref=f6e148] [cursor=pointer]:
+            - /url: /works/mienne
+            - generic [ref=f6e149]:
+              - generic [aria-hidden]:
+                - generic: Turned On
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Mienne
+                  - text: Turned On
+          - link "View Azione case study" [ref=f6e151] [cursor=pointer]:
+            - /url: /works/azione
+            - generic [ref=f6e152]:
+              - generic [aria-hidden]:
+                - generic: Polished
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Azione
+                  - text: Polished
+          - link "View FreeGame case study" [ref=f6e154] [cursor=pointer]:
+            - /url: /works/freegame
+            - generic [ref=f6e155]:
+              - generic [aria-hidden]:
+                - generic: Ahead Of The Game
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: FreeGame
+                  - text: Ahead Of The Game
+          - link "View Keyes case study" [ref=f6e157] [cursor=pointer]:
+            - /url: /works/keyes
+            - generic [ref=f6e158]:
+              - generic [aria-hidden]:
+                - generic: At Home
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Keyes
+                  - text: At Home
+          - link "View Hallandale case study" [ref=f6e160] [cursor=pointer]:
+            - /url: /works/hallandale
+            - generic [ref=f6e161]:
+              - generic [aria-hidden]:
+                - generic: Well Mastered
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Hallandale
+                  - text: Well Mastered
+          - link "View Tony Robbins case study" [ref=f6e163] [cursor=pointer]:
+            - /url: /works/tony-robbins
+            - generic [ref=f6e164]:
+              - generic [aria-hidden]:
+                - generic: Unleashed
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Tony Robbins
+                  - text: Unleashed
+          - link "View Supergut case study" [ref=f6e166] [cursor=pointer]:
+            - /url: /works/supergut
+            - generic [ref=f6e167]:
+              - generic [aria-hidden]:
+                - generic: Gutsy
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Supergut
+                  - text: Gutsy
+          - generic [ref=f6e169]:
+            - generic [aria-hidden]:
+              - generic: Healthy
+            - generic [aria-hidden]:
+              - paragraph:
+                - generic: Albertsons
+                - text: Healthy
+          - link "View Veritas Veterinary Partners case study" [ref=f6e171] [cursor=pointer]:
+            - /url: /works/veritas-vet-partners-hospital-sites
+            - generic [ref=f6e172]:
+              - generic [aria-hidden]:
+                - generic: United
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Veritas Veterinary Partners
+                  - text: United
+          - link "View Noble Machines case study" [ref=f6e174] [cursor=pointer]:
+            - /url: /works/noble-machines
+            - generic [ref=f6e175]:
+              - generic [aria-hidden]:
+                - generic: Purposeful
+              - generic [aria-hidden]:
+                - paragraph:
+                  - generic: Noble Machines
+                  - text: Purposeful
+      - region "Brand Statement & Services" [ref=f6e196]:
+        - heading [level=2] [ref=f6e199]:
+          - generic "TinyWins is a global feelings studio that builds obsession-worthy brands for the modern age." [ref=f6e200]:
+            - generic [aria-hidden] [ref=f6e202]: TinyWins is a global feelings studio that
+            - generic [aria-hidden] [ref=f6e204]: builds obsession-worthy brands for the
+            - generic [aria-hidden] [ref=f6e206]: modern age.
+        - generic [ref=f6e209]:
+          - paragraph [ref=f6e210]:
+            - generic [aria-hidden] [ref=f6e212]: Our services
+          - generic [ref=f6e216]:
+            - img "Strategy" [ref=f6e218]
+            - img "Verbal Identity" [ref=f6e220]
+            - img "Visual Identity" [ref=f6e222]
+            - img "Digital Experience" [ref=f6e224]
+            - img "Go to Market Strategy" [ref=f6e226]
+            - img "Future Evolution" [ref=f6e228]
+          - generic [ref=f6e230]:
+            - paragraph [ref=f6e231]: Platform
+            - paragraph [ref=f6e232]: Positioning
+            - paragraph [ref=f6e233]: Brand Architecture
+            - paragraph [ref=f6e234]: Naming
+        - generic [ref=f6e236]:
+          - generic [ref=f6e238]:
+            - img "Activision logo" [ref=f6e242]
+            - img "Activision logo" [ref=f6e246]
+          - generic [ref=f6e248]:
+            - link "View Slack" [ref=f6e250] [cursor=pointer]:
+              - /url: /works/slack
+              - img "Slack logo" [ref=f6e253]
+            - link "View Slack" [ref=f6e255] [cursor=pointer]:
+              - /url: /works/slack
+              - img "Slack logo" [ref=f6e258]
+          - generic [ref=f6e260]:
+            - img "Audi logo" [ref=f6e264]
+            - img "Audi logo" [ref=f6e268]
+          - generic [ref=f6e270]:
+            - link "View Salesforce" [ref=f6e272] [cursor=pointer]:
+              - /url: /works/salesforce
+              - img "salesforce" [ref=f6e275]
+            - link "View Salesforce" [ref=f6e277] [cursor=pointer]:
+              - /url: /works/salesforce
+              - img "salesforce" [ref=f6e280]
+          - generic [ref=f6e282]:
+            - img "Visa logo" [ref=f6e286]
+            - img "Visa logo" [ref=f6e290]
+          - generic [ref=f6e292]:
+            - img "ServiceNow logo" [ref=f6e296]
+            - img "ServiceNow logo" [ref=f6e300]
+      - region "Selected Work" [ref=f6e301]:
+        - generic [ref=f6e302]:
+          - generic [ref=f6e303]:
+            - link "View Cottonball" [ref=f6e306] [cursor=pointer]:
+              - /url: /works/cottonball
+              - article [ref=f6e307]:
+                - img "Cottonball" [ref=f6e310]
+                - generic [ref=f6e311]:
+                  - heading "Cottonball" [level=3] [ref=f6e312]
+                  - generic [ref=f6e313]: Cultivating a couture skincare experience
+            - link "View Amesa" [ref=f6e315] [cursor=pointer]:
+              - /url: /works/amesa
+              - article [ref=f6e316]:
+                - generic [ref=f6e320]:
+                  - heading "Amesa" [level=3] [ref=f6e321]
+                  - generic [ref=f6e322]: Pioneering engineered intelligence
+          - link "View Shield AI" [ref=f6e327] [cursor=pointer]:
+            - /url: /works/shield-ai
+            - img "Shield AI" [ref=f6e331]
+            - generic [ref=f6e332]:
+              - heading "Shield AI" [level=3] [ref=f6e333]
+              - generic [ref=f6e334]: Building the future of defense
+          - generic [ref=f6e335]:
+            - generic [ref=f6e336]:
+              - link "View FreeGame" [ref=f6e338] [cursor=pointer]:
+                - /url: /works/freegame
+                - article [ref=f6e339]:
+                  - img "FreeGame" [ref=f6e342]
+                  - generic [ref=f6e343]:
+                    - heading "FreeGame" [level=3] [ref=f6e344]
+                    - generic [ref=f6e345]: Redefining representation for a new era of athletes
+              - link "All Work 54" [ref=f6e349] [cursor=pointer]:
+                - /url: /work
+                - generic [ref=f6e355]:
+                  - generic [ref=f6e356]: All Work
+                  - generic [ref=f6e357]: "54"
+            - link "View Mienne" [ref=f6e359] [cursor=pointer]:
+              - /url: /works/mienne
+              - article [ref=f6e360]:
+                - img "Mienne" [ref=f6e363]
+                - generic [ref=f6e364]:
+                  - heading "Mienne" [level=3] [ref=f6e365]
+                  - generic [ref=f6e366]: Awakening the senses
+      - region "Shipyard" [ref=f6e367]:
+        - generic [ref=f6e368]:
+          - img "Shipyard" [ref=f6e369]
+          - heading "Independent by nature. Backed by Shipyard." [level=2] [ref=f6e378]:
+            - generic [aria-hidden] [ref=f6e380]: Independent by nature.
+            - generic [aria-hidden] [ref=f6e382]: Backed by Shipyard.
+          - generic [ref=f6e383]:
+            - paragraph [ref=f6e384]:
+              - generic [aria-hidden] [ref=f6e386]: An independent creative studio within Shipyard,
+              - generic [aria-hidden] [ref=f6e388]: crafting thoughtful identities, campaigns, and
+              - generic [aria-hidden] [ref=f6e390]: experiences for ambitious brands.
+            - link [ref=f6e391] [cursor=pointer]:
+              - /url: https://www.theshipyard.com
+              - generic "Explore Shipyard" [ref=f6e396]:
+                - generic [aria-hidden] [ref=f6e398]: Explore Shipyard
+      - region "Feeling Vital" [ref=f6e400]:
+        - generic [ref=f6e402]:
+          - heading "Feeling Vital" [level=2] [ref=f6e403]:
+            - generic [aria-hidden] [ref=f6e405]: Feeling Vital
+          - paragraph [ref=f6e406]:
+            - generic [aria-hidden] [ref=f6e408]: Beauty. Wellness. Healthy living. We turn
+            - generic [aria-hidden] [ref=f6e410]: differentiation into desire and brands into
+            - generic [aria-hidden] [ref=f6e412]: category leaders.
+        - generic [ref=f6e414]:
+          - link "View Cottonball" [ref=f6e415] [cursor=pointer]:
+            - /url: /works/cottonball
+            - heading "Cottonball" [level=3] [ref=f6e417]:
+              - generic [aria-hidden] [ref=f6e419]: Cottonball
+          - link "View Mienne" [ref=f6e420] [cursor=pointer]:
+            - /url: /works/mienne
+            - heading "Mienne" [level=3] [ref=f6e422]:
+              - generic [aria-hidden] [ref=f6e424]: Mienne
+          - link "View ReSpin" [ref=f6e425] [cursor=pointer]:
+            - /url: /works/respin
+            - heading "ReSpin" [level=3] [ref=f6e427]:
+              - generic [aria-hidden] [ref=f6e429]: ReSpin
+          - link "View Hallandale" [ref=f6e430] [cursor=pointer]:
+            - /url: /works/hallandale
+            - heading "Hallandale" [level=3] [ref=f6e432]:
+              - generic [aria-hidden] [ref=f6e434]: Hallandale
+          - link "View Hydrinity" [ref=f6e435] [cursor=pointer]:
+            - /url: /works/hydrinity
+            - heading "Hydrinity" [level=3] [ref=f6e437]:
+              - generic [aria-hidden] [ref=f6e439]: Hydrinity
+          - link "View Senté" [ref=f6e440] [cursor=pointer]:
+            - /url: /works/sente
+            - heading "Senté" [level=3] [ref=f6e442]:
+              - generic [aria-hidden] [ref=f6e444]: Senté
+      - region "Feeling Future-proof" [ref=f6e446]:
+        - generic [ref=f6e449]:
+          - heading "Feeling Future-proof" [level=2] [ref=f6e450]:
+            - generic [aria-hidden] [ref=f6e452]: Feeling Future-proof
+          - paragraph [ref=f6e453]:
+            - generic [aria-hidden] [ref=f6e455]: Industrial. Intelligence. Defense. We turn
+            - generic [aria-hidden] [ref=f6e457]: market-edge technology into clarity, credibility,
+            - generic [aria-hidden] [ref=f6e459]: and narrative power.
+        - generic [ref=f6e461]:
+          - link "View Shield AI" [ref=f6e462] [cursor=pointer]:
+            - /url: /works/shield-ai
+            - heading "Shield AI" [level=3] [ref=f6e464]:
+              - generic [aria-hidden] [ref=f6e466]: Shield AI
+          - heading "Noble Machines" [level=3] [ref=f6e469]:
+            - generic [aria-hidden] [ref=f6e471]: Noble Machines
+          - heading "Field AI" [level=3] [ref=f6e474]:
+            - generic [aria-hidden] [ref=f6e476]: Field AI
+          - link "View Halo Industries" [ref=f6e477] [cursor=pointer]:
+            - /url: /works/halo
+            - heading "Halo Industries" [level=3] [ref=f6e479]:
+              - generic [aria-hidden] [ref=f6e481]: Halo Industries
+          - link "View Amesa" [ref=f6e482] [cursor=pointer]:
+            - /url: /works/amesa
+            - heading "Amesa" [level=3] [ref=f6e484]:
+              - generic [aria-hidden] [ref=f6e486]: Amesa
+      - generic [ref=f6e487]:
+        - region "About & Methodology" [ref=f6e488]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - paragraph: Approach
+                - paragraph: "From machines powered by code to beauty powered by culture, the starting point never changes: define the feeling first."
+                - link "Learn more" [ref=f6e494] [cursor=pointer]:
+                  - /url: /approach
+      - region "News" [ref=f6e495]:
+        - region "Victory Statement" [ref=f6e496]:
+          - heading "Dollars raised. Accolades earned. horizons conquered." [level=2] [ref=f6e498]:
+            - generic [aria-hidden] [ref=f6e500]: Dollars raised. Accolades earned.
+            - generic [aria-hidden] [ref=f6e502]: horizons conquered.
+        - generic [ref=f6e505]:
+          - generic [ref=f6e506]:
+            - paragraph [ref=f6e507]:
+              - generic [aria-hidden] [ref=f6e509]: Latest partnerships, launches,
+              - generic [aria-hidden] [ref=f6e511]: recognition, and press
+            - link [ref=f6e512] [cursor=pointer]:
+              - /url: /news
+              - generic "See more" [ref=f6e517]:
+                - generic [aria-hidden] [ref=f6e519]: See more
+          - generic [ref=f6e520]:
+            - link [ref=f6e521] [cursor=pointer]:
+              - /url: https://www.jobyaviation.com/
+              - article [ref=f6e522]:
+                - img "Launching a digital identity for Joby’s all electric air taxi" [ref=f6e526]
+                - generic [ref=f6e527]:
+                  - generic [ref=f6e528]:
+                    - generic [ref=f6e529]: Partnerships
+                    - generic [ref=f6e530]: Jan 29, 2026
+                  - heading "Launching a digital identity for Joby’s all electric air taxi" [level=3] [ref=f6e531]:
+                    - generic [aria-hidden] [ref=f6e533]: Launching a digital identity for Joby’s all
+                    - generic [aria-hidden] [ref=f6e535]: electric air taxi
+            - link [ref=f6e536] [cursor=pointer]:
+              - /url: https://www.visa.com/en-us
+              - article [ref=f6e537]:
+                - img "Positioning Visa for new eyes on social" [ref=f6e541]
+                - generic [ref=f6e542]:
+                  - generic [ref=f6e543]:
+                    - generic [ref=f6e544]: Partnerships
+                    - generic [ref=f6e545]: Jan 29, 2026
+                  - heading "Positioning Visa for new eyes on social" [level=3] [ref=f6e546]:
+                    - generic [aria-hidden] [ref=f6e548]: Positioning Visa for new eyes on social
+            - link [ref=f6e549] [cursor=pointer]:
+              - /url: https://www.momtastic.com/news/809828-halle-berry-menopause-respin-wellness-brand/
+              - article [ref=f6e550]:
+                - img "Halle Berry rebrands menopause with Respin" [ref=f6e554]
+                - generic [ref=f6e555]:
+                  - generic [ref=f6e556]:
+                    - generic [ref=f6e557]: Launches
+                    - generic [ref=f6e558]: Oct 24, 2024
+                  - heading "Halle Berry rebrands menopause with Respin" [level=3] [ref=f6e559]:
+                    - generic [aria-hidden] [ref=f6e561]: Halle Berry rebrands menopause with
+                    - generic [aria-hidden] [ref=f6e563]: Respin
+            - link [ref=f6e564] [cursor=pointer]:
+              - /url: https://www.cnbc.com/2025/05/28/joby-aviation-shares-toyota.html
+              - article [ref=f6e565]:
+                - img "Joby announces closing of $250M investment from Toyota" [ref=f6e569]
+                - generic [ref=f6e570]:
+                  - generic [ref=f6e571]:
+                    - generic [ref=f6e572]: Client Wins
+                    - generic [ref=f6e573]: May 28, 2025
+                  - heading "Joby announces closing of $250M investment from Toyota" [level=3] [ref=f6e574]:
+                    - generic [aria-hidden] [ref=f6e576]: Joby announces closing of $250M
+                    - generic [aria-hidden] [ref=f6e578]: investment from Toyota
+            - link [ref=f6e579] [cursor=pointer]:
+              - /url: https://www.salesforce.com/
+              - article [ref=f6e580]:
+                - img "Imagining the future of work with Salesforce" [ref=f6e584]
+                - generic [ref=f6e585]:
+                  - generic [ref=f6e586]:
+                    - generic [ref=f6e587]: Partnerships
+                    - generic [ref=f6e588]: Jan 29, 2026
+                  - heading "Imagining the future of work with Salesforce" [level=3] [ref=f6e589]:
+                    - generic [aria-hidden] [ref=f6e591]: Imagining the future of work with Salesforce
+    - contentinfo [ref=f6e592]:
+      - generic [ref=f6e594]:
+        - generic [ref=f6e595]:
+          - paragraph [ref=f6e596]:
+            - generic [aria-hidden] [ref=f6e598]: Let’s win together
+          - link "hello@tinywins.com" [ref=f6e599] [cursor=pointer]:
+            - /url: mailto:hello@tinywins.com
+        - generic [ref=f6e600]:
+          - generic [ref=f6e601]:
+            - paragraph [ref=f6e602]: TinyWins
+            - navigation "Footer navigation" [ref=f6e603]:
+              - link "Work" [ref=f6e604] [cursor=pointer]:
+                - /url: /work
+              - link "About" [ref=f6e605] [cursor=pointer]:
+                - /url: /about
+              - link "Approach" [ref=f6e606] [cursor=pointer]:
+                - /url: /approach
+              - link "News" [ref=f6e607] [cursor=pointer]:
+                - /url: /news
+              - link "Careers" [ref=f6e608] [cursor=pointer]:
+                - /url: /careers
+          - generic [ref=f6e609]:
+            - paragraph [ref=f6e610]: Connect on
+            - generic [ref=f6e611]:
+              - link "Instagram" [ref=f6e612] [cursor=pointer]:
+                - /url: https://www.instagram.com/tinywins/
+              - link "LinkedIn" [ref=f6e613] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/tinywins
+              - link "X" [ref=f6e614] [cursor=pointer]:
+                - /url: https://x.com/TinyWinsHQ
+      - img "Shipyard TinyWins logo wordmark" [ref=f6e617]
+  - alert [ref=f6e618]

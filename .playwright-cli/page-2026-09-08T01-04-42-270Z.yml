@@ -1,0 +1,141 @@
+- generic [active] [ref=f8e1]:
+  - banner:
+    - navigation [ref=f8e2]:
+      - link "Aino" [ref=f8e4] [cursor=pointer]:
+        - /url: /
+      - generic [ref=f8e5]:
+        - link "Work" [ref=f8e6] [cursor=pointer]:
+          - /url: /work
+        - link "Services" [ref=f8e7] [cursor=pointer]:
+          - /url: /services
+      - generic [ref=f8e8]:
+        - link "About" [ref=f8e9] [cursor=pointer]:
+          - /url: /about
+        - link "Play" [ref=f8e10] [cursor=pointer]:
+          - /url: /play
+      - generic [ref=f8e11]:
+        - button "Settings" [ref=f8e12] [cursor=pointer]
+        - link "Contact" [ref=f8e13] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f8e14]:
+    - generic [ref=f8e15]: ====================================================================================================================================================
+    - generic [ref=f8e17]:
+      - generic [ref=f8e18]:
+        - generic [ref=f8e19]:
+          - link [ref=f8e20] [cursor=pointer]:
+            - /url: /work/sandisk
+            - img "Aino Agency" [ref=f8e22]
+            - heading "A002 SANDISK" [level=3] [ref=f8e24]
+          - link [ref=f8e25] [cursor=pointer]:
+            - /url: /work/samsoe-samsoe
+            - heading "A004 SAMSØE SAMSØE" [level=3] [ref=f8e29]
+        - generic [ref=f8e32]:
+          - heading "A design and technology agency in Scandinavia. We design and build online stores for fashion and lifestyle brands." [level=1] [ref=f8e33]
+          - generic [ref=f8e34]:
+            - link "All work" [ref=f8e35] [cursor=pointer]:
+              - /url: /work
+            - link "Our services" [ref=f8e36] [cursor=pointer]:
+              - /url: /services
+        - generic [ref=f8e37]:
+          - link [ref=f8e38] [cursor=pointer]:
+            - /url: /work/nudie-jeans
+            - img "Aino Agency" [ref=f8e40]
+            - heading "a001 nudie jeans" [level=3] [ref=f8e42]
+          - link [ref=f8e43] [cursor=pointer]:
+            - /url: /work/emmas
+            - img "Aino Agency" [ref=f8e45]
+            - heading "a020 emma s" [level=3] [ref=f8e47]
+        - generic [ref=f8e48]:
+          - link [ref=f8e49] [cursor=pointer]:
+            - /url: /work/all-blues
+            - img "Aino Agency" [ref=f8e51]
+            - heading "A007 All Blues" [level=3] [ref=f8e53]
+          - link [ref=f8e54] [cursor=pointer]:
+            - /url: /work/gulled
+            - img "Aino Agency" [ref=f8e56]
+            - heading "A010 Gulled" [level=3] [ref=f8e58]
+        - link [ref=f8e60] [cursor=pointer]:
+          - /url: /work/beyond-medals
+          - img "Aino Agency" [ref=f8e62]
+          - heading "a011 beyond medals" [level=3] [ref=f8e64]
+        - generic [ref=f8e65]:
+          - link [ref=f8e66] [cursor=pointer]:
+            - /url: /work/socksss
+            - img "Aino Agency" [ref=f8e68]
+            - heading "a014 Socksss" [level=3] [ref=f8e70]
+          - link [ref=f8e71] [cursor=pointer]:
+            - /url: /work/tinted
+            - img "Aino Agency" [ref=f8e73]
+            - heading "a015 tinted" [level=3] [ref=f8e75]
+          - link [ref=f8e76] [cursor=pointer]:
+            - /url: /work/sweet-sktbs
+            - img "Aino Agency" [ref=f8e78]
+            - heading "a021 sweet sktbs" [level=3] [ref=f8e80]
+        - link [ref=f8e82] [cursor=pointer]:
+          - /url: /work/molo
+          - img "Aino Agency" [ref=f8e84]
+          - heading "a005 Molo" [level=3] [ref=f8e86]
+      - paragraph [ref=f8e90]: Scandinavian design with engineering underneath, made in Gothenburg, Sweden, and Oslo. We build storefronts on Centra and Shopify, brand identities and campaign sites for clients across Scandinavia, the UK and the US.
+      - generic [ref=f8e92]:
+        - heading "Find out more" [level=2] [ref=f8e94]
+        - list [ref=f8e96]:
+          - listitem [ref=f8e97]:
+            - link "Our services" [ref=f8e98] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f8e99]:
+            - link "Centra Accelerator" [ref=f8e100] [cursor=pointer]:
+              - /url: /services/centra
+          - listitem [ref=f8e101]:
+            - link "Centra Agency" [ref=f8e102] [cursor=pointer]:
+              - /url: /centra-agency
+          - listitem [ref=f8e103]:
+            - link "Fashion E-commerce" [ref=f8e104] [cursor=pointer]:
+              - /url: /fashion-ecommerce-agency
+          - listitem [ref=f8e105]:
+            - link "Brink Commerce" [ref=f8e106] [cursor=pointer]:
+              - /url: /brink-commerce-agency
+          - listitem [ref=f8e107]:
+            - link "Replatforming" [ref=f8e108] [cursor=pointer]:
+              - /url: /services/replatforming
+          - listitem [ref=f8e109]:
+            - link "Shopify Accelerator" [ref=f8e110] [cursor=pointer]:
+              - /url: /services/shopify
+          - listitem [ref=f8e111]:
+            - link "Shopify Liquid Themes" [ref=f8e112] [cursor=pointer]:
+              - /url: /services/shopify-theme
+          - listitem [ref=f8e113]:
+            - link "Design Studio" [ref=f8e114] [cursor=pointer]:
+              - /url: /services/design
+          - listitem [ref=f8e115]:
+            - link "Intelligence Layer" [ref=f8e116] [cursor=pointer]:
+              - /url: /services/intelligence
+          - listitem [ref=f8e117]:
+            - link "Slash Portal" [ref=f8e118] [cursor=pointer]:
+              - /url: /slash
+        - generic [ref=f8e120]:
+          - heading "Join us in building the future of digital commerce." [level=2] [ref=f8e121]: Join us in building thefuture of digital commerce.
+          - paragraph [ref=f8e123]:
+            - link "Start a project" [ref=f8e124] [cursor=pointer]:
+              - /url: /contact
+  - contentinfo [ref=f8e125]:
+    - img "Aino" [ref=f8e127]
+    - generic [ref=f8e128]:
+      - generic [ref=f8e129]:
+        - generic [ref=f8e130]: GBG/OSL
+        - generic [ref=f8e131]: Tuesday 08:04:41
+      - generic [ref=f8e132]:
+        - heading "New Business" [level=2] [ref=f8e133]
+        - link "julie@aino.agency" [ref=f8e134] [cursor=pointer]:
+          - /url: mailto:julie@aino.agency
+      - generic [ref=f8e135]:
+        - generic [ref=f8e136]:
+          - link "Journal" [ref=f8e137] [cursor=pointer]:
+            - /url: /journal
+          - link "Careers" [ref=f8e138] [cursor=pointer]:
+            - /url: /careers
+        - generic [ref=f8e139]:
+          - link "Linkedin" [ref=f8e140] [cursor=pointer]:
+            - /url: https://linkedin.com/company/aino
+          - link "Instagram" [ref=f8e141] [cursor=pointer]:
+            - /url: https://instagram.com/aino.agency
+  - generic [ref=f8e142]: .

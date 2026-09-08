@@ -33,7 +33,7 @@ test("server-renders the Kego Works landing page", async () => {
   assert.match(html, /A short path to/);
   assert.doesNotMatch(html, /0[1-3]\s*\/\s*(?:Talk|Build|Launch)/i);
   assert.match(html, /Keep it with me,/);
-  assert.match(html, /Have a project in mind\?/);
+  assert.match(html, /Have an idea worth making\?/);
   assert.doesNotMatch(html, /closing-eyebrow/);
   assert.doesNotMatch(html, /Tell me what you want to build\./);
   assert.doesNotMatch(html, /A BETTER SITE|TWO WAYS/);

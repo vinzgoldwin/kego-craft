@@ -1,0 +1,250 @@
+- generic [active] [ref=f10e1]:
+  - navigation [ref=f10e2]:
+    - generic [ref=f10e3]:
+      - button "Go to homepage" [ref=f10e4] [cursor=pointer]
+      - generic [ref=f10e8]:
+        - link "Home" [ref=f10e10] [cursor=pointer]:
+          - /url: /
+        - link "Services" [ref=f10e12] [cursor=pointer]:
+          - /url: /services
+        - generic [ref=f10e13]:
+          - link "Showcase" [ref=f10e14] [cursor=pointer]:
+            - /url: /showcase
+          - superscript: (26)
+        - link "People" [ref=f10e16] [cursor=pointer]:
+          - /url: /people
+        - generic [ref=f10e17]:
+          - link "Blog" [ref=f10e18] [cursor=pointer]:
+            - /url: /blog
+          - superscript: (29)
+        - link "Lab" [ref=f10e20] [cursor=pointer]:
+          - /url: /lab
+      - generic [ref=f10e21]:
+        - button "Turn music on" [ref=f10e22] [cursor=pointer]
+        - button "Contact Us" [ref=f10e30] [cursor=pointer]
+  - generic [ref=f10e31]:
+    - main [ref=f10e32]:
+      - generic [ref=f10e33]:
+        - article [ref=f10e35]:
+          - heading "A digital studio & branding powerhouse making cool shit that performs" [level=1] [ref=f10e37]
+          - paragraph [ref=f10e39]: We partner with the world’s most ambitious startups, scale-ups and brands to unlock their true potential and growth through the convergence of creativity, design, and technology.
+        - generic [ref=f10e40]:
+          - heading "Trusted by Visionaries" [level=2] [ref=f10e42]
+          - generic [ref=f10e44]:
+            - link "SpaceX AI" [ref=f10e45]:
+              - /url: https://x.ai
+            - link "Vercel" [ref=f10e48]:
+              - /url: https://vercel.com
+            - link "Next.js" [ref=f10e51]:
+              - /url: https://nextjs.org
+            - link "Linear" [ref=f10e54]:
+              - /url: https://linear.app
+            - link "Cursor" [ref=f10e57]:
+              - /url: https://www.cursor.com/
+            - link "Scale" [ref=f10e60]:
+              - /url: https://scale.com
+            - link "World Labs" [ref=f10e63]:
+              - /url: https://www.worldlabs.ai/
+            - link "Eleven Labs" [ref=f10e66]:
+              - /url: https://elevenlabs.io/
+            - link "Mintlify" [ref=f10e69]:
+              - /url: https://www.mintlify.com/
+            - link "Harvey" [ref=f10e72]:
+              - /url: https://www.harvey.ai/
+            - link "Baseten" [ref=f10e75]:
+              - /url: https://www.baseten.co/
+            - link "Together.ai" [ref=f10e78]:
+              - /url: https://www.together.ai/
+            - link "Black Forest Labs" [ref=f10e81]:
+              - /url: https://blackforestlabs.ai/
+            - link "Profound" [ref=f10e84]:
+              - /url: https://www.tryprofound.com/
+            - link "Rox" [ref=f10e87]:
+              - /url: https://www.rox.com/
+            - link "Factory" [ref=f10e90]:
+              - /url: https://factory.ai/
+            - link "Until Labs" [ref=f10e93]:
+              - /url: https://www.untillabs.com/
+            - link "Speakeasy" [ref=f10e96]:
+              - /url: https://www.speakeasy.com/
+            - link "Xbow" [ref=f10e99]:
+              - /url: https://xbow.com/
+            - link "Krea" [ref=f10e102]:
+              - /url: https://www.krea.ai/
+            - link "Apollo GraphQL" [ref=f10e105]:
+              - /url: https://apollographql.com
+            - link "Cal.com" [ref=f10e108]:
+              - /url: https://cal.com
+            - link "Trunk" [ref=f10e111]:
+              - /url: https://trunk.io/
+            - link "Replicate" [ref=f10e114]:
+              - /url: https://replicate.com
+            - link "Graphite" [ref=f10e117]:
+              - /url: https://graphite.dev/
+            - link "Spiral" [ref=f10e120]:
+              - /url: https://spiraldb.com/
+            - link "Native" [ref=f10e123]:
+              - /url: https://www.appliedcompute.com/
+            - link "Base" [ref=f10e126]:
+              - /url: https://base.org
+            - link "Flox" [ref=f10e129]:
+              - /url: https://flox.dev/
+            - link "MrBeast" [ref=f10e132]:
+              - /url: https://www.youtube.com/@MrBeast
+            - link "Daylight Computer Company" [ref=f10e135]:
+              - /url: https://daylightcomputer.com/
+            - link "EDGLRD" [ref=f10e138]:
+              - /url: https://edglrd.com/
+            - link "KidSuper Studios" [ref=f10e141]:
+              - /url: https://kidsuper.world/
+            - link "USAvionix" [ref=f10e144]:
+              - /url: https://www.usavionix.com
+            - link "Serval" [ref=f10e147]:
+              - /url: https://www.serval.com
+            - link "Latent" [ref=f10e150]:
+              - /url: https://latenthealth.com
+        - generic [ref=f10e153]:
+          - generic [ref=f10e154]:
+            - heading "Featured Projects" [level=2] [ref=f10e155]
+            - generic [ref=f10e156]:
+              - link "View Vercel Ship" [ref=f10e158] [cursor=pointer]:
+                - /url: /showcase/vercel-ship-a-home-for-innovation
+              - generic [ref=f10e161]:
+                - paragraph [ref=f10e162]: Partnering with Vercel means pushing the limits of performance and innovation. Together, we craft a digital ecosystem built for speed, precision, and impact.
+                - paragraph [ref=f10e163]:
+                  - generic [ref=f10e164]: Websites & Features
+                  - generic [ref=f10e165]: Marketing Execution
+                  - generic [ref=f10e166]: IRL Experience Design
+              - link "Vercel Ship" [ref=f10e167] [cursor=pointer]:
+                - /url: /showcase/vercel-ship-a-home-for-innovation
+          - generic [ref=f10e173]:
+            - link "View Daylight" [ref=f10e175] [cursor=pointer]:
+              - /url: /showcase/daylight-simplicity-in-motion
+            - generic [ref=f10e178]:
+              - paragraph [ref=f10e179]: A bold vision needs a strong launch. We crafted a high-performance, story-driven website that cut through the noise, connected with Daylight’s audience, and sold out inventory in hours.
+              - paragraph [ref=f10e180]:
+                - generic [ref=f10e181]: Websites & Features
+            - link "Daylight" [ref=f10e182] [cursor=pointer]:
+              - /url: /showcase/daylight-simplicity-in-motion
+          - generic [ref=f10e188]:
+            - link "View KidSuper" [ref=f10e190] [cursor=pointer]:
+              - /url: /showcase/kidsuper-breaking-the-norm
+            - generic [ref=f10e193]:
+              - paragraph [ref=f10e194]: By blending crafted visuals with digital experiences, we helped KidSuper elevate their brand into a dynamic showcase—bridging art, technology, and culture in a way that captivates and inspires.
+              - paragraph [ref=f10e195]:
+                - generic [ref=f10e196]: Websites & Features
+            - link "KidSuper" [ref=f10e197] [cursor=pointer]:
+              - /url: /showcase/kidsuper-breaking-the-norm
+          - generic [ref=f10e203]:
+            - link "View Shop MrBeast" [ref=f10e205] [cursor=pointer]:
+              - /url: /showcase/mrbeast-built-to-handle-the-beast
+            - generic [ref=f10e208]:
+              - paragraph [ref=f10e209]: The world’s biggest YouTuber needed a storefront built for millions—high-performance, wildly engaging, and as dynamic as a MrBeast video.
+              - paragraph [ref=f10e210]:
+                - generic [ref=f10e211]: Websites & Features
+            - link "Shop MrBeast" [ref=f10e212] [cursor=pointer]:
+              - /url: /showcase/mrbeast-built-to-handle-the-beast
+        - generic [ref=f10e217]:
+          - heading "Capabilities" [level=2] [ref=f10e218]
+          - generic [ref=f10e219]:
+            - paragraph [ref=f10e220]: We're here to create the extraordinary.
+            - paragraph [ref=f10e221]: No shortcuts, just bold, precision-engineered work that elevates the game & leaves a mark.
+          - generic [ref=f10e223]:
+            - generic [ref=f10e224]:
+              - heading [level=3] [ref=f10e225]:
+                - link "Websites & Features" [ref=f10e226] [cursor=pointer]:
+                  - /url: /showcase?category=Websites%20%26%20Features
+              - paragraph [ref=f10e228]: From pre-launch landing pages to complete website redesigns, we create next-generation digital experiences that capture attention and inspire action.
+              - generic [ref=f10e229]:
+                - paragraph [ref=f10e230]: Product Strategy
+                - paragraph [ref=f10e231]: UX/UI Design
+                - paragraph [ref=f10e232]: Engineering
+                - paragraph [ref=f10e233]: 3D & Motion Design
+            - generic [ref=f10e234]:
+              - heading [level=3] [ref=f10e235]:
+                - link "Visual Branding" [ref=f10e236] [cursor=pointer]:
+                  - /url: /showcase?category=Visual%20Branding
+              - paragraph [ref=f10e238]: From lean identities for early startups to comprehensive brand platforms for industry leaders, we craft scalable brand systems that are impossible to ignore.
+              - generic [ref=f10e239]:
+                - paragraph [ref=f10e240]: Visual Identity
+                - paragraph [ref=f10e241]: Branding Systems
+            - generic [ref=f10e242]:
+              - heading [level=3] [ref=f10e243]:
+                - link "IRL Experience Design" [ref=f10e244] [cursor=pointer]:
+                  - /url: /showcase?category=IRL%20Experience%20Design
+              - paragraph [ref=f10e246]: From annual summits to local meetups, we design unforgettable in-real-life events, creating moments that engage audiences and build brand love.
+              - generic [ref=f10e247]:
+                - paragraph [ref=f10e248]: Visual Identity
+                - paragraph [ref=f10e249]: Space Design
+                - paragraph [ref=f10e250]: Keynote Design
+                - paragraph [ref=f10e251]: Digital & Interactive
+            - generic [ref=f10e252]:
+              - heading [level=3] [ref=f10e253]:
+                - link "Marketing Execution" [ref=f10e254] [cursor=pointer]:
+                  - /url: /showcase?category=Marketing%20Execution
+              - paragraph [ref=f10e256]: From brand to product marketing, we collaborate with marketing teams to create assets that drive awareness, demand, and conversions.
+              - generic [ref=f10e257]:
+                - paragraph [ref=f10e258]: Omni-channel Campaign Content
+                - paragraph [ref=f10e259]: Growth Experiments
+                - paragraph [ref=f10e260]: Sales Materials
+        - generic [ref=f10e262]:
+          - heading "Contact" [level=2] [ref=f10e263]
+          - paragraph [ref=f10e264]: Let's make an impact together.
+          - link "hello@basement.studio" [ref=f10e266]:
+            - /url: mailto:hello@basement.studio
+    - contentinfo [ref=f10e268]:
+      - img "basement.studio" [ref=f10e270]
+      - generic [ref=f10e279]:
+        - list [ref=f10e280]:
+          - listitem [ref=f10e281]:
+            - link "Home" [ref=f10e282] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f10e284]:
+            - link "Services" [ref=f10e285] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f10e287]:
+            - link "Showcase (26)" [ref=f10e288] [cursor=pointer]:
+              - /url: /showcase
+              - generic [ref=f10e289]: Showcase
+              - superscript [ref=f10e290]:
+                - generic [ref=f10e291]: (26)
+          - listitem [ref=f10e292]:
+            - link "People" [ref=f10e293] [cursor=pointer]:
+              - /url: /people
+          - listitem [ref=f10e295]:
+            - link "Blog (29)" [ref=f10e296] [cursor=pointer]:
+              - /url: /blog
+              - generic [ref=f10e297]: Blog
+              - superscript [ref=f10e298]:
+                - generic [ref=f10e299]: (29)
+          - listitem [ref=f10e300]:
+            - link "Lab" [ref=f10e301] [cursor=pointer]:
+              - /url: /lab
+          - listitem [ref=f10e303]:
+            - button "Contact Us" [ref=f10e304] [cursor=pointer]
+        - generic [ref=f10e306]:
+          - paragraph [ref=f10e308]: Ready to tap into the basement vibe? Sign up for our newsletter and stay plugged into all the cool stuff we’re cooking up.
+          - generic [ref=f10e309]:
+            - textbox "Enter your Email" [ref=f10e310]
+            - button "Roll Me In" [disabled] [ref=f10e311]
+        - generic [ref=f10e316]:
+          - generic [ref=f10e317]:
+            - link "X (Twitter)" [ref=f10e318]:
+              - /url: https://x.com/basementstudio
+              - generic [aria-hidden] [ref=f10e319]: 𝕏
+            - generic [aria-hidden] [ref=f10e320]: ","
+            - link "Instagram" [ref=f10e321]:
+              - /url: https://www.instagram.com/basementdotstudio
+            - generic [aria-hidden] [ref=f10e323]: ","
+            - link "GitHub" [ref=f10e324]:
+              - /url: https://github.com/basementstudio
+            - generic [aria-hidden] [ref=f10e326]: ","
+            - link "LinkedIn" [ref=f10e327]:
+              - /url: https://www.linkedin.com/company/basementstudio
+          - paragraph [ref=f10e329]: © basement.studio LLC 2026 all rights reserved
+  - navigation "Site mode":
+    - generic [ref=f10e330]:
+      - generic [ref=f10e331]: Human
+      - link "Machine" [ref=f10e332] [cursor=pointer]:
+        - /url: /ai/home
+  - alert [ref=f10e333]

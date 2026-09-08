@@ -1,0 +1,798 @@
+- generic [active] [ref=f9e1]:
+  - dialog [ref=f9e2]:
+    - generic [ref=f9e3]:
+      - paragraph [ref=f9e5]: We use cookies
+      - paragraph [ref=f9e7]: We use cookies and other tracking technologies to improve your browsing experience on our website, to show you personalized content and targeted ads, to analyze our website traffic, and to understand where our visitors are coming from.
+      - generic [ref=f9e8]:
+        - button "I agree" [ref=f9e9] [cursor=pointer]
+        - button "I decline" [ref=f9e10] [cursor=pointer]
+        - button "Change my preferences" [ref=f9e11] [cursor=pointer]
+  - generic [ref=f9e13]:
+    - generic [ref=f9e15]:
+      - link "logo-wild" [ref=f9e17] [cursor=pointer]:
+        - /url: /
+        - img "logo-wild" [ref=f9e18]
+      - generic [ref=f9e26]:
+        - generic [ref=f9e27] [cursor=pointer]: Directory
+        - generic [ref=f9e32] [cursor=pointer]: MENU
+    - navigation [ref=f9e36]:
+      - generic [ref=f9e39]:
+        - link "Work W / 000" [ref=f9e41] [cursor=pointer]:
+          - /url: /work
+          - generic [ref=f9e42]:
+            - text: Work
+            - generic [ref=f9e43]: W / 000
+        - link "About A / 000" [ref=f9e46] [cursor=pointer]:
+          - /url: /about
+          - generic [ref=f9e47]:
+            - text: About
+            - generic [ref=f9e48]: A / 000
+        - link "Labs L / 000" [ref=f9e51] [cursor=pointer]:
+          - /url: /labs
+          - generic [ref=f9e52]:
+            - text: Labs
+            - generic [ref=f9e53]: L / 000
+        - link "Jobs J / 000" [ref=f9e56] [cursor=pointer]:
+          - /url: /jobs
+          - generic [ref=f9e57]:
+            - text: Jobs
+            - generic [ref=f9e58]: J / 000
+        - link "Contact C / 000" [ref=f9e61] [cursor=pointer]:
+          - /url: /contact
+          - generic [ref=f9e62]:
+            - text: Contact
+            - generic [ref=f9e63]: C / 000
+      - generic [ref=f9e65]:
+        - generic [ref=f9e66]:
+          - link "Privacy Policy" [ref=f9e67] [cursor=pointer]:
+            - /url: /privacy
+          - link "Imprint" [ref=f9e68] [cursor=pointer]:
+            - /url: /imprint
+        - link "wild is in Residence" [ref=f9e70] [cursor=pointer]:
+          - /url: https://residence.co/
+        - generic [ref=f9e72]:
+          - link [ref=f9e73] [cursor=pointer]:
+            - /url: https://twitter.com/madebywild
+          - link [ref=f9e74] [cursor=pointer]:
+            - /url: https://github.com/madebywild
+          - link [ref=f9e75] [cursor=pointer]:
+            - /url: https://www.instagram.com/madebywild/
+          - link [ref=f9e76] [cursor=pointer]:
+            - /url: https://medium.com/madebywild
+          - link [ref=f9e77] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/we-are-wild-gmbh
+    - generic [ref=f9e79]:
+      - generic [ref=f9e82]:
+        - textbox "Start typing" [ref=f9e84]
+        - generic:
+          - textbox
+      - list [ref=f9e90]:
+        - listitem [ref=f9e91]:
+          - link "Work" [ref=f9e92] [cursor=pointer]:
+            - /url: /work
+        - listitem [ref=f9e94]:
+          - 'link "W / 001 Red Bull: Mind Gamers Platform" [ref=f9e95] [cursor=pointer]':
+            - /url: /work/red-bull-mind-gamers
+            - generic [ref=f9e96]:
+              - generic [ref=f9e97]: W / 001
+              - generic [ref=f9e98]: "Red Bull: Mind Gamers Platform"
+        - listitem [ref=f9e99]:
+          - link "W / 002 Falter’s Inferno" [ref=f9e100] [cursor=pointer]:
+            - /url: /work/falter
+            - generic [ref=f9e101]:
+              - generic [ref=f9e102]: W / 002
+              - generic [ref=f9e103]: Falter’s Inferno
+        - listitem [ref=f9e104]:
+          - 'link "W / 003 Squarespace: Playing Lynch" [ref=f9e105] [cursor=pointer]':
+            - /url: /work/playing-lynch
+            - generic [ref=f9e106]:
+              - generic [ref=f9e107]: W / 003
+              - generic [ref=f9e108]: "Squarespace: Playing Lynch"
+        - listitem [ref=f9e109]:
+          - 'link "W / 004 110 Prozent: Interactive Magazine" [ref=f9e110] [cursor=pointer]':
+            - /url: /work/110-prozent
+            - generic [ref=f9e111]:
+              - generic [ref=f9e112]: W / 004
+              - generic [ref=f9e113]: "110 Prozent: Interactive Magazine"
+        - listitem [ref=f9e114]:
+          - 'link "W / 005 Google: Konterball" [ref=f9e115] [cursor=pointer]':
+            - /url: /work/google-konterball
+            - generic [ref=f9e116]:
+              - generic [ref=f9e117]: W / 005
+              - generic [ref=f9e118]: "Google: Konterball"
+        - listitem [ref=f9e119]:
+          - 'link "W / 006 Schullin: My Diamond Ring" [ref=f9e120] [cursor=pointer]':
+            - /url: /work/schullin
+            - generic [ref=f9e121]:
+              - generic [ref=f9e122]: W / 006
+              - generic [ref=f9e123]: "Schullin: My Diamond Ring"
+        - listitem [ref=f9e124]:
+          - 'link "W / 007 Keego: A Bottle Made for Sport" [ref=f9e125] [cursor=pointer]':
+            - /url: /work/keego
+            - generic [ref=f9e126]:
+              - generic [ref=f9e127]: W / 007
+              - generic [ref=f9e128]: "Keego: A Bottle Made for Sport"
+        - listitem [ref=f9e129]:
+          - 'link "W / 008 Feinkoch: A Recipe Platform" [ref=f9e130] [cursor=pointer]':
+            - /url: /work/feinkoch
+            - generic [ref=f9e131]:
+              - generic [ref=f9e132]: W / 008
+              - generic [ref=f9e133]: "Feinkoch: A Recipe Platform"
+        - listitem [ref=f9e134]:
+          - link "W / 009 In-Vision Site Redesign" [ref=f9e135] [cursor=pointer]:
+            - /url: /work/in-vision
+            - generic [ref=f9e136]:
+              - generic [ref=f9e137]: W / 009
+              - generic [ref=f9e138]: In-Vision Site Redesign
+        - listitem [ref=f9e139]:
+          - 'link "W / 010 Accor Hotels: Seeker Project" [ref=f9e140] [cursor=pointer]':
+            - /url: /work/seeker-project
+            - generic [ref=f9e141]:
+              - generic [ref=f9e142]: W / 010
+              - generic [ref=f9e143]: "Accor Hotels: Seeker Project"
+        - listitem [ref=f9e144]:
+          - 'link "W / 012 Samsung: Do What You Can’t" [ref=f9e145] [cursor=pointer]':
+            - /url: /work/samsung-do-what-you-cant
+            - generic [ref=f9e146]:
+              - generic [ref=f9e147]: W / 012
+              - generic [ref=f9e148]: "Samsung: Do What You Can’t"
+        - listitem [ref=f9e149]:
+          - 'link "W / 013 Four Paws: Ruthless Campaign" [ref=f9e150] [cursor=pointer]':
+            - /url: /work/four-paws-ruthless
+            - generic [ref=f9e151]:
+              - generic [ref=f9e152]: W / 013
+              - generic [ref=f9e153]: "Four Paws: Ruthless Campaign"
+        - listitem [ref=f9e154]:
+          - 'link "W / 014 Bruegel: An Exhibition Site" [ref=f9e155] [cursor=pointer]':
+            - /url: /work/khm-bruegel
+            - generic [ref=f9e156]:
+              - generic [ref=f9e157]: W / 014
+              - generic [ref=f9e158]: "Bruegel: An Exhibition Site"
+        - listitem [ref=f9e159]:
+          - link "W / 015 200 Years Erste Bank" [ref=f9e160] [cursor=pointer]:
+            - /url: /work/erste-bank-200-jahre
+            - generic [ref=f9e161]:
+              - generic [ref=f9e162]: W / 015
+              - generic [ref=f9e163]: 200 Years Erste Bank
+        - listitem [ref=f9e164]:
+          - link "W / 016 Expensify Th!$" [ref=f9e165] [cursor=pointer]:
+            - /url: /work/expensify
+            - generic [ref=f9e166]:
+              - generic [ref=f9e167]: W / 016
+              - generic [ref=f9e168]: Expensify Th!$
+        - listitem [ref=f9e169]:
+          - link "W / 017 GetYourGuide Awards" [ref=f9e170] [cursor=pointer]:
+            - /url: /work/getyourguide-awards
+            - generic [ref=f9e171]:
+              - generic [ref=f9e172]: W / 017
+              - generic [ref=f9e173]: GetYourGuide Awards
+        - listitem [ref=f9e174]:
+          - 'link "W / 018 Alzheimer’s Association: Our Stories" [ref=f9e175] [cursor=pointer]':
+            - /url: /work/alzheimer
+            - generic [ref=f9e176]:
+              - generic [ref=f9e177]: W / 018
+              - generic [ref=f9e178]: "Alzheimer’s Association: Our Stories"
+        - listitem [ref=f9e179]:
+          - link "W / 019 Chobani Foodservice" [ref=f9e180] [cursor=pointer]:
+            - /url: /work/chobani-foodservice
+            - generic [ref=f9e181]:
+              - generic [ref=f9e182]: W / 019
+              - generic [ref=f9e183]: Chobani Foodservice
+        - listitem [ref=f9e184]:
+          - 'link "W / 020 Spotify & SoundGirls: Make it EQL Directory" [ref=f9e185] [cursor=pointer]':
+            - /url: /work/spotify-eql
+            - generic [ref=f9e186]:
+              - generic [ref=f9e187]: W / 020
+              - generic [ref=f9e188]: "Spotify & SoundGirls: Make it EQL Directory"
+        - listitem [ref=f9e189]:
+          - link "W / 021 100 Years of Viennese Modernism" [ref=f9e190] [cursor=pointer]:
+            - /url: /work/viennese-modernism
+            - generic [ref=f9e191]:
+              - generic [ref=f9e192]: W / 021
+              - generic [ref=f9e193]: 100 Years of Viennese Modernism
+        - listitem [ref=f9e194]:
+          - link "W / 022 Which One Am I Now Magazine" [ref=f9e195] [cursor=pointer]:
+            - /url: /work/zine
+            - generic [ref=f9e196]:
+              - generic [ref=f9e197]: W / 022
+              - generic [ref=f9e198]: Which One Am I Now Magazine
+        - listitem [ref=f9e199]:
+          - 'link "W / 040 Moët Hennessy: Volcán Tequila" [ref=f9e200] [cursor=pointer]':
+            - /url: /work/volcan-tequila
+            - generic [ref=f9e201]:
+              - generic [ref=f9e202]: W / 040
+              - generic [ref=f9e203]: "Moët Hennessy: Volcán Tequila"
+        - listitem [ref=f9e204]:
+          - 'link "W / 046 Sabah Shoes: E-Commerce" [ref=f9e205] [cursor=pointer]':
+            - /url: /work/sabah
+            - generic [ref=f9e206]:
+              - generic [ref=f9e207]: W / 046
+              - generic [ref=f9e208]: "Sabah Shoes: E-Commerce"
+        - listitem [ref=f9e209]:
+          - link "W / 060 H&M x Role Models" [ref=f9e210] [cursor=pointer]:
+            - /url: /work/hm
+            - generic [ref=f9e211]:
+              - generic [ref=f9e212]: W / 060
+              - generic [ref=f9e213]: H&M x Role Models
+        - listitem [ref=f9e214]:
+          - link "W / 066" [ref=f9e215] [cursor=pointer]:
+            - /url: /work/kindred-motorworks
+        - listitem [ref=f9e218]:
+          - 'link "W / 080 Nutrafol: Brand Refresh" [ref=f9e219] [cursor=pointer]':
+            - /url: /work/nutrafol
+            - generic [ref=f9e220]:
+              - generic [ref=f9e221]: W / 080
+              - generic [ref=f9e222]: "Nutrafol: Brand Refresh"
+        - listitem [ref=f9e223]:
+          - link "W / 084 PrimaHealth Credit" [ref=f9e224] [cursor=pointer]:
+            - /url: /work/primahealth-credit-more-care-for-more-people
+            - generic [ref=f9e225]:
+              - generic [ref=f9e226]: W / 084
+              - generic [ref=f9e227]: PrimaHealth Credit
+        - listitem [ref=f9e228]:
+          - link "W / 093 Oculus Quest Day" [ref=f9e229] [cursor=pointer]:
+            - /url: /work/oculus-quest-day-2021
+            - generic [ref=f9e230]:
+              - generic [ref=f9e231]: W / 093
+              - generic [ref=f9e232]: Oculus Quest Day
+        - listitem [ref=f9e233]:
+          - 'link "W / 096 Le Labo: Le Journal Society" [ref=f9e234] [cursor=pointer]':
+            - /url: /work/le-journal-society
+            - generic [ref=f9e235]:
+              - generic [ref=f9e236]: W / 096
+              - generic [ref=f9e237]: "Le Labo: Le Journal Society"
+        - listitem [ref=f9e238]:
+          - link "W / 121 Tersa" [ref=f9e239] [cursor=pointer]:
+            - /url: /work/tersa
+            - generic [ref=f9e240]:
+              - generic [ref=f9e241]: W / 121
+              - generic [ref=f9e242]: Tersa
+        - listitem [ref=f9e243]:
+          - link "W / 124 Overheard" [ref=f9e244] [cursor=pointer]:
+            - /url: /work/overheard
+            - generic [ref=f9e245]:
+              - generic [ref=f9e246]: W / 124
+              - generic [ref=f9e247]: Overheard
+        - listitem [ref=f9e248]:
+          - link "W / 145 Transforming Cowboy State Daily" [ref=f9e249] [cursor=pointer]:
+            - /url: /work/cowboy-state-daily
+            - generic [ref=f9e250]:
+              - generic [ref=f9e251]: W / 145
+              - generic [ref=f9e252]: Transforming Cowboy State Daily
+        - listitem [ref=f9e253]:
+          - link "W / 164 100 years OEBB" [ref=f9e254] [cursor=pointer]:
+            - /url: /work/oebb-history
+            - generic [ref=f9e255]:
+              - generic [ref=f9e256]: W / 164
+              - generic [ref=f9e257]: 100 years OEBB
+        - listitem [ref=f9e258]:
+          - link "W / 174 IKEA x Cömmunity" [ref=f9e259] [cursor=pointer]:
+            - /url: /work/ikea
+            - generic [ref=f9e260]:
+              - generic [ref=f9e261]: W / 174
+              - generic [ref=f9e262]: IKEA x Cömmunity
+        - listitem [ref=f9e263]:
+          - 'link "W / 177 Getty: PST ART" [ref=f9e264] [cursor=pointer]':
+            - /url: /work/pst-art-getty
+            - generic [ref=f9e265]:
+              - generic [ref=f9e266]: W / 177
+              - generic [ref=f9e267]: "Getty: PST ART"
+        - listitem [ref=f9e268]:
+          - link "W / 211 Ouster" [ref=f9e269] [cursor=pointer]:
+            - /url: /work/ouster
+            - generic [ref=f9e270]:
+              - generic [ref=f9e271]: W / 211
+              - generic [ref=f9e272]: Ouster
+        - listitem [ref=f9e273]:
+          - link "W / 309 British Airways – Holiday Campagin" [ref=f9e274] [cursor=pointer]:
+            - /url: /work/british-airways-holiday-campaign
+            - generic [ref=f9e275]:
+              - generic [ref=f9e276]: W / 309
+              - generic [ref=f9e277]: British Airways – Holiday Campagin
+        - listitem [ref=f9e278]:
+          - link "W / 333 Bain Capital Ventures" [ref=f9e279] [cursor=pointer]:
+            - /url: /work/bain-capital-ventures
+            - generic [ref=f9e280]:
+              - generic [ref=f9e281]: W / 333
+              - generic [ref=f9e282]: Bain Capital Ventures
+        - listitem [ref=f9e283]:
+          - link "W / 355 The Ordinary — The Truth Should Be Ordinary" [ref=f9e284] [cursor=pointer]:
+            - /url: /work/the-ordinary
+            - generic [ref=f9e285]:
+              - generic [ref=f9e286]: W / 355
+              - generic [ref=f9e287]: The Ordinary — The Truth Should Be Ordinary
+        - listitem [ref=f9e288]:
+          - link "W / 370 Nutrafol Skin" [ref=f9e289] [cursor=pointer]:
+            - /url: /work/nutrafol-skin
+            - generic [ref=f9e290]:
+              - generic [ref=f9e291]: W / 370
+              - generic [ref=f9e292]: Nutrafol Skin
+        - listitem [ref=f9e293]:
+          - link "W / 382 Freaks of Nature – Website" [ref=f9e294] [cursor=pointer]:
+            - /url: /work/freaks-of-nature
+            - generic [ref=f9e295]:
+              - generic [ref=f9e296]: W / 382
+              - generic [ref=f9e297]: Freaks of Nature – Website
+        - listitem [ref=f9e298]:
+          - link "W / 407 Nutrafol – Brand Refresh" [ref=f9e299] [cursor=pointer]:
+            - /url: /work/nutrafol-brand-refresh
+            - generic [ref=f9e300]:
+              - generic [ref=f9e301]: W / 407
+              - generic [ref=f9e302]: Nutrafol – Brand Refresh
+        - listitem [ref=f9e303]:
+          - link "W / 550 ME – Holiday Campaign" [ref=f9e304] [cursor=pointer]:
+            - /url: /work/me-holiday-campaign
+            - generic [ref=f9e305]:
+              - generic [ref=f9e306]: W / 550
+              - generic [ref=f9e307]: ME – Holiday Campaign
+        - listitem [ref=f9e308]:
+          - link "W / 725 IBM - watsonx.data" [ref=f9e309] [cursor=pointer]:
+            - /url: /work/ibm-watsonxdata
+            - generic [ref=f9e310]:
+              - generic [ref=f9e311]: W / 725
+              - generic [ref=f9e312]: IBM - watsonx.data
+        - listitem [ref=f9e313]:
+          - link "W / 743 Creative Lives In Progress – An Inclusive Creative Resource" [ref=f9e314] [cursor=pointer]:
+            - /url: /work/creative-lives-in-progress
+            - generic [ref=f9e315]:
+              - generic [ref=f9e316]: W / 743
+              - generic [ref=f9e317]: Creative Lives In Progress – An Inclusive Creative Resource
+        - listitem [ref=f9e318]:
+          - link "W / 751 Replit - Agent 3" [ref=f9e319] [cursor=pointer]:
+            - /url: /work/replit-agent-3
+            - generic [ref=f9e320]:
+              - generic [ref=f9e321]: W / 751
+              - generic [ref=f9e322]: Replit - Agent 3
+        - listitem [ref=f9e323]:
+          - link "W / 759 Unstructured Website" [ref=f9e324] [cursor=pointer]:
+            - /url: /work/unstructured-website
+            - generic [ref=f9e325]:
+              - generic [ref=f9e326]: W / 759
+              - generic [ref=f9e327]: Unstructured Website
+        - listitem [ref=f9e328]:
+          - link "W / 760 IPS" [ref=f9e329] [cursor=pointer]:
+            - /url: /work/ips
+            - generic [ref=f9e330]:
+              - generic [ref=f9e331]: W / 760
+              - generic [ref=f9e332]: IPS
+        - listitem [ref=f9e333]:
+          - link "W / 761 Serve Robotics" [ref=f9e334] [cursor=pointer]:
+            - /url: /work/serve-robotics
+            - generic [ref=f9e335]:
+              - generic [ref=f9e336]: W / 761
+              - generic [ref=f9e337]: Serve Robotics
+        - listitem [ref=f9e338]:
+          - link "W / 773 Amulet" [ref=f9e339] [cursor=pointer]:
+            - /url: /work/amulet
+            - generic [ref=f9e340]:
+              - generic [ref=f9e341]: W / 773
+              - generic [ref=f9e342]: Amulet
+        - listitem [ref=f9e343]:
+          - link "About" [ref=f9e344] [cursor=pointer]:
+            - /url: /about
+        - listitem [ref=f9e346]:
+          - link "A / 000 About" [ref=f9e347] [cursor=pointer]:
+            - /url: /about
+            - generic [ref=f9e348]:
+              - generic [ref=f9e349]: A / 000
+              - generic [ref=f9e350]: About
+        - listitem [ref=f9e351]:
+          - link "News" [ref=f9e352] [cursor=pointer]:
+            - /url: /news
+        - listitem [ref=f9e354]:
+          - link "L / 001 The Joy of Building Software That’s Useless" [ref=f9e355] [cursor=pointer]:
+            - /url: /labs/the-joy-of-building-software-thats-useless
+            - generic [ref=f9e356]:
+              - generic [ref=f9e357]: L / 001
+              - generic [ref=f9e358]: The Joy of Building Software That’s Useless
+        - listitem [ref=f9e359]:
+          - link "L / 002 Unleash the Kimis!" [ref=f9e360] [cursor=pointer]:
+            - /url: /labs/unleash-the-kimis
+            - generic [ref=f9e361]:
+              - generic [ref=f9e362]: L / 002
+              - generic [ref=f9e363]: Unleash the Kimis!
+        - listitem [ref=f9e364]:
+          - link "L / 003 What's Sub?" [ref=f9e365] [cursor=pointer]:
+            - /url: /labs/what-s-sub
+            - generic [ref=f9e366]:
+              - generic [ref=f9e367]: L / 003
+              - generic [ref=f9e368]: What's Sub?
+        - listitem [ref=f9e369]:
+          - 'link "L / 004 MARCH: Vibe-coding a tool for purpose and protest" [ref=f9e370] [cursor=pointer]':
+            - /url: /labs/march-vibe-coding-a-tool-for-purpose-and-protest
+            - generic [ref=f9e371]:
+              - generic [ref=f9e372]: L / 004
+              - generic [ref=f9e373]: "MARCH: Vibe-coding a tool for purpose and protest"
+        - listitem [ref=f9e374]:
+          - link "L / 005 Wait, They’re Caching LLM Outputs?" [ref=f9e375] [cursor=pointer]:
+            - /url: /labs/wait-they-re-caching-llm-outputs
+            - generic [ref=f9e376]:
+              - generic [ref=f9e377]: L / 005
+              - generic [ref=f9e378]: Wait, They’re Caching LLM Outputs?
+        - listitem [ref=f9e379]:
+          - 'link "L / 006 Whitepaper: AI in regulated Industries" [ref=f9e380] [cursor=pointer]':
+            - /url: /labs/ai-regulated-industries-whitepaper
+            - generic [ref=f9e381]:
+              - generic [ref=f9e382]: L / 006
+              - generic [ref=f9e383]: "Whitepaper: AI in regulated Industries"
+        - listitem [ref=f9e384]:
+          - link "L / 007 Building Wild Week Athens - From Experiment to Reality" [ref=f9e385] [cursor=pointer]:
+            - /url: /labs/building-wild-week-athens
+            - generic [ref=f9e386]:
+              - generic [ref=f9e387]: L / 007
+              - generic [ref=f9e388]: Building Wild Week Athens - From Experiment to Reality
+        - listitem [ref=f9e389]:
+          - link "L / 008 Smashing Insights on Building Design Systems with AI" [ref=f9e390] [cursor=pointer]:
+            - /url: /labs/smashing-insights-on-building-design-systems-with-ai
+            - generic [ref=f9e391]:
+              - generic [ref=f9e392]: L / 008
+              - generic [ref=f9e393]: Smashing Insights on Building Design Systems with AI
+        - listitem [ref=f9e394]:
+          - link "L / 009 Building a Reliable Asset Pipeline" [ref=f9e395] [cursor=pointer]:
+            - /url: /labs/building-a-reliable-asset-pipeline
+            - generic [ref=f9e396]:
+              - generic [ref=f9e397]: L / 009
+              - generic [ref=f9e398]: Building a Reliable Asset Pipeline
+        - listitem [ref=f9e399]:
+          - generic [ref=f9e400]: Random
+        - listitem [ref=f9e401]:
+          - link "R / 004 Nipple" [ref=f9e402] [cursor=pointer]:
+            - /url: /random/nipple
+            - generic [ref=f9e403]:
+              - generic [ref=f9e404]: R / 004
+              - generic [ref=f9e405]: Nipple
+        - listitem [ref=f9e406]:
+          - link "R / 007 Supperlüpy" [ref=f9e407] [cursor=pointer]:
+            - /url: /random/supperluepy
+            - generic [ref=f9e408]:
+              - generic [ref=f9e409]: R / 007
+              - generic [ref=f9e410]: Supperlüpy
+        - listitem [ref=f9e411]:
+          - link "R / 011 Henry the dog" [ref=f9e412] [cursor=pointer]:
+            - /url: /random/henry-the-dog
+            - generic [ref=f9e413]:
+              - generic [ref=f9e414]: R / 011
+              - generic [ref=f9e415]: Henry the dog
+        - listitem [ref=f9e416]:
+          - link "R / 012 Club Hoho" [ref=f9e417] [cursor=pointer]:
+            - /url: /random/club-hoho
+            - generic [ref=f9e418]:
+              - generic [ref=f9e419]: R / 012
+              - generic [ref=f9e420]: Club Hoho
+        - listitem [ref=f9e421]:
+          - link "R / 013 Wild Spezial" [ref=f9e422] [cursor=pointer]:
+            - /url: /random/wild-spezial
+            - generic [ref=f9e423]:
+              - generic [ref=f9e424]: R / 013
+              - generic [ref=f9e425]: Wild Spezial
+        - listitem [ref=f9e426]:
+          - link "R / 014 Studio Zeltgasse" [ref=f9e427] [cursor=pointer]:
+            - /url: /random/studio-zeltgasse
+            - generic [ref=f9e428]:
+              - generic [ref=f9e429]: R / 014
+              - generic [ref=f9e430]: Studio Zeltgasse
+        - listitem [ref=f9e431]:
+          - link "R / 015 Not good at doing normal things" [ref=f9e432] [cursor=pointer]:
+            - /url: /random/not-good-at-doing-normal-things
+            - generic [ref=f9e433]:
+              - generic [ref=f9e434]: R / 015
+              - generic [ref=f9e435]: Not good at doing normal things
+        - listitem [ref=f9e436]:
+          - link "R / 015 Mein Honig" [ref=f9e437] [cursor=pointer]:
+            - /url: /random/mein-honig
+            - generic [ref=f9e438]:
+              - generic [ref=f9e439]: R / 015
+              - generic [ref=f9e440]: Mein Honig
+        - listitem [ref=f9e441]:
+          - generic [ref=f9e442]: Employees
+        - listitem [ref=f9e443]:
+          - link "E / 002 Matthias Mentasti" [ref=f9e444] [cursor=pointer]:
+            - /url: /team/matthias-mentasti
+            - generic [ref=f9e445]:
+              - generic [ref=f9e446]: E / 002
+              - generic [ref=f9e447]: Matthias Mentasti
+        - listitem [ref=f9e448]:
+          - link "E / 003 Thomas Lichtblau" [ref=f9e449] [cursor=pointer]:
+            - /url: /team/thomas-lichtblau
+            - generic [ref=f9e450]:
+              - generic [ref=f9e451]: E / 003
+              - generic [ref=f9e452]: Thomas Lichtblau
+        - listitem [ref=f9e453]:
+          - link "E / 005 Thomas Ragger" [ref=f9e454] [cursor=pointer]:
+            - /url: /team/thomas-ragger
+            - generic [ref=f9e455]:
+              - generic [ref=f9e456]: E / 005
+              - generic [ref=f9e457]: Thomas Ragger
+        - listitem [ref=f9e458]:
+          - link "E / 019 Raphael Loder" [ref=f9e459] [cursor=pointer]:
+            - /url: /team/raphael-loder
+            - generic [ref=f9e460]:
+              - generic [ref=f9e461]: E / 019
+              - generic [ref=f9e462]: Raphael Loder
+        - listitem [ref=f9e463]:
+          - link "E / 028 Stefan Göllner" [ref=f9e464] [cursor=pointer]:
+            - /url: /team/stefan-goellner
+            - generic [ref=f9e465]:
+              - generic [ref=f9e466]: E / 028
+              - generic [ref=f9e467]: Stefan Göllner
+        - listitem [ref=f9e468]:
+          - link "E / 035 Jennifer Bruckberger" [ref=f9e469] [cursor=pointer]:
+            - /url: /team/jennifer-bruckberger
+            - generic [ref=f9e470]:
+              - generic [ref=f9e471]: E / 035
+              - generic [ref=f9e472]: Jennifer Bruckberger
+        - listitem [ref=f9e473]:
+          - link "E / 036 Oskar Wild" [ref=f9e474] [cursor=pointer]:
+            - /url: /team/oskar
+            - generic [ref=f9e475]:
+              - generic [ref=f9e476]: E / 036
+              - generic [ref=f9e477]: Oskar Wild
+        - listitem [ref=f9e478]:
+          - link "E / 038 Simone Glück" [ref=f9e479] [cursor=pointer]:
+            - /url: /team/simone-glueck
+            - generic [ref=f9e480]:
+              - generic [ref=f9e481]: E / 038
+              - generic [ref=f9e482]: Simone Glück
+        - listitem [ref=f9e483]:
+          - link "E / 052 Monde Marafane" [ref=f9e484] [cursor=pointer]:
+            - /url: /team/monde-marafane
+            - generic [ref=f9e485]:
+              - generic [ref=f9e486]: E / 052
+              - generic [ref=f9e487]: Monde Marafane
+        - listitem [ref=f9e488]:
+          - link "E / 056 Kerstin Harrer" [ref=f9e489] [cursor=pointer]:
+            - /url: /team/kerstin-harrer
+            - generic [ref=f9e490]:
+              - generic [ref=f9e491]: E / 056
+              - generic [ref=f9e492]: Kerstin Harrer
+        - listitem [ref=f9e493]:
+          - link "E / 058 Eva Landaluce" [ref=f9e494] [cursor=pointer]:
+            - /url: /team/eva-landaluce
+            - generic [ref=f9e495]:
+              - generic [ref=f9e496]: E / 058
+              - generic [ref=f9e497]: Eva Landaluce
+        - listitem [ref=f9e498]:
+          - link "E / 060 Tom Schönmann" [ref=f9e499] [cursor=pointer]:
+            - /url: /team/tom-schoenmann
+            - generic [ref=f9e500]:
+              - generic [ref=f9e501]: E / 060
+              - generic [ref=f9e502]: Tom Schönmann
+        - listitem [ref=f9e503]:
+          - link "E / 063 Alex Pagnotta" [ref=f9e504] [cursor=pointer]:
+            - /url: /team/alex-pagnotta
+            - generic [ref=f9e505]:
+              - generic [ref=f9e506]: E / 063
+              - generic [ref=f9e507]: Alex Pagnotta
+        - listitem [ref=f9e508]:
+          - link "E / 066 Leandro Madeo" [ref=f9e509] [cursor=pointer]:
+            - /url: /team/leandro-madeo
+            - generic [ref=f9e510]:
+              - generic [ref=f9e511]: E / 066
+              - generic [ref=f9e512]: Leandro Madeo
+        - listitem [ref=f9e513]:
+          - link "E / 067 Anna Mitterhauser" [ref=f9e514] [cursor=pointer]:
+            - /url: /team/anna-mitterhauser
+            - generic [ref=f9e515]:
+              - generic [ref=f9e516]: E / 067
+              - generic [ref=f9e517]: Anna Mitterhauser
+        - listitem [ref=f9e518]:
+          - link "E / 072 Guilherme Lopes" [ref=f9e519] [cursor=pointer]:
+            - /url: /team/guilherme-lopes
+            - generic [ref=f9e520]:
+              - generic [ref=f9e521]: E / 072
+              - generic [ref=f9e522]: Guilherme Lopes
+        - listitem [ref=f9e523]:
+          - link "E / 077 Adrian Mititelu" [ref=f9e524] [cursor=pointer]:
+            - /url: /team/adrian-mititelu
+            - generic [ref=f9e525]:
+              - generic [ref=f9e526]: E / 077
+              - generic [ref=f9e527]: Adrian Mititelu
+        - listitem [ref=f9e528]:
+          - link "E / 079 Anton Fullerton" [ref=f9e529] [cursor=pointer]:
+            - /url: /team/anton-fullerton
+            - generic [ref=f9e530]:
+              - generic [ref=f9e531]: E / 079
+              - generic [ref=f9e532]: Anton Fullerton
+        - listitem [ref=f9e533]:
+          - link "E / 086 Felix Häusler" [ref=f9e534] [cursor=pointer]:
+            - /url: /team/felix-hausler
+            - generic [ref=f9e535]:
+              - generic [ref=f9e536]: E / 086
+              - generic [ref=f9e537]: Felix Häusler
+        - listitem [ref=f9e538]:
+          - link "E / 087 Domenico Vale" [ref=f9e539] [cursor=pointer]:
+            - /url: /team/domenico-vale
+            - generic [ref=f9e540]:
+              - generic [ref=f9e541]: E / 087
+              - generic [ref=f9e542]: Domenico Vale
+        - listitem [ref=f9e543]:
+          - link "E / 089 David Hidalgo" [ref=f9e544] [cursor=pointer]:
+            - /url: /team/david-hidalgo
+            - generic [ref=f9e545]:
+              - generic [ref=f9e546]: E / 089
+              - generic [ref=f9e547]: David Hidalgo
+        - listitem [ref=f9e548]:
+          - link "E / 090 Marta Forastieri" [ref=f9e549] [cursor=pointer]:
+            - /url: /team/marta-forastieri
+            - generic [ref=f9e550]:
+              - generic [ref=f9e551]: E / 090
+              - generic [ref=f9e552]: Marta Forastieri
+        - listitem [ref=f9e553]:
+          - link "E / 092 Claire Miller" [ref=f9e554] [cursor=pointer]:
+            - /url: /team/claire-miller
+            - generic [ref=f9e555]:
+              - generic [ref=f9e556]: E / 092
+              - generic [ref=f9e557]: Claire Miller
+        - listitem [ref=f9e558]:
+          - link "E / 000 Jake Dougherty" [ref=f9e559] [cursor=pointer]:
+            - /url: /team/mr
+            - generic [ref=f9e560]:
+              - generic [ref=f9e561]: E / 000
+              - generic [ref=f9e562]: Jake Dougherty
+    - generic [ref=f9e564]:
+      - generic [ref=f9e570]:
+        - generic [ref=f9e572]:
+          - link "W / 761 Serve Robotics":
+            - /url: /work/serve-robotics
+            - generic [ref=f9e573] [cursor=pointer]:
+              - generic [ref=f9e574]: W / 761
+              - heading "Serve Robotics" [level=2] [ref=f9e575]
+        - generic [ref=f9e577]:
+          - link "W / 211 Ouster – Redefining Autonomy":
+            - /url: /work/ouster
+            - generic [ref=f9e578] [cursor=pointer]:
+              - generic [ref=f9e579]: W / 211
+              - heading "Ouster – Redefining Autonomy" [level=2] [ref=f9e580]
+        - generic [ref=f9e582]:
+          - generic [ref=f9e583]:
+            - paragraph [ref=f9e584]: wild is a design and technology partner for modern brands, startups and enterprises.
+            - paragraph [ref=f9e585]:
+              - text: wild is in
+              - link "residence" [ref=f9e586] [cursor=pointer]:
+                - /url: https://www.residence.co/
+              - text: .
+          - link "More about us" [ref=f9e588] [cursor=pointer]:
+            - /url: /about
+          - generic [ref=f9e589]:
+            - link "230626 Craft Engineered - Read About What's Next For Wild" [ref=f9e590] [cursor=pointer]:
+              - /url: https://craft.wild.as/
+              - generic [ref=f9e593]:
+                - text: "230626"
+                - generic [ref=f9e594]: Craft Engineered - Read About What's Next For Wild
+            - link "190626 Building a Reliable Asset Pipeline" [ref=f9e596] [cursor=pointer]:
+              - /url: /labs/building-a-reliable-asset-pipeline
+              - generic [ref=f9e599]:
+                - text: "190626"
+                - generic [ref=f9e600]: Building a Reliable Asset Pipeline
+            - link "180626 Smashing Insights on Building Design Systems with AI" [ref=f9e601] [cursor=pointer]:
+              - /url: /labs/smashing-insights-on-building-design-systems-with-ai
+              - generic [ref=f9e604]:
+                - text: "180626"
+                - generic [ref=f9e605]: Smashing Insights on Building Design Systems with AI
+            - link "230426 Building the Wild Week Athens Site" [ref=f9e606] [cursor=pointer]:
+              - /url: /labs/building-wild-week-athens
+              - generic [ref=f9e609]:
+                - text: "230426"
+                - generic [ref=f9e610]: Building the Wild Week Athens Site
+            - link "170226 Unleash the Kimis!" [ref=f9e611] [cursor=pointer]:
+              - /url: /labs/unleash-the-kimis
+              - generic [ref=f9e614]:
+                - text: "170226"
+                - generic [ref=f9e615]: Unleash the Kimis!
+            - 'link "060226 Labs: The Joy of Building Software That’s Useless" [ref=f9e616] [cursor=pointer]':
+              - /url: /labs/the-joy-of-building-software-thats-useless
+              - generic [ref=f9e619]:
+                - text: "060226"
+                - generic [ref=f9e620]: "Labs: The Joy of Building Software That’s Useless"
+            - 'link "080425 Webby Nominee: Vote for the Brightest Stars" [ref=f9e621] [cursor=pointer]':
+              - /url: https://vote.webbyawards.com/PublicVoting#/2025/websites-and-mobile-sites/general-desktop-mobile-sites/health-wellness
+              - generic [ref=f9e624]:
+                - text: "080425"
+                - generic [ref=f9e625]: "Webby Nominee: Vote for the Brightest Stars"
+            - link "080425 Our Interview with Productive" [ref=f9e627] [cursor=pointer]:
+              - /url: https://productive.io/customer-stories/how-wild-streamlined-operations-with-productive/
+              - generic [ref=f9e630]:
+                - text: "080425"
+                - generic [ref=f9e631]: Our Interview with Productive
+            - generic [ref=f9e636]:
+              - text: "180125"
+              - generic [ref=f9e637]: Rarest Stars Shine Brightest won Site of the Day
+            - link "150125 FoN was nominated for E-commerce of the Year" [ref=f9e638] [cursor=pointer]:
+              - /url: https://annuals.awwwards.com/categories/ecommerce-site-of-the-year
+              - generic [ref=f9e641]:
+                - text: "150125"
+                - generic [ref=f9e642]: FoN was nominated for E-commerce of the Year
+            - link "010724 Happy that our work for Brawl Stars, which we did together with Buck, won a Bronze Lion" [ref=f9e644] [cursor=pointer]:
+              - /url: https://www.linkedin.com/posts/supercell_humbly-bragging-begins-thebrawl-stars-activity-7209176094002855936-fLC-?utm_source=combined_share_message&utm_medium=member_desktop
+              - generic [ref=f9e647]:
+                - text: "010724"
+                - generic [ref=f9e648]: Happy that our work for Brawl Stars, which we did together with Buck, won a Bronze Lion
+            - link "200324 wild.week.03/2024" [ref=f9e650] [cursor=pointer]:
+              - /url: https://medium.com/madebywild/wild-week-03-2024-456837faa4c4
+              - generic [ref=f9e653]:
+                - text: "200324"
+                - generic [ref=f9e654]: wild.week.03/2024
+        - generic [ref=f9e657]:
+          - link "W / 751 Replit - Agent 3":
+            - /url: /work/replit-agent-3
+            - generic [ref=f9e658] [cursor=pointer]:
+              - generic [ref=f9e659]: W / 751
+              - heading "Replit - Agent 3" [level=2] [ref=f9e660]
+        - generic [ref=f9e662]:
+          - link "W / 759 Unstructured Website":
+            - /url: /work/unstructured-website
+            - generic [ref=f9e663] [cursor=pointer]:
+              - generic [ref=f9e664]: W / 759
+              - heading "Unstructured Website" [level=2] [ref=f9e665]
+        - link "W / 725 IBM - watsonx.data Experience" [ref=f9e668] [cursor=pointer]:
+          - /url: /work/ibm-watsonxdata
+          - generic [ref=f9e670]:
+            - generic [ref=f9e671]: W / 725
+            - heading "IBM - watsonx.data Experience" [level=2] [ref=f9e672]
+        - link "W / 355 The Ordinary — The Truth Should Be Ordinary" [ref=f9e675] [cursor=pointer]:
+          - /url: /work/the-ordinary
+          - generic [ref=f9e677]:
+            - generic [ref=f9e678]: W / 355
+            - heading "The Ordinary — The Truth Should Be Ordinary" [level=2] [ref=f9e679]
+        - link "W / 550 Montefiore Einstein – The Rarest Stars Shine Brightest" [ref=f9e682] [cursor=pointer]:
+          - /url: /work/me-holiday-campaign
+          - generic [ref=f9e684]:
+            - generic [ref=f9e685]: W / 550
+            - heading "Montefiore Einstein – The Rarest Stars Shine Brightest" [level=2] [ref=f9e686]
+        - link "W / 382 Freaks of Nature – Launching the first natural high-tech skincare system" [ref=f9e689] [cursor=pointer]:
+          - /url: /work/freaks-of-nature
+          - generic [ref=f9e691]:
+            - generic [ref=f9e692]: W / 382
+            - heading "Freaks of Nature – Launching the first natural high-tech skincare system" [level=2] [ref=f9e693]
+        - generic [ref=f9e695]:
+          - link "W / 370 Nutrafol Skin – A new way to face acne":
+            - /url: /work/nutrafol-skin
+            - generic [ref=f9e696] [cursor=pointer]:
+              - generic [ref=f9e697]: W / 370
+              - heading "Nutrafol Skin – A new way to face acne" [level=2] [ref=f9e698]
+        - link "W / 121 Tersa - For a human in every athlete" [ref=f9e701] [cursor=pointer]:
+          - /url: /work/tersa
+          - generic [ref=f9e703]:
+            - generic [ref=f9e704]: W / 121
+            - heading "Tersa - For a human in every athlete" [level=2] [ref=f9e705]
+        - generic [ref=f9e707]:
+          - link "W / 080 Nutrafol - Solving hair health from within":
+            - /url: /work/nutrafol
+            - generic [ref=f9e708] [cursor=pointer]:
+              - generic [ref=f9e709]: W / 080
+              - heading "Nutrafol - Solving hair health from within" [level=2] [ref=f9e710]
+        - generic [ref=f9e712]:
+          - link "W / 174 IKEA - Helping the Family Cömmunity":
+            - /url: /work/ikea
+            - generic [ref=f9e713] [cursor=pointer]:
+              - generic [ref=f9e714]: W / 174
+              - heading "IKEA - Helping the Family Cömmunity" [level=2] [ref=f9e715]
+        - generic [ref=f9e717]:
+          - link "W / 014 KHM - Rediscovering A Dutch Master":
+            - /url: /work/khm-bruegel
+            - generic [ref=f9e718] [cursor=pointer]:
+              - generic [ref=f9e719]: W / 014
+              - heading "KHM - Rediscovering A Dutch Master" [level=2] [ref=f9e720]
+        - generic [ref=f9e722]:
+          - link "W / 005 Google – Playing Ping Pong With WebVR":
+            - /url: /work/google-konterball
+            - generic [ref=f9e723] [cursor=pointer]:
+              - generic [ref=f9e724]: W / 005
+              - heading "Google – Playing Ping Pong With WebVR" [level=2] [ref=f9e725]
+        - generic [ref=f9e727]:
+          - link "W / 002 Falter – Creating An Interactive Online Story":
+            - /url: /work/falter
+            - generic [ref=f9e728] [cursor=pointer]:
+              - generic [ref=f9e729]: W / 002
+              - heading "Falter – Creating An Interactive Online Story" [level=2] [ref=f9e730]
+      - link [ref=f9e732] [cursor=pointer]:
+        - /url: https://craft.wild.as
+        - paragraph [ref=f9e733]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e734]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e735]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e736]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e737]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e738]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e739]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e740]: Craft Engineered - Introducing whats next for wild
+        - paragraph [ref=f9e741]: Craft Engineered - Introducing whats next for wild

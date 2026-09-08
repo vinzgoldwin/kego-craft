@@ -1,0 +1,12 @@
+[   10767ms] [LOG] Initializing LiveConnect @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10769ms] [LOG] events.bus.init @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10770ms] [LOG] handlers.error.register {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} null @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10771ms] [LOG] identifiers.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10773ms] [LOG] decisions.resolve {wrapperName: audigent, identifiersToResolve: Array(0), storageStrategy: none, gdprApplies: true, privacyMode: true} @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10773ms] [LOG] LiveConnect.enrichedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10774ms] [LOG] LiveConnect.postManagedState {data: Object, combineWith: , asQuery: , asTuples: , sendsPixel: } @ https://secure.insightful-cloud-365.com/js/264099.js:0
+[   10834ms] [LOG] Highway v2.2.0 @ https://unseen.co/wp-content/themes/unseen/public/scripts/vendor.js?id=4d3ac43b9e360f391febd63f910ddf0c:1
+[   11698ms] [WARNING] [.WebGL-0x2400558a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://unseen.co/:0
+[   11700ms] [WARNING] [.WebGL-0x240055ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://unseen.co/:0
+[   11767ms] [WARNING] [.WebGL-0x240055ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels @ https://unseen.co/:0
+[   11831ms] [WARNING] [.WebGL-0x240055ea00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat) @ https://unseen.co/:0
