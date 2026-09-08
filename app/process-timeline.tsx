@@ -55,7 +55,7 @@ export default function ProcessTimeline() {
           <span className="process-rail" aria-hidden="true" />
           <span className="process-dot" aria-hidden="true" />
           <div className="process-marker">
-            <span>Phase {String(index + 1).padStart(2, "0")}</span>
+            <span>Phase {index + 1}</span>
             <strong>{step.label}</strong>
           </div>
           <h3>{step.title}</h3>

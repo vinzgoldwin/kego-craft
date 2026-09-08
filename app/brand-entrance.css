@@ -41,9 +41,6 @@ html[data-intro="playing"] {
   height: 100%;
   filter: brightness(0) invert(1);
 }
-.intro-letter:first-child {
-  opacity: 1;
-}
 .site-header {
   position: fixed;
   z-index: 100;

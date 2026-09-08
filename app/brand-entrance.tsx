@@ -115,7 +115,7 @@ export default function BrandEntrance() {
           { transform: "translateX(0)" },
         ],
         850,
-        3300,
+        3870,
       );
       const markTravel = animate(
         mark,
@@ -126,7 +126,7 @@ export default function BrandEntrance() {
           { transform: "translate(0, 0) scale(1)", opacity: 1, offset: 1 },
         ],
         1850,
-        1450,
+        2020,
       );
       markTravel.effect!.updateTiming({ easing: "linear" });
       // Hold the assembled white mark, reverse the colors, then start its journey upward.
@@ -134,25 +134,19 @@ export default function BrandEntrance() {
         cover,
         [{ backgroundColor: "#73779b" }, { backgroundColor: "#fff" }],
         350,
-        2050,
+        2620,
       );
       animate(
         mark.querySelector("img")!,
         [{ filter: "brightness(0) invert(1)" }, { filter: "brightness(1) invert(0)" }],
         350,
-        2050,
-      );
-      animate(
-        skipButton,
-        [{ color: "#fff" }, { color: "#17191c" }],
-        350,
-        2050,
+        2620,
       );
       animate(
         nav.querySelector(".header-surface")!,
         [{ opacity: 0 }, { opacity: 1 }],
         400,
-        2900,
+        3470,
       );
       nav.querySelectorAll(".header-links a").forEach((link, i) => {
         animate(
@@ -162,11 +156,12 @@ export default function BrandEntrance() {
             { opacity: 1, transform: "none" },
           ],
           380,
-          3050 + i * 45,
+          3620 + i * 45,
         );
       });
       cover.querySelectorAll(".intro-letter").forEach((letter, i) => {
-        animate(
+        const lastLetter = i === 3;
+        const letterMotion = animate(
           letter,
           [
             {
@@ -174,19 +169,21 @@ export default function BrandEntrance() {
               transform: "rotateX(90deg) translateY(-12px)",
               offset: 0,
             },
-            { opacity: 1, transform: "rotateX(0) translateY(0)", offset: 0.24 },
-            { opacity: 1, transform: "rotateX(0) translateY(0)", offset: 0.66 },
+            { opacity: 1, transform: "rotateX(0) translateY(0)", offset: lastLetter ? 0.13 : 0.24 },
+            { opacity: 1, transform: "rotateX(0) translateY(0)", offset: lastLetter ? 0.8 : 0.66 },
             {
               opacity: 0,
               transform: "rotateX(-90deg) translateY(12px)",
               offset: 1,
             },
           ],
-          440,
+          lastLetter ? 800 : 440,
           i * 380,
         );
+        // Hold O upright, finish its exit at 1940ms, then reveal KEGO at 2020ms.
+        if (lastLetter) letterMotion.effect!.updateTiming({ easing: "linear" });
       });
-      animate(cover, [{ opacity: 1 }, { opacity: 0 }], 650, 2750);
+      animate(cover, [{ opacity: 1 }, { opacity: 0 }], 650, 3320);
       for (const [i, element] of [
         ...main.querySelectorAll(".hero-copy, .studio-statement"),
       ].entries()) {
@@ -197,7 +194,7 @@ export default function BrandEntrance() {
             { opacity: 1, transform: "none" },
           ],
           800,
-          3250 + i * 100,
+          3820 + i * 100,
         );
       }
       nav.dataset.ready = "true";

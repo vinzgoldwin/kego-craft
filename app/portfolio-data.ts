@@ -40,16 +40,19 @@ export const projects = [
 export const services = [
   {
     title: "Website",
+    icon: "/services/website.svg",
     description:
       "A good website gets to the point. I design and build clear, fast sites that are easy for you to keep up to date.",
   },
   {
     title: "SaaS (Software as a Service)",
+    icon: "/services/saas.svg",
     description:
       "From the first useful version to the feature everyone keeps putting off. I handle the product and code, with AI where it earns its place.",
   },
   {
     title: "App (Android / iOS)",
+    icon: "/services/app.svg",
     description:
       "One focused build for both platforms, with the navigation, touch, and small-screen details treated like they matter.",
   },

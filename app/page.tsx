@@ -126,9 +126,13 @@ export default function Home() {
                 data-reveal
                 key={service.title}
               >
-                <span className="service-num">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
+                <img
+                  className="service-icon"
+                  src={service.icon}
+                  alt=""
+                  width={136}
+                  height={120}
+                />
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
               </article>
