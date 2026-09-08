@@ -6,3 +6,8 @@
 [   39050ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
 [   39341ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
 [  792902ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[31907848ms] [WARNING] The resource http://localhost:3000/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[31992366ms] [WARNING] <link rel=preload> must have a valid `as` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:1232
+[31992381ms] [WARNING] <link rel=preload> must have a valid `as` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:9566
+[31992382ms] [WARNING] <link rel=preload> has an unsupported `type` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:1232
+[31995434ms] [WARNING] The resource http://localhost:3000/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0

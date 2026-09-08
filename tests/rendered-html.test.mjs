@@ -13,13 +13,14 @@ async function render() {
   );
 }
 
-test("server-renders the Kego Works landing page", async () => {
+test("server-renders the Kego landing page", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
 
   const html = await response.text();
-  assert.match(html, /<title>Kego Works \| Websites and apps by Kego<\/title>/i);
+  assert.match(html, /<title>Kego<\/title>/i);
+  assert.match(html, /rel="icon"[^>]+href="\/favicon\.svg\?v=2"/i);
   assert.match(html, /What you need/);
   assert.match(html, /I(?:&#x2019;|’)ll build it/);
   assert.doesNotMatch(html, /Design and development by Kego/);

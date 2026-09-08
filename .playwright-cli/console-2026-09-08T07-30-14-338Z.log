@@ -3,3 +3,8 @@
 [    1907ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
 [   61153ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
 [  108337ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:14337
+[28111347ms] [WARNING] The resource http://localhost:3000/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/#work:0
+[28196124ms] [WARNING] <link rel=preload> must have a valid `as` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:1232
+[28196124ms] [WARNING] <link rel=preload> must have a valid `as` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:9566
+[28196125ms] [WARNING] <link rel=preload> has an unsupported `type` value @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=bdb07197:1232
+[28199188ms] [WARNING] The resource http://localhost:3000/fonts/geist.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/#work:0
