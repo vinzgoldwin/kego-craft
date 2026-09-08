@@ -185,7 +185,7 @@ export default function BrandEntrance() {
       });
       animate(cover, [{ opacity: 1 }, { opacity: 0 }], 650, 3320);
       for (const [i, element] of [
-        ...main.querySelectorAll(".hero-copy, .studio-statement"),
+        ...main.querySelectorAll(".hero-copy, .hero-art"),
       ].entries()) {
         animate(
           element,
@@ -194,7 +194,7 @@ export default function BrandEntrance() {
             { opacity: 1, transform: "none" },
           ],
           800,
-          3820 + i * 100,
+          3820 + i * 240,
         );
       }
       nav.dataset.ready = "true";

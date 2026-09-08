@@ -7,6 +7,7 @@ import MotionController from "./motion-controller";
 import WorkSlider from "./work-slider";
 import BrandEntrance from "./brand-entrance";
 import ProcessTimeline from "./process-timeline";
+import BeaverArtwork from "./beaver-artwork";
 
 function PrimaryButton({ children }: { children: React.ReactNode }) {
   return (
@@ -62,43 +63,33 @@ export default function Home() {
         </noscript>
 
         <section className="hero">
-          <div className="hero-copy">
-            <h1>
-              What you need
-              <br />
-              <span>I’ll build it</span>
-            </h1>
-            <p className="hero-intro">
-              I build websites and mobile apps for small teams. You work
-              directly with me from the first conversation to launch.
-            </p>
-            <div className="hero-actions">
-              <a className="button button-primary" href="#work">
-                Look around <span aria-hidden="true">↓</span>
-              </a>
-              <a
-                className="button button-secondary"
-                href="mailto:kegoo.gg@gmail.com?subject=Start%20a%20project"
-              >
-                Tell me about your project
-              </a>
-            </div>
-          </div>
-
-          <div className="studio-statement">
-            <div>
-              <h2>
-                One person to design it,
+          <div className="hero-main">
+            <div className="hero-copy">
+              <h1>
+                What you need
                 <br />
-                build it, and get it live.
-              </h2>
-              <p className="studio-platforms">
-                WEB <span>·</span> iOS <span>·</span> ANDROID
+                <span>I’ll build it</span>
+              </h1>
+              <p className="hero-intro">
+                Have an idea to launch? I design and build websites, products,
+                and automation. You work directly with me, from the first
+                conversation to launch.
               </p>
+              <div className="hero-actions">
+                <a className="button button-primary" href="#work">
+                  Look around <span aria-hidden="true">↓</span>
+                </a>
+                <a
+                  className="button button-secondary"
+                  href="mailto:kegoo.gg@gmail.com?subject=Start%20a%20project"
+                >
+                  Tell me about your project
+                </a>
+              </div>
             </div>
-            <p>
-              You talk to me, and I do the work. There are no layers in between.
-            </p>
+            <div className="hero-art">
+              <BeaverArtwork />
+            </div>
           </div>
         </section>
 
@@ -148,6 +139,9 @@ export default function Home() {
                 A short path to<br />
                 <span>something real.</span>
               </h2>
+              <div className="process-beaver">
+                <BeaverArtwork pose="celebrating" />
+              </div>
             </header>
             <ProcessTimeline />
           </div>
