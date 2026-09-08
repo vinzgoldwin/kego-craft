@@ -1,8 +1,7 @@
 export const projects = [
   {
     title: "Alkemy Chat",
-    category: "AI product",
-    description: "One quick place to talk to different models, search the web, and work with files.",
+    description: "Chat, search, and work with files across AI models.",
     href: "https://alkemychat.com/",
     linkLabel: "View product",
     className: "alkemy",
@@ -11,8 +10,8 @@ export const projects = [
   },
   {
     title: "Biawak KOL",
-    category: "Web app",
-    description: "Scores, grudges, win rates, and one monthly MVP card for our game group.",
+    description:
+      "Track match scores, win rates, and monthly MVPs with friends.",
     href: "https://biawakkol.pages.dev/",
     linkLabel: "Open app",
     className: "biawak",
@@ -21,9 +20,7 @@ export const projects = [
   },
   {
     title: "Better Watch",
-    category: "Small tool",
-    status: "Open source",
-    description: "My answer to spending longer picking a film than watching one.",
+    description: "Find your next film without the endless browsing.",
     href: "https://github.com/vinzgoldwin/better-watch",
     linkLabel: "View source",
     className: "watch",
@@ -32,8 +29,7 @@ export const projects = [
   },
   {
     title: "Asia Mega Pasifik",
-    category: "Client website",
-    description: "A straightforward company site for an industrial supplier in Indonesia.",
+    description: "Explore industrial supplies from an Indonesian distributor.",
     href: "https://asiamegapasifik.com/",
     linkLabel: "Visit website",
     className: "amp",
@@ -44,15 +40,18 @@ export const projects = [
 export const services = [
   {
     title: "Website",
-    description: "A good website gets to the point. I design and build clear, fast sites that are easy for you to keep up to date.",
+    description:
+      "A good website gets to the point. I design and build clear, fast sites that are easy for you to keep up to date.",
   },
   {
     title: "SaaS (Software as a Service)",
-    description: "From the first useful version to the feature everyone keeps putting off. I handle the product and code, with AI where it earns its place.",
+    description:
+      "From the first useful version to the feature everyone keeps putting off. I handle the product and code, with AI where it earns its place.",
   },
   {
     title: "App (Android / iOS)",
-    description: "One focused build for both platforms, with the navigation, touch, and small-screen details treated like they matter.",
+    description:
+      "One focused build for both platforms, with the navigation, touch, and small-screen details treated like they matter.",
   },
 ];
 
@@ -60,7 +59,8 @@ export const processSteps = [
   {
     label: "Talk",
     title: "Show me what you’re trying to do.",
-    description: "I ask questions, cut what does not matter, and write down the plan.",
+    description:
+      "I ask questions, cut what does not matter, and write down the plan.",
   },
   {
     label: "Build",
@@ -70,20 +70,23 @@ export const processSteps = [
   {
     label: "Launch",
     title: "Put it to work.",
-    description: "We test the important paths, put it live, and ensure you can run it without me.",
+    description:
+      "We test the important paths, put it live, and ensure you can run it without me.",
   },
 ];
 
 export const pricingOptions = [
   {
     title: "Small site",
-    description: "For a simple site that rarely changes. Hosting and uptime checks included.",
+    description:
+      "For a simple site that rarely changes. Hosting and uptime checks included.",
     price: "$5",
     suffix: "per month",
   },
   {
     title: "Business",
-    description: "For a site or app that needs backups, monitoring, and quicker support.",
+    description:
+      "For a site or app that needs backups, monitoring, and quicker support.",
     price: "$25",
     suffix: "from, per month",
   },

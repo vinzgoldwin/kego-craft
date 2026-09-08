@@ -1,0 +1,167 @@
+- generic [ref=e3]:
+  - banner:
+    - navigation:
+      - link "go to homepage" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - button "open menu" [ref=e8] [cursor=pointer]
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]:
+          - generic [ref=e17]: Case Study
+          - generic [ref=e18]:
+            - heading "San Francisco Symphony" [level=1] [ref=e19]
+            - paragraph [ref=e20]: Elevating the identity of a cultural icon.
+        - generic [ref=e22]:
+          - generic [ref=e23] [cursor=pointer]
+          - generic [ref=e25] [cursor=pointer]
+          - generic [ref=e27] [cursor=pointer]
+          - generic [ref=e29] [cursor=pointer]
+          - button "Explore the gallery" [ref=e40] [cursor=pointer]
+      - generic [ref=e45]:
+        - generic [ref=e47]:
+          - generic [ref=e48]:
+            - term [ref=e49]: Program
+            - definition [ref=e50]:
+              - list [ref=e51]:
+                - listitem [ref=e52]:
+                  - link "Brand Refresh" [ref=e53] [cursor=pointer]:
+                    - /url: /programs/brand-refresh
+          - generic [ref=e54]:
+            - term [ref=e55]: Industry
+            - definition [ref=e56]: Performing Arts
+        - generic [ref=e58]:
+          - paragraph [ref=e60]: Music is one of humanity’s most powerful creations — it meets us at our emotional center. Like all great art, it both inspires and reflects the times we live in. However, ‘classica...
+          - button "Read the full story" [ref=e61] [cursor=pointer]
+      - generic [ref=e68] [cursor=pointer]:
+        - generic [ref=e69]:
+          - heading "Augments" [level=2] [ref=e70]
+          - paragraph [ref=e71]: Augments are add-on components or properties that enhance a design system’s performance. They introduce new capabilities, expand functionality and improve how the system works across contexts.
+        - button "Explore Augments" [ref=e76]
+      - generic [ref=e81]:
+        - heading "Impact" [level=2] [ref=e83]
+        - generic [ref=e84]:
+          - article [ref=e85]:
+            - paragraph [ref=e87]: 19%
+            - generic [ref=e88]:
+              - heading "Donor Growth" [level=3] [ref=e89]
+              - paragraph [ref=e90]: New brand strategy helped reframe the Symphony’s relevance, supporting a 19% year-over-year increase in donor participation and philanthropic support.
+          - article [ref=e91]:
+            - paragraph [ref=e93]: 74%
+            - generic [ref=e94]:
+              - heading "Seasonal Attendance" [level=3] [ref=e95]
+              - paragraph [ref=e96]: Seasonal attendance rose to 74% of capacity, exceeding previous benchmarks and signaling renewed audience engagement.
+          - article [ref=e97]:
+            - generic [ref=e102]:
+              - heading "Improved Distinctiveness" [level=3] [ref=e103]
+              - paragraph [ref=e104]: The rebrand repositioned the Symphony from a traditional arts institution to a boundary-pushing cultural platform, attracting new and younger audiences.
+          - article [ref=e105]:
+            - generic [ref=e110]:
+              - heading "Improve Portfolio Coherence" [level=3] [ref=e111]
+              - paragraph [ref=e112]: The new brand system made the Symphony’s most innovative programs—like SoundBox and Currents—more legible and coherent.
+          - article [ref=e113]:
+            - generic [ref=e118]:
+              - heading "Strengthened Internal Alignment" [level=3] [ref=e119]
+              - paragraph [ref=e120]: A clarified brand purpose and system gave staff, musicians, and marketing teams a shared language for storytelling and decision-making.
+      - generic "Press" [ref=e121]:
+        - heading "Press" [level=2] [ref=e123]
+        - generic [ref=e124]:
+          - article [ref=e125]:
+            - link [ref=e128] [cursor=pointer]:
+              - /url: https://bpando.org/2022/09/21/branding-san-francisco-symphony/
+              - heading "BP&O" [level=3] [ref=e129]
+            - paragraph [ref=e133]: San Francisco Symphony by Collins
+          - article [ref=e134]:
+            - link [ref=e137] [cursor=pointer]:
+              - /url: https://www.underconsideration.com/brandnew/archives/new_logo_and_identity_for_san_francisco_symphony_by_collins.php
+              - heading "Brand New" [level=3] [ref=e138]
+            - paragraph [ref=e142]: Music to my Eyes
+          - article [ref=e143]:
+            - link [ref=e146] [cursor=pointer]:
+              - /url: https://www.fastcompany.com/90602535/can-branding-help-save-classical-music
+              - heading "Fast Company" [level=3] [ref=e147]
+            - paragraph [ref=e151]: Can branding help save classical music?
+          - article [ref=e152]:
+            - link [ref=e155] [cursor=pointer]:
+              - /url: https://www.creativereview.co.uk/san-francisco-symphony-rebrand/
+              - heading "Creative Review" [level=3] [ref=e156]
+            - paragraph [ref=e160]: San Francisco Symphony’s new identity brings classical music up to date
+          - article [ref=e161]:
+            - link [ref=e164] [cursor=pointer]:
+              - /url: https://www.commarts.com/exhibit/san-francisco-symphony-identity
+              - heading "Commarts" [level=3] [ref=e165]
+            - paragraph [ref=e169]: The harmonious new identity for the San Francisco Symphony reaffirms this cultural legend as a model for the future of music.
+          - article [ref=e170]:
+            - link [ref=e173] [cursor=pointer]:
+              - /url: https://www.printmag.com/branding-identity-design/collins-new-identity-for-the-san-francisco-symphony-brings-the-noise/
+              - heading "PRINT Magazine" [level=3] [ref=e174]
+            - paragraph [ref=e178]: u Search COLLINS’ New Identity for the San Francisco Symphony Brings the Noise
+      - generic [ref=e179]:
+        - generic [ref=e180]:
+          - heading "Case Studies" [level=2] [ref=e181]
+          - paragraph [ref=e182]: See others we've helped with this program
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - link [ref=e186] [cursor=pointer]:
+              - /url: /case-studies/babyganics
+              - paragraph [ref=e187]: Babyganics
+            - link [ref=e189] [cursor=pointer]:
+              - /url: /case-studies/ogilvy
+              - paragraph [ref=e190]: Ogilvy
+            - link [ref=e192] [cursor=pointer]:
+              - /url: /case-studies/open-web
+              - paragraph [ref=e193]: OpenWeb
+            - link [ref=e195] [cursor=pointer]:
+              - /url: /case-studies/robinhood
+              - paragraph [ref=e196]: Robinhood
+            - link [ref=e198] [cursor=pointer]:
+              - /url: /case-studies/primary
+              - paragraph [ref=e199]: Primary
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Babyganics
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Ogilvy
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: OpenWeb
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Robinhood
+            - generic:
+              - generic:
+                - generic:
+                  - paragraph: Primary
+  - contentinfo [ref=e200]:
+    - generic [ref=e201]:
+      - navigation [ref=e202]:
+        - link "Case Studies" [ref=e203] [cursor=pointer]:
+          - /url: /case-studies
+        - link "Programs" [ref=e204] [cursor=pointer]:
+          - /url: /programs
+        - link "Arts & Culture" [ref=e205] [cursor=pointer]:
+          - /url: /arts-culture
+      - generic [ref=e206]:
+        - button "Work with us" [ref=e207] [cursor=pointer]
+        - button "Team" [ref=e211] [cursor=pointer]
+        - button "Careers" [ref=e212] [cursor=pointer]
+        - button "Press" [ref=e213] [cursor=pointer]
+    - generic [ref=e214]:
+      - generic [ref=e215]: Keep up to date
+      - generic [ref=e216]:
+        - textbox "Keep up to date" [ref=e221]:
+          - /placeholder: Your email
+        - button "subscribe to newsletter" [ref=e222] [cursor=pointer]
+    - generic [ref=e226]:
+      - link "X (Twitter)" [ref=e227] [cursor=pointer]:
+        - /url: http://twitter.com/wearecollins
+      - link "LinkedIn" [ref=e228] [cursor=pointer]:
+        - /url: https://www.linkedin.com/company/collins-
+      - link "Instagram" [ref=e229] [cursor=pointer]:
+        - /url: https://www.instagram.com/thisiscollins/
