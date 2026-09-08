@@ -13,26 +13,6 @@ type Project = {
   image?: string;
 };
 
-function Arrow({ direction }: { direction: "left" | "right" }) {
-  const path =
-    direction === "left"
-      ? "M12.5 4.5 7 10l5.5 5.5"
-      : "m7.5 4.5 5.5 5.5-5.5 5.5";
-
-  return (
-    <svg viewBox="0 0 20 20" aria-hidden="true">
-      <path
-        d={path}
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  );
-}
-
 function ProjectMedia({
   project,
   active,
@@ -391,28 +371,6 @@ export default function WorkSlider({ projects }: { projects: Project[] }) {
       <div className="work-copy" aria-live="polite" aria-atomic="true">
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-      </div>
-      <div
-        className="work-controls"
-        role="group"
-        aria-label="Project slider controls"
-      >
-        <button
-          type="button"
-          onClick={() => settle(targetIndex.current - 1)}
-          disabled={selected === 0}
-          aria-label="Previous project"
-        >
-          <Arrow direction="left" />
-        </button>
-        <button
-          type="button"
-          onClick={() => settle(targetIndex.current + 1)}
-          disabled={selected === projects.length - 1}
-          aria-label="Next project"
-        >
-          <Arrow direction="right" />
-        </button>
       </div>
     </div>
   );

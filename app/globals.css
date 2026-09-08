@@ -182,26 +182,6 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .text-link { display: inline-flex; gap: 30px; align-items: center; font-size: 11px; font-weight: 650; }
 .text-link span:last-child { transition: transform .22s ease; }
 .text-link:hover span:last-child { transform: translate(3px, -2px); }
-.work-controls { display: flex; justify-content: center; gap: 10px; margin-top: 24px; }
-.work-controls button {
-  display: grid;
-  width: 40px;
-  height: 40px;
-  padding: 0;
-  place-items: center;
-  color: var(--ink);
-  background: #ececef;
-  border: 0;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: background .12s linear, opacity .12s linear, transform .16s ease;
-}
-.work-controls button:hover:not(:disabled) { background: #dadbe0; transform: scale(1.04); }
-.work-controls button:active:not(:disabled) { transform: scale(.95); }
-.work-controls button:disabled { opacity: .32; cursor: default; }
-.work-controls button:focus-visible { outline: 2px solid var(--purple); outline-offset: 3px; }
-.work-controls svg { width: 16px; height: 16px; }
-
 .services-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(36px, 5vw, 72px); margin-top: 68px; }
 .service { min-height: 280px; padding: 30px 0 34px; }
 .service + .service { padding-left: 0; }
