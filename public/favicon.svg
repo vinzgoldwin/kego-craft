@@ -1,7 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" fill="#17191c" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
   <title id="title">KEGO</title>
-  <path d="M8 8 50 18.92V105l34-77.24 67 17.42L78 140l73 113.82-52 12.79-49-72.61v84.67L8 289Z"/>
-  <path d="M159 47.26 257 72.74v34.1l-66-9.81v33.91l53 3.05v32.32l-53 2.31v33.91l66-8.89v34.11l-98 24.1Z"/>
-  <path d="M265 74.82 363 100.3v23.32l-65-9.34v72.5l34-4.41v-18.73l-17 .83V140.6l48 2.28v58.79l-98 24.11Z"/>
-  <path fill-rule="evenodd" d="M371 102.38 469 127.86v47.73l-98 24.11Zm34 28.87v40.06l30-3.59v-32.47Z"/>
+  <rect width="512" height="512" rx="104" fill="#f2f2f2"/>
+  <g transform="translate(56 131) scale(.833333)" fill="#17191c">
+    <path d="M8 8 50 18.92V105l34-77.24 67 17.42L78 140l73 113.82-52 12.79-49-72.61v84.67L8 289Z"/>
+    <path d="M159 47.26 257 72.74v34.1l-66-9.81v33.91l53 3.05v32.32l-53 2.31v33.91l66-8.89v34.11l-98 24.1Z"/>
+    <path d="M265 74.82 363 100.3v23.32l-65-9.34v72.5l34-4.41v-18.73l-17 .83V140.6l48 2.28v58.79l-98 24.11Z"/>
+    <path fill-rule="evenodd" d="M371 102.38 469 127.86v47.73l-98 24.11Zm34 28.87v40.06l30-3.59v-32.47Z"/>
+  </g>
 </svg>

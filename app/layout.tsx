@@ -37,7 +37,7 @@ export default function RootLayout({
       <head>
         <link
           rel="icon"
-          href="/favicon.svg?v=2"
+          href="/favicon.svg?v=3"
           type="image/svg+xml"
           sizes="any"
         />
