@@ -5,8 +5,8 @@ export const projects = [
     href: "https://alkemychat.com/",
     linkLabel: "View product",
     className: "alkemy",
-    video: "https://videos.kego.online/alkemy-chat/v2/demo.mp4",
-    poster: "https://videos.kego.online/alkemy-chat/v2/poster.webp",
+    video: "/videos/alkemy-chat/v3/demo.mp4",
+    poster: "/videos/alkemy-chat/v3/poster.webp",
   },
   {
     title: "Biawak KOL",
@@ -15,8 +15,8 @@ export const projects = [
     href: "https://biawakkol.pages.dev/",
     linkLabel: "Open app",
     className: "biawak",
-    video: "https://videos.kego.online/biawak-kol/v2/demo.mp4",
-    poster: "https://videos.kego.online/biawak-kol/v2/poster.webp",
+    video: "/videos/biawak-kol/v3/demo.mp4",
+    poster: "/videos/biawak-kol/v3/poster.webp",
   },
   {
     title: "Better Watch",
