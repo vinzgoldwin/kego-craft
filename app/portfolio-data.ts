@@ -24,8 +24,8 @@ export const projects = [
     href: "https://github.com/vinzgoldwin/better-watch",
     linkLabel: "View source",
     className: "watch",
-    video: "https://videos.kego.online/better-watch/v1/demo.mp4",
-    poster: "https://videos.kego.online/better-watch/v1/poster.webp",
+    video: "/videos/better-watch/v2/demo.mp4",
+    poster: "/videos/better-watch/v2/poster.webp",
   },
   {
     title: "Asia Mega Pasifik",
