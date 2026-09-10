@@ -39,7 +39,20 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-main > * { min-width: 0; }
 .hero-copy { position: relative; z-index: 2; }
 .hero-art { width: min(100%, 340px); justify-self: center; }
-.beaver-scene { display: block; width: 100%; height: auto; }
+.beaver-scene { position: relative; width: 100%; }
+.beaver-scene > svg { display: block; width: 100%; height: auto; }
+.beaver-film { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.beaver-celebrate { transform-origin: 195px 273px; animation: beaver-celebrate 6.4s ease-in-out infinite; }
+.beaver-scene[data-playing="false"] g { animation-play-state: paused; }
+@keyframes beaver-celebrate {
+  0%, 15%, 48%, 100% { transform: translateY(0) scale(1); }
+  23% { transform: translateY(1px) scale(1.012, .983); }
+  31% { transform: translateY(-3px) scale(.992, 1.015); }
+  39% { transform: translateY(0) scale(1.005, .995); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .beaver-scene g { animation: none !important; }
+}
 .eyebrow { margin: 0; color: #6f7280; font-size: 10px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; }
 .hero-eyebrow { animation: rise .72s .08s var(--ease) both; }
 .hero h1 {
