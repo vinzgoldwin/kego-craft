@@ -28,6 +28,16 @@ export const projects = [
     poster: "/videos/better-watch/v2/poster.webp",
   },
   {
+    title: "Simplified Fit",
+    description:
+      "Check your Fitbit stats, review workouts, and ask Coach about your week.",
+    href: "https://github.com/vinzgoldwin/simplified-bit",
+    linkLabel: "View source",
+    className: "fit",
+    video: "/videos/simplified-fit/v2/demo.mp4",
+    poster: "/videos/simplified-fit/v2/poster.webp",
+  },
+  {
     title: "Asia Mega Pasifik",
     description: "Explore industrial supplies from an Indonesian distributor.",
     href: "https://asiamegapasifik.com/",
@@ -92,7 +102,11 @@ export const pricingOptions = [
       "For a lightweight website or tool that doesn't need its own server.",
     price: "$5",
     suffix: "per month",
-    features: ["Hosting on my shared setup", "Uptime checks"],
+    features: [
+      "Design and development",
+      "Hosting on my shared setup",
+      "Uptime checks",
+    ],
   },
   {
     title: "Growing projects",

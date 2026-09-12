@@ -20,7 +20,7 @@ test("server-renders the Kego landing page", async () => {
 
   const html = await response.text();
   assert.match(html, /<title>Kego<\/title>/i);
-  assert.match(html, /rel="icon"[^>]+href="\/favicon\.svg\?v=2"/i);
+  assert.match(html, /rel="icon"[^>]+href="\/favicon\.svg\?v=3"/i);
   assert.match(html, /What you need/);
   assert.match(html, /I(?:&#x2019;|’)ll build it/);
   assert.doesNotMatch(html, /Design and development by Kego/);
@@ -28,6 +28,9 @@ test("server-renders the Kego landing page", async () => {
   assert.match(html, /Alkemy Chat/);
   assert.match(html, /Biawak KOL/);
   assert.match(html, /Better Watch/);
+  assert.match(html, /Simplified Fit/);
+  assert.match(html, /\/videos\/simplified-fit\/v2\/demo\.mp4/);
+  assert.match(html, /Unmute Simplified Fit demo/);
   assert.match(html, /Asia Mega Pasifik/);
   assert.match(html, /preload="none"/);
   assert.match(html, /What you can/);

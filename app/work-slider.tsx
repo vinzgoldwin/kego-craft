@@ -22,6 +22,7 @@ function ProjectMedia({
 }) {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [playing, setPlaying] = useState(false);
+  const [muted, setMuted] = useState(true);
   const userPaused = useRef(false);
 
   useEffect(() => {
@@ -70,6 +71,11 @@ function ProjectMedia({
     else video.pause();
   }
 
+  function toggleSound() {
+    const video = videoRef.current;
+    if (video) video.muted = !video.muted;
+  }
+
   async function expand() {
     const video = videoRef.current;
     if (!video) return;
@@ -99,6 +105,7 @@ function ProjectMedia({
             aria-label={`${project.title} product demo`}
             onPlay={() => setPlaying(true)}
             onPause={() => setPlaying(false)}
+            onVolumeChange={(event) => setMuted(event.currentTarget.muted)}
           >
             <source src={project.video} type="video/mp4" />
           </video>
@@ -138,6 +145,32 @@ function ProjectMedia({
                 ) : (
                   <path d="m6 3 10 7-10 7Z" fill="currentColor" />
                 )}
+              </svg>
+            </button>
+            <button
+              type="button"
+              onClick={toggleSound}
+              aria-label={`${muted ? "Unmute" : "Mute"} ${project.title} demo`}
+            >
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path
+                  d="M3 7h3l4-3v12l-4-3H3Z"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinejoin="round"
+                />
+                <path
+                  d={
+                    muted
+                      ? "m13 7 5 6m0-6-5 6"
+                      : "M13 6a6 6 0 0 1 0 8m2-11a10 10 0 0 1 0 14"
+                  }
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.5"
+                  strokeLinecap="round"
+                />
               </svg>
             </button>
             <button

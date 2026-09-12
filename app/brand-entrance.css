@@ -117,8 +117,7 @@ html[data-intro="playing"] {
     font-size: 11px;
     gap: 17px;
   }
-  .header-links a[href="#process"],
-  .header-links a[href="#pricing"] {
+  .header-links a[href="#process"] {
     display: none;
   }
 }

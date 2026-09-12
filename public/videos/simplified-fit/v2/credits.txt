@@ -1,0 +1,13 @@
+Simplified Fit demo
+
+Created with HyperFrames. App screens follow the source at:
+https://github.com/vinzgoldwin/simplified-bit
+Reference commit: 9e2bcff28f37b5359d8e22daf672fd01a7e78f6f
+
+The health records and Coach conversation are illustrative sample data.
+
+Music: "Funkorama" by Kevin MacLeod (incompetech.com)
+https://incompetech.com/music/royalty-free/index.html?Search=Search&isrc=USUAN1100474
+Licensed under Creative Commons Attribution 4.0:
+https://creativecommons.org/licenses/by/4.0/
+Changes: excerpt, loudness adjustment, opening and closing fades.
