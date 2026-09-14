@@ -21,21 +21,16 @@ function PrimaryButton({ children }: { children: React.ReactNode }) {
 }
 
 function SectionHeader({
-  eyebrow,
   title,
   accent,
   intro,
 }: {
-  eyebrow: string;
   title: string;
   accent: string;
   intro?: string;
 }) {
   return (
     <>
-      <div className="section-topline" data-reveal>
-        <p className="eyebrow">{eyebrow}</p>
-      </div>
       <h2 className="section-heading" data-reveal>
         {title}
         <br />
@@ -95,7 +90,6 @@ export default function Home() {
 
         <section className="section section-work" id="work">
           <SectionHeader
-            eyebrow="Personal craft"
             title="A few things"
             accent="I’ve built."
           />
@@ -105,7 +99,6 @@ export default function Home() {
 
         <section className="section" id="services">
           <SectionHeader
-            eyebrow="Services"
             title="What you can"
             accent="hire me for."
           />
@@ -134,10 +127,9 @@ export default function Home() {
         <section className="section section-process" id="process">
           <div className="process-layout">
             <header className="process-heading">
-              <p>How I work</p>
               <h2 className="section-heading">
-                A short path to<br />
-                <span>something real.</span>
+                How we’ll<br />
+                <span>work together.</span>
               </h2>
               <div className="process-beaver">
                 <BeaverArtwork pose="celebrating" />

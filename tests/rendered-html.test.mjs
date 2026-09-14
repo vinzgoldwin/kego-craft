@@ -34,7 +34,12 @@ test("server-renders the Kego landing page", async () => {
   assert.match(html, /Asia Mega Pasifik/);
   assert.match(html, /preload="none"/);
   assert.match(html, /What you can/);
-  assert.match(html, /A short path to/);
+  assert.match(html, /How we’ll<br\s*\/><span>work together\.<\/span>/);
+  assert.match(html, /<span>Phase <!-- -->1<\/span><strong>Talk<\/strong><\/div><p>/);
+  assert.match(html, /<span>Phase <!-- -->2<\/span><strong>Design<\/strong><\/div><p>/);
+  assert.match(html, /<span>Phase <!-- -->3<\/span><strong>Build<\/strong><\/div><p>/);
+  assert.match(html, /<span>Phase <!-- -->4<\/span><strong>Launch<\/strong><\/div><p>/);
+  assert.doesNotMatch(html, /Start with the problem|See the direction|Try it as it takes shape|Put it to work/);
   assert.doesNotMatch(html, /0[1-3]\s*\/\s*(?:Talk|Build|Launch)/i);
   assert.match(html, /Keep it with me,/);
   assert.match(html, /Have something in mind\?/);

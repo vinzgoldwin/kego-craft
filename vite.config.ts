@@ -14,6 +14,9 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
+  workers_dev: false,
+  preview_urls: false,
+  routes: [{ pattern: "kego.online/*", zone_name: "kego.online" }],
   d1_databases: d1
     ? [
         {

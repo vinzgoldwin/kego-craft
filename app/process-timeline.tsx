@@ -58,7 +58,6 @@ export default function ProcessTimeline() {
             <span>Phase {index + 1}</span>
             <strong>{step.label}</strong>
           </div>
-          <h3>{step.title}</h3>
           <p>{step.description}</p>
         </li>
       ))}
