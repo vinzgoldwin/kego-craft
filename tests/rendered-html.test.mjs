@@ -34,6 +34,15 @@ test("server-renders the Kego landing page", async () => {
   assert.match(html, /Asia Mega Pasifik/);
   assert.match(html, /preload="none"/);
   assert.match(html, /What you can/);
+  const experience = html.match(/<section[^>]+id="experience"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(experience, "experience is readable in the server-rendered page");
+  assert.match(experience, /How I<br\s*\/><span>got here\.<\/span>/);
+  const companies = [...experience.matchAll(/class="experience-role">([^<]+)/g)]
+    .map((match) => match[1]);
+  assert.deepEqual(companies, ["Mamikos", "Mekari", "TenderBoard", "SeeMeSol", "SeeMeSol"]);
+  assert.match(experience, /SamurAI/);
+  assert.equal((experience.match(/loading="lazy"/g) ?? []).length, 5);
+  assert.doesNotMatch(experience, /data-reveal|data:image/);
   assert.match(html, /How we’ll<br\s*\/><span>work together\.<\/span>/);
   assert.match(html, /<span>Phase <!-- -->1<\/span><strong>Talk<\/strong><\/div><p>/);
   assert.match(html, /<span>Phase <!-- -->2<\/span><strong>Design<\/strong><\/div><p>/);

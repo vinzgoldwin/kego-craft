@@ -8,6 +8,7 @@ import WorkSlider from "./work-slider";
 import BrandEntrance from "./brand-entrance";
 import ProcessTimeline from "./process-timeline";
 import BeaverArtwork from "./beaver-artwork";
+import ExperienceTimeline from "./experience-timeline";
 
 function PrimaryButton({ children }: { children: React.ReactNode }) {
   return (
@@ -96,6 +97,8 @@ export default function Home() {
 
           <WorkSlider projects={projects} />
         </section>
+
+        <ExperienceTimeline />
 
         <section className="section" id="services">
           <SectionHeader
