@@ -1,0 +1,32 @@
+◆  Checking portfolio-mobile
+[hyperframes] Using system Chrome at /usr/bin/chromium-browser; HeadlessExperimental.beginFrame is unavailable in regular Chrome builds, so the perf-optimized capture path falls back to screenshot mode. Install chrome-headless-shell for the optimized path:
+  npx @puppeteer/browsers install chrome-headless-shell
+(Or set HYPERFRAMES_BROWSER_PATH to point at an existing chrome-headless-shell binary.)
+[hyperframes] browserGpuMode probe → software (WebGL renderer vendor="Google Inc. (Mesa)" renderer="ANGLE (Mesa, llvmpipe (LLVM 22.1.8 128 bits), OpenGL ES 3.2)")
+
+Lint
+  ◇ 0 errors, 0 warnings
+
+Runtime
+  ◇ 0 errors, 0 warnings
+
+Layout
+  ℹ t=20.6s text_occluded #service-ai > h2:nth-of-type(1) inside #contact "AI and automation" — Text is hidden beneath an opaque element.
+        Fix: Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.
+  0 error(s), 0 warning(s), 1 info(s)
+
+Motion
+  ◇ 0 errors, 0 warnings
+
+Contrast
+  ◇ 9/9 text checks pass WCAG AA
+
+Snapshots
+  ◇ 5 PNG(s) saved
+    snapshots/frame-00-at-2.4s.png
+    snapshots/frame-01-at-8.5s.png
+    snapshots/frame-02-at-14.5s.png
+    snapshots/frame-03-at-18.6s.png
+    snapshots/frame-04-at-22.5s.png
+
+◇  Check passed
