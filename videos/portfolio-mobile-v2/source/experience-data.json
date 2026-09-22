@@ -1,0 +1,42 @@
+[
+  {
+    "year": "2019",
+    "company": "Mamikos",
+    "role": "Backend engineering",
+    "title": "Starting behind the scenes.",
+    "body": "Before I was building whole products, I was working on the code behind them. Mamikos was where I started, moving from an internship into a backend engineering role.",
+    "image": "backend-foundations"
+  },
+  {
+    "year": "2021",
+    "company": "Mekari",
+    "role": "Software Engineer",
+    "title": "A new place to build.",
+    "body": "Next came Mekari, where I continued building the backend. The move into full-stack work came with my next chapter.",
+    "image": "mekari"
+  },
+  {
+    "year": "2021",
+    "company": "TenderBoard",
+    "role": "Software Engineer",
+    "title": "Finding a rhythm as a team.",
+    "body": "TenderBoard brought two firsts: my first international company and my first full-stack role. My work now stretched from what people saw on screen to the code behind it. I also helped the team move into sprints, giving us a shared rhythm for planning and building together.",
+    "image": "team-workflow-cat"
+  },
+  {
+    "year": "2022",
+    "company": "SeeMeSol",
+    "role": "Full-stack development",
+    "title": "Bringing the pieces together.",
+    "body": "At SeeMeSol, I took the lead on SeeMeApp, a Super App spanning four domains. Alongside building it, I worked on the less visible things that make a product feel better: faster pages, leaner queries and deployments that run automatically.",
+    "image": "super-app"
+  },
+  {
+    "year": "2024",
+    "company": "SeeMeSol",
+    "role": "Full Stack Engineer (AI)",
+    "title": "Growing into a product mindset",
+    "body": "Building AI features like SamurAI changed how I thought about my work. I started looking beyond the brief: what does someone actually need here, and what would make this easier for them? I began taking ideas a step further, putting more care into the details that make a product feel effortless to use.",
+    "image": "ai-interviews"
+  }
+]
