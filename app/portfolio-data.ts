@@ -20,12 +20,13 @@ export const projects = [
   },
   {
     title: "Better Watch",
-    description: "Find your next film without the endless browsing.",
+    description:
+      "Turn an old computer into a movie server for all your devices, at home or away.",
     href: "https://github.com/vinzgoldwin/better-watch",
     linkLabel: "View source",
     className: "watch",
-    video: "/videos/better-watch/v2/demo.mp4",
-    poster: "/videos/better-watch/v2/poster.webp",
+    video: "/videos/better-watch/v3/demo.mp4",
+    poster: "/videos/better-watch/v3/poster.webp",
   },
   {
     title: "Simplified Fit",
@@ -36,6 +37,16 @@ export const projects = [
     className: "fit",
     video: "/videos/simplified-fit/v2/demo.mp4",
     poster: "/videos/simplified-fit/v2/poster.webp",
+  },
+  {
+    title: "Pawfront",
+    description:
+      "A playful game for passing the time, whenever you have a few minutes to spare.",
+    href: "/videos/pawfront/demo.mp4",
+    linkLabel: "Watch gameplay",
+    className: "pawfront",
+    video: "/videos/pawfront/demo.mp4",
+    poster: "/videos/pawfront/poster.webp",
   },
   {
     title: "Asia Mega Pasifik",
