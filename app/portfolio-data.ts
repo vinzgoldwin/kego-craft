@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: "Rajawali Academy Cup",
+    description:
+      "Follow scores, schedules, brackets, and player stats for a youth basketball tournament.",
+    href: "https://rajawaliacademycup.web.id/home",
+    linkLabel: "Visit website",
+    className: "rajawali",
+    video: "/videos/rajawali-academy-cup/v1/demo.mp4",
+    poster: "/videos/rajawali-academy-cup/v1/poster.webp",
+  },
+  {
     title: "Alkemy Chat",
     description: "Chat, search, and work with files across AI models.",
     href: "https://alkemychat.com/",
